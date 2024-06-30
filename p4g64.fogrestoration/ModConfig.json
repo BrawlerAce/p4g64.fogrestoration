@@ -3,7 +3,7 @@
   "ModName": "P4 Fog Restoration",
   "ModAuthor": "Brawler",
   "ModVersion": "0.4.0",
-  "ModDescription": "Bitches be like \u0022I have my whole life ahead of me!\u0022 No you don\u0027t, the fog is coming.",
+  "ModDescription": "Bitches be like \u0022I have my whole life ahead of me!\u0022 No you don\u0027t, the fog is coming.\n\nSet in-game contrast to 2 for the best experience!",
   "ModDll": "p4g64.fogrestoration.dll",
   "ModIcon": "Preview.png",
   "ModR2RManagedDll32": "x86/p4g64.fogrestoration.dll",
