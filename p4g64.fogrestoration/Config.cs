@@ -26,13 +26,14 @@ namespace p4g64.fogrestoration.Configuration
             The `DefaultValue` attribute is used as part of the `Reset` button in Reloaded-Launcher.
         */
 
-        // 3 options for ENVs
+        // 2 options for ENVs
         public enum ENVTypeA
         {
             P4,
-            StockDesaturated,
             Stock,
         }
+
+        // [Description("Select what ENV to use for this area.\n\nP4: Uses an overhauled P4 ENV, or a P4 inspired ENV for P4G exclusive fields.\nStockDesaturated: Uses the stock P4G ENV with almost no changes, but reduces the saturation to 1.00.\nStock: Uses the stock P4G ENV with no changes.")]
 
         // 2 options for textures
         public enum TexTypeA
@@ -44,104 +45,106 @@ namespace p4g64.fogrestoration.Configuration
         // ENV Selection - Inaba
 
         [Category("ENV Selection - Inaba")]
-        [DisplayName("Samegawa Floodplain")]
-        [Description("Select what ENV to use for this area.\n\nP4: Uses an overhauled P4 ENV, or a P4 inspired ENV for P4G exclusive fields.\nStockDesaturated: Uses the stock P4G ENV with almost no changes, but reduces the saturation to 1.00.\nStock: Uses the stock P4G ENV with almost no changes.")]
+        //[DisplayName("Samegawa Floodplain")]
+        [DisplayName("Inaba - WIP")]
+        //[Description("Select what ENV to use for this area.\n\nP4: Uses an overhauled P4 ENV, or a P4 inspired ENV for P4G exclusive fields.\nStock: Uses the stock P4G ENV with no changes.")]
+        [Description("WARNING: WIP! SOME AREAS MAY APPEAR BROKEN!\n\nSelect what ENV to use for this area.\n\nP4: Uses an overhauled P4 ENV, or a P4 inspired ENV for P4G exclusive fields.\nStock: Uses the stock P4G ENV with no changes.")]
         [DefaultValue(ENVTypeA.P4)]
         public ENVTypeA SamegawaENV { get; set; } = ENVTypeA.P4;
-
-        // ENV Selection - TV World
-
-        [Category("ENV Selection - TV World")]
-        [DisplayName("Desolate Bedroom")]
-        [Description("Select what ENV to use for this area.\n\nP4: Uses an overhauled P4 ENV, or a P4 inspired ENV for P4G exclusive fields.\nStockDesaturated: Uses the stock P4G ENV with almost no changes, but reduces the saturation to 1.00.\nStock: Uses the stock P4G ENV with almost no changes.")]
-        [DefaultValue(ENVTypeA.P4)]
-        public ENVTypeA BedroomENV { get; set; } = ENVTypeA.P4;
-
-        [Category("ENV Selection - TV World")]
-        [DisplayName("Velvet Room")]
-        [Description("Select what ENV to use for this area.\n\nP4: Uses an overhauled P4 ENV, or a P4 inspired ENV for P4G exclusive fields.\nStockDesaturated: Uses the stock P4G ENV with almost no changes, but reduces the saturation to 1.00.\nStock: Uses the stock P4G ENV with almost no changes.")]
-        [DefaultValue(ENVTypeA.P4)]
-        public ENVTypeA VelvetENV { get; set; } = ENVTypeA.P4;
-
-        [Category("ENV Selection - TV World")]
-        [DisplayName("Entrance")]
-        [Description("Select what ENV to use for this area.\n\nP4: Uses an overhauled P4 ENV, or a P4 inspired ENV for P4G exclusive fields.\nStockDesaturated: Uses the stock P4G ENV with almost no changes, but reduces the saturation to 1.00.\nStock: Uses the stock P4G ENV with almost no changes.")]
-        [DefaultValue(ENVTypeA.P4)]
-        public ENVTypeA EntranceENV { get; set; } = ENVTypeA.P4;
 
         // ENV Selection - Dungeons
 
         [Category("ENV Selection - Dungeons")]
         [DisplayName("Konishi Liquors")]
-        [Description("Select what ENV to use for this area.\n\nP4: Uses an overhauled P4 ENV, or a P4 inspired ENV for P4G exclusive fields.\nStockDesaturated: Uses the stock P4G ENV with almost no changes, but reduces the saturation to 1.00.\nStock: Uses the stock P4G ENV with almost no changes.")]
+        [Description("Select what ENV to use for this area.\n\nP4: Uses an overhauled P4 ENV, or a P4 inspired ENV for P4G exclusive fields.\nStock: Uses the stock P4G ENV with no changes.")]
         [DefaultValue(ENVTypeA.P4)]
         public ENVTypeA KonishiENV { get; set; } = ENVTypeA.P4;
 
         [Category("ENV Selection - Dungeons")]
         [DisplayName("Twisted Shopping District")]
-        [Description("Select what ENV to use for this area.\n\nP4: Uses an overhauled P4 ENV, or a P4 inspired ENV for P4G exclusive fields.\nStockDesaturated: Uses the stock P4G ENV with almost no changes, but reduces the saturation to 1.00.\nStock: Uses the stock P4G ENV with almost no changes.")]
+        [Description("Select what ENV to use for this area.\n\nP4: Uses an overhauled P4 ENV, or a P4 inspired ENV for P4G exclusive fields.\nStock: Uses the stock P4G ENV with no changes.")]
         [DefaultValue(ENVTypeA.P4)]
         public ENVTypeA TwistedENV { get; set; } = ENVTypeA.P4;
 
         [Category("ENV Selection - Dungeons")]
         [DisplayName("Hollow Forest (P4G)")]
-        [Description("Select what ENV to use for this area.\n\nP4: Uses an overhauled P4 ENV, or a P4 inspired ENV for P4G exclusive fields.\nStockDesaturated: Uses the stock P4G ENV with almost no changes, but reduces the saturation to 1.00.\nStock: Uses the stock P4G ENV with almost no changes.")]
+        [Description("Select what ENV to use for this area.\n\nP4: Uses an overhauled P4 ENV, or a P4 inspired ENV for P4G exclusive fields.\nStock: Uses the stock P4G ENV with no changes.")]
         [DefaultValue(ENVTypeA.P4)]
         public ENVTypeA HollowENV { get; set; } = ENVTypeA.P4;
 
         [Category("ENV Selection - Dungeons")]
         [DisplayName("Yomotsu Hirasaka")]
-        [Description("Select what ENV to use for this area.\n\nP4: Uses an overhauled P4 ENV, or a P4 inspired ENV for P4G exclusive fields.\nStockDesaturated: Uses the stock P4G ENV with almost no changes, but reduces the saturation to 1.00.\nStock: Uses the stock P4G ENV with almost no changes.")]
+        [Description("Select what ENV to use for this area.\n\nP4: Uses an overhauled P4 ENV, or a P4 inspired ENV for P4G exclusive fields.\nStock: Uses the stock P4G ENV with no changes.")]
         [DefaultValue(ENVTypeA.P4)]
         public ENVTypeA YomotsuENV { get; set; } = ENVTypeA.P4;
 
         [Category("ENV Selection - Dungeons")]
         [DisplayName("Magatsu Inaba")]
-        [Description("Select what ENV to use for this area.\n\nP4: Uses an overhauled P4 ENV, or a P4 inspired ENV for P4G exclusive fields.\nStockDesaturated: Uses the stock P4G ENV with almost no changes, but reduces the saturation to 1.00.\nStock: Uses the stock P4G ENV with almost no changes.")]
+        [Description("Select what ENV to use for this area.\n\nP4: Uses an overhauled P4 ENV, or a P4 inspired ENV for P4G exclusive fields.\nStock: Uses the stock P4G ENV with no changes.")]
         [DefaultValue(ENVTypeA.P4)]
         public ENVTypeA MagatsuENV { get; set; } = ENVTypeA.P4;
 
         [Category("ENV Selection - Dungeons")]
         [DisplayName("Heaven")]
-        [Description("Select what ENV to use for this area.\n\nP4: Uses an overhauled P4 ENV, or a P4 inspired ENV for P4G exclusive fields.\nStockDesaturated: Uses the stock P4G ENV with almost no changes, but reduces the saturation to 1.00.\nStock: Uses the stock P4G ENV with almost no changes.")]
+        [Description("Select what ENV to use for this area.\n\nP4: Uses an overhauled P4 ENV, or a P4 inspired ENV for P4G exclusive fields.\nStock : Uses the stock P4G ENV with no changes.")]
         [DefaultValue(ENVTypeA.P4)]
         public ENVTypeA HeavenENV { get; set; } = ENVTypeA.P4;
 
         [Category("ENV Selection - Dungeons")]
         [DisplayName("Secret Laboratory")]
-        [Description("Select what ENV to use for this area.\n\nP4: Uses an overhauled P4 ENV, or a P4 inspired ENV for P4G exclusive fields.\nStockDesaturated: Uses the stock P4G ENV with almost no changes, but reduces the saturation to 1.00.\nStock: Uses the stock P4G ENV with almost no changes.")]
+        [Description("Select what ENV to use for this area.\n\nP4: Uses an overhauled P4 ENV, or a P4 inspired ENV for P4G exclusive fields.\nStock: Uses the stock P4G ENV with no changes.")]
         [DefaultValue(ENVTypeA.P4)]
         public ENVTypeA LabENV { get; set; } = ENVTypeA.P4;
 
         [Category("ENV Selection - Dungeons")]
         [DisplayName("Void Quest")]
-        [Description("Select what ENV to use for this area.\n\nP4: Uses an overhauled P4 ENV, or a P4 inspired ENV for P4G exclusive fields.\nStockDesaturated: Uses the stock P4G ENV with almost no changes, but reduces the saturation to 1.00.\nStock: Uses the stock P4G ENV with almost no changes.")]
+        [Description("Select what ENV to use for this area.\n\nP4: Uses an overhauled P4 ENV, or a P4 inspired ENV for P4G exclusive fields.\nStock: Uses the stock P4G ENV with no changes.")]
         [DefaultValue(ENVTypeA.P4)]
         public ENVTypeA GameENV { get; set; } = ENVTypeA.P4;
 
         [Category("ENV Selection - Dungeons")]
         [DisplayName("Marukyu Striptease")]
-        [Description("Select what ENV to use for this area.\n\nP4: Uses an overhauled P4 ENV, or a P4 inspired ENV for P4G exclusive fields.\nStockDesaturated: Uses the stock P4G ENV with almost no changes, but reduces the saturation to 1.00.\nStock: Uses the stock P4G ENV with almost no changes.")]
+        [Description("Select what ENV to use for this area.\n\nP4: Uses an overhauled P4 ENV, or a P4 inspired ENV for P4G exclusive fields.\nStock: Uses the stock P4G ENV with no changes.")]
         [DefaultValue(ENVTypeA.P4)]
-        public ENVTypeA TheaterENV { get; set; } = ENVTypeA.P4;
+        public ENVTypeA ClubENV { get; set; } = ENVTypeA.P4;
 
         [Category("ENV Selection - Dungeons")]
         [DisplayName("Steamy Bathhouse")]
-        [Description("Select what ENV to use for this area.\n\nP4: Uses an overhauled P4 ENV, or a P4 inspired ENV for P4G exclusive fields.\nStockDesaturated: Uses the stock P4G ENV with almost no changes, but reduces the saturation to 1.00.\nStock: Uses the stock P4G ENV with almost no changes.")]
+        [Description("Select what ENV to use for this area.\n\nP4: Uses an overhauled P4 ENV, or a P4 inspired ENV for P4G exclusive fields.\nStock: Uses the stock P4G ENV with no changes.")]
         [DefaultValue(ENVTypeA.P4)]
         public ENVTypeA SaunaENV { get; set; } = ENVTypeA.P4;
 
         [Category("ENV Selection - Dungeons")]
         [DisplayName("Yukiko's Castle")]
-        [Description("Select what ENV to use for this area.\n\nP4: Uses an overhauled P4 ENV, or a P4 inspired ENV for P4G exclusive fields.\nStockDesaturated: Uses the stock P4G ENV with almost no changes, but reduces the saturation to 1.00.\nStock: Uses the stock P4G ENV with almost no changes.")]
+        [Description("Select what ENV to use for this area.\n\nP4: Uses an overhauled P4 ENV, or a P4 inspired ENV for P4G exclusive fields.\nStock: Uses the stock P4G ENV with no changes.")]
         [DefaultValue(ENVTypeA.P4)]
         public ENVTypeA CastleENV { get; set; } = ENVTypeA.P4;
 
         [Category("ENV Selection - Dungeons")]
         [DisplayName("???")]
-        [Description("Select what ENV to use for this area.\n\nP4: Uses an overhauled P4 ENV, or a P4 inspired ENV for P4G exclusive fields.\nStockDesaturated: Uses the stock P4G ENV with almost no changes, but reduces the saturation to 1.00.\nStock: Uses the stock P4G ENV with almost no changes.")]
+        [Description("Select what ENV to use for this area.\n\nP4: Uses an overhauled P4 ENV, or a P4 inspired ENV for P4G exclusive fields.\nStock: Uses the stock P4G ENV with no changes.")]
         [DefaultValue(ENVTypeA.P4)]
-        public ENVTypeA FoggyENV { get; set; } = ENVTypeA.P4;
+        public ENVTypeA DreamENV { get; set; } = ENVTypeA.P4;
+
+        // ENV Selection - TV World
+
+        [Category("ENV Selection - TV World")]
+        [DisplayName("Desolate Bedroom")]
+        [Description("Select what ENV to use for this area.\n\nP4: Uses an overhauled P4 ENV, or a P4 inspired ENV for P4G exclusive fields.\nStock: Uses the stock P4G ENV with no changes.")]
+        [DefaultValue(ENVTypeA.P4)]
+        public ENVTypeA BedroomENV { get; set; } = ENVTypeA.P4;
+
+        [Category("ENV Selection - TV World")]
+        [DisplayName("Velvet Room")]
+        [Description("Select what ENV to use for this area.\n\nP4: Uses an overhauled P4 ENV, or a P4 inspired ENV for P4G exclusive fields.\nStock: Uses the stock P4G ENV with no changes.")]
+        [DefaultValue(ENVTypeA.P4)]
+        public ENVTypeA VelvetENV { get; set; } = ENVTypeA.P4;
+
+        [Category("ENV Selection - TV World")]
+        [DisplayName("Entrance")]
+        [Description("Select what ENV to use for this area.\n\nP4: Uses an overhauled P4 ENV, or a P4 inspired ENV for P4G exclusive fields.\nStock: Uses the stock P4G ENV with no changes.")]
+        [DefaultValue(ENVTypeA.P4)]
+        public ENVTypeA EntranceENV { get; set; } = ENVTypeA.P4;
 
         // Texture Selection
 
