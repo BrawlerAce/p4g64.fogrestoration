@@ -159,13 +159,22 @@ namespace p4g64.fogrestoration.Configuration
         [Description("Select whether to apply P4-style fog or use the more \"stringy\" fog texture from P4G.\n\nP4: Uses the P4-style fog.\nStock: Uses the stock P4G fog.")]
         [DefaultValue(TexTypeA.P4)]
         public TexTypeA FogENV { get; set; } = TexTypeA.P4;
-    }
 
-    /// <summary>
-    /// Allows you to override certain aspects of the configuration creation process (e.g. create multiple configurations).
-    /// Override elements in <see cref="ConfiguratorMixinBase"/> for finer control.
-    /// </summary>
-    public class ConfiguratorMixin : ConfiguratorMixinBase
+        // Field Selection, I no no wanna figure out how you did this so enjoy my commit being very different from your system
+
+		[DisplayName("Powerline Fields")]
+		[Category("Fields?")]
+		[Description("True")]
+		[DefaultValue(true)]
+		public bool PowerLinesTwitterLoves { get; set; } = true;
+	}
+}
+
+/// <summary>
+/// Allows you to override certain aspects of the configuration creation process (e.g. create multiple configurations).
+/// Override elements in <see cref="ConfiguratorMixinBase"/> for finer control.
+/// </summary>
+public class ConfiguratorMixin : ConfiguratorMixinBase
     {
         // 
     }

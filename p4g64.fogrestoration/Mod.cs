@@ -228,7 +228,14 @@ namespace p4g64.fogrestoration
                 _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs", "Inaba", "PAK"));
                 criFsApi.AddProbingPath(Path.Combine(modDir, "ENVs", "Inaba", "CriV2"));
             }
-        }
+
+
+			// Field(s)?
+			if (_configuration.PowerLinesTwitterLoves)
+			{
+				criFsApi.AddProbingPath("Field", "TwitterPowerLine"));
+			}
+		}
 
         #region Standard Overrides
         public override void ConfigurationUpdated(Config configuration)
