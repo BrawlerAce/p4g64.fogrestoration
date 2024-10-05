@@ -233,7 +233,7 @@ namespace p4g64.fogrestoration
 			// Field(s)?
 			if (_configuration.PowerLinesTwitterLoves)
 			{
-				criFsApi.AddProbingPath("Field", "TwitterPowerLine"));
+				criFsApi.AddProbingPath(Path.Combine("Field", "TwitterPowerLine"));
 			}
 		}
 

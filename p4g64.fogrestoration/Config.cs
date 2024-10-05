@@ -175,7 +175,5 @@ namespace p4g64.fogrestoration.Configuration
 /// Override elements in <see cref="ConfiguratorMixinBase"/> for finer control.
 /// </summary>
 public class ConfiguratorMixin : ConfiguratorMixinBase
-    {
-        // 
-    }
+{
 }
