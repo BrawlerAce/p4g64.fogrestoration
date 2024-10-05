@@ -15,11 +15,11 @@ name: Build and Publish Reloaded Mod
 
 on:
   push:
-    branches: [ main ]
+    branches: [ master ]
     tags:
       - '*'
   pull_request:
-    branches: [ main ]
+    branches: [ master ]
   workflow_dispatch:
 
 env: 
@@ -63,6 +63,11 @@ jobs:
       with:
         dotnet-version: 6.0.x
         
+    - name: Setup .NET Core SDK (7.0)
+      uses: actions/setup-dotnet@v1.8.2
+      with:
+        dotnet-version: 7.0.x
+        
     - name: Setup Node.js
       uses: actions/setup-node@v2
       with:
@@ -85,7 +90,7 @@ jobs:
       run: ./Publish.ps1 -ChangelogPath "$env:PUBLISH_CHANGELOG_PATH"
       
     - name: Upload GitHub Release Artifact
-      uses: actions/upload-artifact@v2.2.4
+      uses: actions/upload-artifact@v4
       with:
         # Artifact name
         name: GitHub Release
@@ -94,7 +99,7 @@ jobs:
           ${{ env.PUBLISH_GITHUB_PATH }}/*
           
     - name: Upload GameBanana Release Artifact
-      uses: actions/upload-artifact@v2.2.4
+      uses: actions/upload-artifact@v4
       with:
         # Artifact name
         name: GameBanana Release
@@ -103,7 +108,7 @@ jobs:
           ${{ env.PUBLISH_GAMEBANANA_PATH }}/*
         
     - name: Upload NuGet Release Artifact
-      uses: actions/upload-artifact@v2.2.4
+      uses: actions/upload-artifact@v4
       with:
         # Artifact name
         name: NuGet Release
@@ -112,7 +117,7 @@ jobs:
           ${{ env.PUBLISH_NUGET_PATH }}/*
         
     - name: Upload Changelog Artifact
-      uses: actions/upload-artifact@v2.2.4
+      uses: actions/upload-artifact@v4
       with:
         # Artifact name
         name: Changelog

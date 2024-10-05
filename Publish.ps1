@@ -162,7 +162,7 @@ param (
     $UseScriptDirectory=$True,
 
     ## => User Config <= ## 
-    $ProjectPath = "p4g64.fogrestoration.csproj",
+    $ProjectPath = "p4g64.fogrestoration/p4g64.fogrestoration.csproj",
     $PackageName = "p4g64.fogrestoration",
     $PublishOutputDir = "Publish/ToUpload",
 
