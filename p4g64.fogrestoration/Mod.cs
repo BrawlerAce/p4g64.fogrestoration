@@ -1,4 +1,5 @@
 ﻿using p4g64.fogrestoration.Configuration;
+using p4g64.fogrestoration.Native;
 using p4g64.fogrestoration.Template;
 using Reloaded.Hooks.ReloadedII.Interfaces;
 using Reloaded.Mod.Interfaces;
@@ -6,8 +7,8 @@ using CriFs.V2.Hook;
 using CriFs.V2.Hook.Interfaces;
 using PAK.Stream.Emulator;
 using PAK.Stream.Emulator.Interfaces;
-using System.Runtime.CompilerServices;
-using Reloaded.Mod.Interfaces.Internal;
+using static p4g64.fogrestoration.Utils;
+using File = p4g64.fogrestoration.Native.File;
 
 namespace p4g64.fogrestoration
 {
@@ -46,6 +47,8 @@ namespace p4g64.fogrestoration
         /// The configuration of the currently executing mod.
         /// </summary>
         private readonly IModConfig _modConfig;
+        
+        private Skybox _skybox;
 
         public Mod(ModContext context)
         {
@@ -84,6 +87,12 @@ namespace p4g64.fogrestoration
             this._modLoader.OnModLoaderInitialized += () =>
             {
             };
+
+            Utils.Initialise(_logger, _configuration, _modLoader);
+            File.Initialise(_hooks!);
+            Field.Initialise(_hooks!);
+
+            _skybox = new Skybox(_hooks!);
 
             // Yanderedev ass code istg (at least I never claimed I was good at coding!)
 
@@ -235,7 +244,7 @@ namespace p4g64.fogrestoration
 			{
 				criFsApi.AddProbingPath(Path.Combine("Field", "TwitterPowerLine"));
 			}
-		}
+		}     
 
         #region Standard Overrides
         public override void ConfigurationUpdated(Config configuration)

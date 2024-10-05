@@ -42,6 +42,13 @@ namespace p4g64.fogrestoration.Configuration
             Stock,
         }
 
+        [Category("Misc")]
+        [DisplayName("Debug Mode")]
+        [Description("If enabled, causes additional information that may be useful for debugging to be logged.")]
+        [DefaultValue(false)]
+        public bool DebugEnabled { get; set; } = false;
+
+
         // ENV Selection - Inaba
 
         [Category("ENV Selection - Inaba")]
