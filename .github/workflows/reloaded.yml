@@ -48,6 +48,8 @@ jobs:
         shell: pwsh
     
     steps:
+    - name: git configure long path
+      run: git config --global core.longpaths true
     - uses: actions/checkout@v2
       with:
         fetch-depth: 0
