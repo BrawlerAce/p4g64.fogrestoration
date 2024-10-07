@@ -43,11 +43,10 @@ public unsafe class Skybox
     /// <returns>A pointer to the modified skybox file or 0 if there is none</returns>
     private File.FileInfo* LoadSkyboxFile()
     {
-        var weather = Field.GetWeather();
         var major = Field.CurrentField->Major;
         var minor = Field.CurrentField->RealMinor;
 
-        var skyboxName = $"sky_sphere_{major}_{minor}_{weather}.AMD";
+        var skyboxName = $"sky_sphere_{major:D3}_{minor:D3}.AMD";
         var skyboxFile = File.LoadFileInPak(skyboxName, 0, "field/pack/object.arc");
 
         if (skyboxFile->Data == null)
