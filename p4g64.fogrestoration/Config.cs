@@ -169,9 +169,9 @@ namespace p4g64.fogrestoration.Configuration
 
         // Field Selection, I no no wanna figure out how you did this so enjoy my commit being very different from your system
 
-		[DisplayName("Powerline Fields")]
-		[Category("Fields?")]
-		[Description("True")]
+        [Category("Fields Imports and Other Models")]
+        [DisplayName("Power Lines")]
+		[Description("Adds power line models to fields that had them in P4 but not P4G. yeah")]
 		[DefaultValue(true)]
 		public bool PowerLinesTwitterLoves { get; set; } = true;
 	}

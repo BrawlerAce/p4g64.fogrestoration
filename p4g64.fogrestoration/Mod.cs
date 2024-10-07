@@ -238,11 +238,17 @@ namespace p4g64.fogrestoration
                 criFsApi.AddProbingPath(Path.Combine(modDir, "ENVs", "Inaba", "CriV2"));
             }
 
+            // ==================
+            // ==================
+            // Field imports
+            // ==================
+            // ==================
 
-			// Field(s)?
-			if (_configuration.PowerLinesTwitterLoves)
+            // thanks max
+
+            if (_configuration.PowerLinesTwitterLoves)
 			{
-				criFsApi.AddProbingPath(Path.Combine("Field", "TwitterPowerLine"));
+				criFsApi.AddProbingPath(Path.Combine(modDir, "Field", "TwitterPowerLine"));
 			}
 		}     
 
