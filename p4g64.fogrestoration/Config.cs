@@ -52,12 +52,46 @@ namespace p4g64.fogrestoration.Configuration
         // ENV Selection - Inaba
 
         [Category("ENV Selection - Inaba")]
-        //[DisplayName("Samegawa Floodplain")]
-        [DisplayName("Inaba - WIP")]
-        //[Description("Select what ENV to use for this area.\n\nP4: Uses an overhauled P4 ENV, or a P4 inspired ENV for P4G exclusive fields.\nStock: Uses the stock P4G ENV with no changes.")]
-        [Description("WARNING: WIP! SOME AREAS MAY APPEAR BROKEN!\n\nSelect what ENV to use for this area.\n\nP4: Uses an overhauled P4 ENV, or a P4 inspired ENV for P4G exclusive fields.\nStock: Uses the stock P4G ENV with no changes.")]
+        [DisplayName("Town Map")]
+        [Description("Select what ENV to use for this area.\n\nP4: Uses an overhauled P4 ENV, or a P4 inspired ENV for P4G exclusive fields.\nStock: Uses the stock P4G ENV with no changes.")]
+        [DefaultValue(ENVTypeA.P4)]
+        public ENVTypeA TownMapENV { get; set; } = ENVTypeA.P4;
+
+        [Category("ENV Selection - Inaba")]
+        [DisplayName("Samegawa Floodplain")]
+        [Description("Select what ENV to use for this area.\n\nP4: Uses an overhauled P4 ENV, or a P4 inspired ENV for P4G exclusive fields.\nStock: Uses the stock P4G ENV with no changes.")]
         [DefaultValue(ENVTypeA.P4)]
         public ENVTypeA SamegawaENV { get; set; } = ENVTypeA.P4;
+
+        [Category("ENV Selection - Inaba")]
+        [DisplayName("Shopping District")]
+        [Description("Select what ENV to use for this area.\n\nP4: Uses an overhauled P4 ENV, or a P4 inspired ENV for P4G exclusive fields.\nStock: Uses the stock P4G ENV with no changes.")]
+        [DefaultValue(ENVTypeA.P4)]
+        public ENVTypeA ShoppingDistrictENV { get; set; } = ENVTypeA.P4;
+
+        [Category("ENV Selection - Inaba")]
+        [DisplayName("Dojima Residence")]
+        [Description("Select what ENV to use for this area.\n\nP4: Uses an overhauled P4 ENV, or a P4 inspired ENV for P4G exclusive fields.\nStock: Uses the stock P4G ENV with no changes.")]
+        [DefaultValue(ENVTypeA.P4)]
+        public ENVTypeA DojimaENV { get; set; } = ENVTypeA.P4;
+
+        [Category("ENV Selection - Inaba")]
+        [DisplayName("Yasogami High")]
+        [Description("Select what ENV to use for this area.\n\nP4: Uses an overhauled P4 ENV, or a P4 inspired ENV for P4G exclusive fields.\nStock: Uses the stock P4G ENV with no changes.")]
+        [DefaultValue(ENVTypeA.P4)]
+        public ENVTypeA YasogamiENV { get; set; } = ENVTypeA.P4;
+
+        [Category("ENV Selection - Inaba")]
+        [DisplayName("Junes Department Store")]
+        [Description("Select what ENV to use for this area.\n\nP4: Uses an overhauled P4 ENV, or a P4 inspired ENV for P4G exclusive fields.\nStock: Uses the stock P4G ENV with no changes.")]
+        [DefaultValue(ENVTypeA.P4)]
+        public ENVTypeA JunesENV { get; set; } = ENVTypeA.P4;
+
+        [Category("ENV Selection - Inaba")]
+        [DisplayName("Miscellaneous")]
+        [Description("Select what ENV to use for areas like the hospital, police station, etc.\n\nP4: Uses an overhauled P4 ENV, or a P4 inspired ENV for P4G exclusive fields.\nStock: Uses the stock P4G ENV with no changes.")]
+        [DefaultValue(ENVTypeA.P4)]
+        public ENVTypeA MiscENV { get; set; } = ENVTypeA.P4;
 
         // ENV Selection - Dungeons
 

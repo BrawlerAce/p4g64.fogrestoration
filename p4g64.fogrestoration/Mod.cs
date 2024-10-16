@@ -229,13 +229,47 @@ namespace p4g64.fogrestoration
             // ==================
             // ==================
 
-            // This will need a lot of work because the lack of a skybox patch rn requires us to recreate P4G's sky texture. That's a later problem, though.
+            // Dojima Residence
+            if (_configuration.DojimaENV == Config.ENVTypeA.P4)
+            {
+                _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs", "Inaba", "DojimaResidence", "PAK"));
+            }
 
             // Samegawa Floodplain
             if (_configuration.SamegawaENV == Config.ENVTypeA.P4)
             {
-                _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs", "Inaba", "PAK"));
-                criFsApi.AddProbingPath(Path.Combine(modDir, "ENVs", "Inaba", "CriV2"));
+                _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs", "Inaba", "Floodplain", "PAK"));
+            }
+
+            // Junes
+            if (_configuration.JunesENV == Config.ENVTypeA.P4)
+            {
+                _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs", "Inaba", "Junes", "PAK"));
+            }
+
+            // Misc
+            if (_configuration.MiscENV == Config.ENVTypeA.P4)
+            {
+                _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs", "Inaba", "Misc", "PAK"));
+            }
+
+            // Shopping District
+            if (_configuration.ShoppingDistrictENV == Config.ENVTypeA.P4)
+            {
+                _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs", "Inaba", "ShoppingDistrict", "PAK"));
+            }
+
+            // Town Map
+            if (_configuration.TownMapENV == Config.ENVTypeA.P4)
+            {
+                _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs", "Inaba", "TownMap", "PAK"));
+                criFsApi.AddProbingPath(Path.Combine(modDir, "ENVs", "Inaba", "TownMap", "CriV2"));
+            }
+
+            // Yasogami High
+            if (_configuration.YasogamiENV == Config.ENVTypeA.P4)
+            {
+                _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs", "Inaba", "Yasogami", "PAK"));
             }
 
             // ==================
