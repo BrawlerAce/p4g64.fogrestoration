@@ -32,23 +32,23 @@ internal class Utils
     
     internal static void Log(string message)
     {
-        _logger.WriteLineAsync($"[Fog Restoration] {message}");
+        _logger.WriteLineAsync($"[P4 Fog Restoration] {message}");
     }
     
     internal static void LogDebug(string message)
     {
         if (_config.DebugEnabled)
-            _logger.WriteLineAsync($"[Fog Restoration] {message}");
+            _logger.WriteLineAsync($"[P4 Fog Restoration] {message}");
     }
 
     internal static void LogError(string message, Exception e)
     {
-        _logger.WriteLineAsync($"[Fog Restoration] {message}: {e.Message}", System.Drawing.Color.Red);
+        _logger.WriteLineAsync($"[P4 Fog Restoration] {message}: {e.Message}", System.Drawing.Color.Red);
     }
 
     internal static void LogError(string message)
     {
-        _logger.WriteLineAsync($"[Fog Restoration] {message}", System.Drawing.Color.Red);
+        _logger.WriteLineAsync($"[P4 Fog Restoration] {message}", System.Drawing.Color.Red);
     }
 
     internal static void SigScan(string pattern, string name, Action<nint> action)
