@@ -48,26 +48,28 @@ namespace p4g64.fogrestoration.Configuration
         [DefaultValue(false)]
         public bool DebugEnabled { get; set; } = false;
 
+        // Texture Selection
+
+        [Category("Texture Selection")]
+        [DisplayName("TV Static")]
+        [Description("Select whether to apply P4-style TV static or not.\n\nP4: Uses the P4-style TV static.\nStock: Uses the stock P4G TV static. Select this if using No TV Static 64.")]
+        [DefaultValue(TexTypeA.P4)]
+        public TexTypeA StaticENV { get; set; } = TexTypeA.P4;
+
+        [Category("Texture Selection")]
+        [DisplayName("Fog Textures")]
+        [Description("Select whether to apply P4-style fog or use the more \"stringy\" fog texture from P4G.\n\nP4: Uses the P4-style fog.\nStock: Uses the stock P4G fog.")]
+        [DefaultValue(TexTypeA.P4)]
+        public TexTypeA FogENV { get; set; } = TexTypeA.P4;
+
 
         // ENV Selection - Inaba
 
         [Category("ENV Selection - Inaba")]
-        [DisplayName("Town Map")]
-        [Description("Select what ENV to use for this area.\n\nP4: Uses an overhauled P4 ENV, or a P4 inspired ENV for P4G exclusive fields.\nStock: Uses the stock P4G ENV with no changes.")]
+        [DisplayName("Miscellaneous")]
+        [Description("Select what ENV to use for areas like the hospital, police station, etc.\n\nP4: Uses an overhauled P4 ENV, or a P4 inspired ENV for P4G exclusive fields.\nStock: Uses the stock P4G ENV with no changes.")]
         [DefaultValue(ENVTypeA.P4)]
-        public ENVTypeA TownMapENV { get; set; } = ENVTypeA.P4;
-
-        [Category("ENV Selection - Inaba")]
-        [DisplayName("Samegawa Floodplain")]
-        [Description("Select what ENV to use for this area.\n\nP4: Uses an overhauled P4 ENV, or a P4 inspired ENV for P4G exclusive fields.\nStock: Uses the stock P4G ENV with no changes.")]
-        [DefaultValue(ENVTypeA.P4)]
-        public ENVTypeA SamegawaENV { get; set; } = ENVTypeA.P4;
-
-        [Category("ENV Selection - Inaba")]
-        [DisplayName("Shopping District")]
-        [Description("Select what ENV to use for this area.\n\nP4: Uses an overhauled P4 ENV, or a P4 inspired ENV for P4G exclusive fields.\nStock: Uses the stock P4G ENV with no changes.")]
-        [DefaultValue(ENVTypeA.P4)]
-        public ENVTypeA ShoppingDistrictENV { get; set; } = ENVTypeA.P4;
+        public ENVTypeA MiscENV { get; set; } = ENVTypeA.P4;
 
         [Category("ENV Selection - Inaba")]
         [DisplayName("Dojima Residence")]
@@ -76,10 +78,10 @@ namespace p4g64.fogrestoration.Configuration
         public ENVTypeA DojimaENV { get; set; } = ENVTypeA.P4;
 
         [Category("ENV Selection - Inaba")]
-        [DisplayName("Yasogami High")]
+        [DisplayName("Samegawa Floodplain")]
         [Description("Select what ENV to use for this area.\n\nP4: Uses an overhauled P4 ENV, or a P4 inspired ENV for P4G exclusive fields.\nStock: Uses the stock P4G ENV with no changes.")]
         [DefaultValue(ENVTypeA.P4)]
-        public ENVTypeA YasogamiENV { get; set; } = ENVTypeA.P4;
+        public ENVTypeA SamegawaENV { get; set; } = ENVTypeA.P4;
 
         [Category("ENV Selection - Inaba")]
         [DisplayName("Junes Department Store")]
@@ -88,10 +90,22 @@ namespace p4g64.fogrestoration.Configuration
         public ENVTypeA JunesENV { get; set; } = ENVTypeA.P4;
 
         [Category("ENV Selection - Inaba")]
-        [DisplayName("Miscellaneous")]
-        [Description("Select what ENV to use for areas like the hospital, police station, etc.\n\nP4: Uses an overhauled P4 ENV, or a P4 inspired ENV for P4G exclusive fields.\nStock: Uses the stock P4G ENV with no changes.")]
+        [DisplayName("Shopping District")]
+        [Description("Select what ENV to use for this area.\n\nP4: Uses an overhauled P4 ENV, or a P4 inspired ENV for P4G exclusive fields.\nStock: Uses the stock P4G ENV with no changes.")]
         [DefaultValue(ENVTypeA.P4)]
-        public ENVTypeA MiscENV { get; set; } = ENVTypeA.P4;
+        public ENVTypeA ShoppingDistrictENV { get; set; } = ENVTypeA.P4;
+
+        [Category("ENV Selection - Inaba")]
+        [DisplayName("Yasogami High")]
+        [Description("Select what ENV to use for this area.\n\nP4: Uses an overhauled P4 ENV, or a P4 inspired ENV for P4G exclusive fields.\nStock: Uses the stock P4G ENV with no changes.")]
+        [DefaultValue(ENVTypeA.P4)]
+        public ENVTypeA YasogamiENV { get; set; } = ENVTypeA.P4;
+
+        [Category("ENV Selection - Inaba")]
+        [DisplayName("Town Map")]
+        [Description("Select what ENV to use for this area.\n\nP4: Uses an overhauled P4 ENV, or a P4 inspired ENV for P4G exclusive fields.\nStock: Uses the stock P4G ENV with no changes.")]
+        [DefaultValue(ENVTypeA.P4)]
+        public ENVTypeA TownMapENV { get; set; } = ENVTypeA.P4;
 
         // ENV Selection - Dungeons
 
@@ -186,20 +200,6 @@ namespace p4g64.fogrestoration.Configuration
         [Description("Select what ENV to use for this area.\n\nP4: Uses an overhauled P4 ENV, or a P4 inspired ENV for P4G exclusive fields.\nStock: Uses the stock P4G ENV with no changes.")]
         [DefaultValue(ENVTypeA.P4)]
         public ENVTypeA EntranceENV { get; set; } = ENVTypeA.P4;
-
-        // Texture Selection
-
-        [Category("Texture Selection")]
-        [DisplayName("TV Static")]
-        [Description("Select whether to apply P4-style TV static or not.\n\nP4: Uses the P4-style TV static.\nStock: Uses the stock P4G TV static. Select this if using No TV Static 64.")]
-        [DefaultValue(TexTypeA.P4)]
-        public TexTypeA StaticENV { get; set; } = TexTypeA.P4;
-
-        [Category("Texture Selection")]
-        [DisplayName("Fog Textures")]
-        [Description("Select whether to apply P4-style fog or use the more \"stringy\" fog texture from P4G.\n\nP4: Uses the P4-style fog.\nStock: Uses the stock P4G fog.")]
-        [DefaultValue(TexTypeA.P4)]
-        public TexTypeA FogENV { get; set; } = TexTypeA.P4;
 
         // Field Selection, I no no wanna figure out how you did this so enjoy my commit being very different from your system
 
