@@ -72,6 +72,12 @@ namespace p4g64.fogrestoration.Configuration
         public ENVTypeA MiscENV { get; set; } = ENVTypeA.P4;
 
         [Category("ENV Selection - Inaba")]
+        [DisplayName("Okina City")]
+        [Description("Select what ENV to use for this area.\n\nP4: Uses an overhauled P4 ENV, or a P4 inspired ENV for P4G exclusive fields.\nStock: Uses the stock P4G ENV with no changes.")]
+        [DefaultValue(ENVTypeA.P4)]
+        public ENVTypeA OkinaENV { get; set; } = ENVTypeA.P4;
+
+        [Category("ENV Selection - Inaba")]
         [DisplayName("Dojima Residence")]
         [Description("Select what ENV to use for this area.\n\nP4: Uses an overhauled P4 ENV, or a P4 inspired ENV for P4G exclusive fields.\nStock: Uses the stock P4G ENV with no changes.")]
         [DefaultValue(ENVTypeA.P4)]

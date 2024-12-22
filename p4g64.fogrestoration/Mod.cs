@@ -257,6 +257,7 @@ namespace p4g64.fogrestoration
             if (_configuration.ShoppingDistrictENV == Config.ENVTypeA.P4)
             {
                 _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs", "Inaba", "ShoppingDistrict", "PAK"));
+                criFsApi.AddProbingPath(Path.Combine(modDir, "ENVs", "Inaba", "ShoppingDistrict", "CriV2"));
             }
 
             // Town Map
@@ -270,6 +271,13 @@ namespace p4g64.fogrestoration
             if (_configuration.YasogamiENV == Config.ENVTypeA.P4)
             {
                 _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs", "Inaba", "Yasogami", "PAK"));
+            }
+
+            // Okina City
+            if (_configuration.OkinaENV == Config.ENVTypeA.P4)
+            {
+                _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs", "Inaba", "Okina", "PAK"));
+                criFsApi.AddProbingPath(Path.Combine(modDir, "ENVs", "Inaba", "Okina", "IWantToCri"));
             }
 
             // ==================
