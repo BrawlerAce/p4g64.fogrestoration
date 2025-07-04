@@ -129,19 +129,21 @@ namespace p4g64.fogrestoration
             // Entrance
             if (_configuration.EntranceENV == Config.ENVTypeA.P4)
             {
-                _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs", "TVWorld", "Entrance"));
+                _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs", "TVWorld", "Entrance", "PAK"));
+                criFsApi.AddProbingPath(Path.Combine(modDir, "ENVs", "TVWorld", "Entrance", "CriV2"));
             }
 
             // Velvet Room
             if (_configuration.VelvetENV == Config.ENVTypeA.P4)
             {
-                _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs", "TVWorld", "Velvet"));
+                _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs", "TVWorld", "Velvet", "PAK"));
+                criFsApi.AddProbingPath(Path.Combine(modDir, "ENVs", "TVWorld", "Velvet", "CriV2"));
             }
 
             // Desolate Bedroom (and surrounding areas)
             if (_configuration.BedroomENV == Config.ENVTypeA.P4)
             {
-                _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs", "TVWorld", "Bedroom"));
+                _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs", "TVWorld", "Bedroom", "PAK"));
                 criFsApi.AddProbingPath(Path.Combine(modDir, "ENVs", "TVWorld", "Bedroom", "CriV2"));
             }
 
@@ -154,73 +156,85 @@ namespace p4g64.fogrestoration
             // ???
             if (_configuration.DreamENV == Config.ENVTypeA.P4)
             {
-                _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs", "Dungeons", "Foggy"));
+                _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs", "Dungeons", "Foggy", "PAK"));
+                criFsApi.AddProbingPath(Path.Combine(modDir, "ENVs", "Dungeons", "Foggy", "CriV2"));
             }
 
             // Yukiko's Castle
             if (_configuration.CastleENV == Config.ENVTypeA.P4)
             {
-                _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs", "Dungeons", "Castle"));
+                _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs", "Dungeons", "Castle", "PAK"));
+                criFsApi.AddProbingPath(Path.Combine(modDir, "ENVs", "Dungeons", "Castle", "CriV2"));
             }
 
             // Steamy Bathhouse
             if (_configuration.SaunaENV == Config.ENVTypeA.P4)
             {
-                _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs", "Dungeons", "Sauna"));
+                _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs", "Dungeons", "Sauna", "PAK"));
+                criFsApi.AddProbingPath(Path.Combine(modDir, "ENVs", "Dungeons", "Sauna", "CriV2"));
             }
 
             // Marukyu Striptease
             if (_configuration.ClubENV == Config.ENVTypeA.P4)
             {
-                _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs", "Dungeons", "Club"));
+                _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs", "Dungeons", "Club", "PAK"));
+                criFsApi.AddProbingPath(Path.Combine(modDir, "ENVs", "Dungeons", "Club", "CriV2"));
             }
 
             // Void Quest
             if (_configuration.GameENV == Config.ENVTypeA.P4)
             {
-                _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs", "Dungeons", "Game"));
+                _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs", "Dungeons", "Game", "PAK"));
+                criFsApi.AddProbingPath(Path.Combine(modDir, "ENVs", "Dungeons", "Game", "CriV2"));
             }
 
             // Secret Laboratory
             if (_configuration.LabENV == Config.ENVTypeA.P4)
             {
-                _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs", "Dungeons", "Lab"));
+                _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs", "Dungeons", "Lab", "PAK"));
+                criFsApi.AddProbingPath(Path.Combine(modDir, "ENVs", "Dungeons", "Lab", "CriV2"));
             }
 
             // Heaven
             if (_configuration.HeavenENV == Config.ENVTypeA.P4)
             {
-                _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs", "Dungeons", "Heaven"));
+                _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs", "Dungeons", "Heaven", "PAK"));
+                criFsApi.AddProbingPath(Path.Combine(modDir, "ENVs", "Dungeons", "Heaven", "CriV2"));
             }
 
             // Magatsu Inaba
             if (_configuration.MagatsuENV == Config.ENVTypeA.P4)
             {
-                _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs", "Dungeons", "Magatsu"));
+                _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs", "Dungeons", "Magatsu", "PAK"));
+                criFsApi.AddProbingPath(Path.Combine(modDir, "ENVs", "Dungeons", "Magatsu", "CriV2"));
             }
 
             // Yomotsu Hirasaka
             if (_configuration.YomotsuENV == Config.ENVTypeA.P4)
             {
-                _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs", "Dungeons", "Yomotsu"));
+                _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs", "Dungeons", "Yomotsu", "PAK"));
+                criFsApi.AddProbingPath(Path.Combine(modDir, "ENVs", "Dungeons", "Yomotsu", "CriV2"));
             }
 
             // Hollow Forest
             if (_configuration.HollowENV == Config.ENVTypeA.P4)
             {
-                _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs", "Dungeons", "Hollow"));
+                _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs", "Dungeons", "Hollow", "PAK"));
+                criFsApi.AddProbingPath(Path.Combine(modDir, "ENVs", "Dungeons", "Hollow", "CriV2"));
             }
 
             // Twisted Shopping District
             if (_configuration.TwistedENV == Config.ENVTypeA.P4)
             {
-                _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs", "Dungeons", "Twisted"));
+                _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs", "Dungeons", "Twisted", "PAK"));
+                criFsApi.AddProbingPath(Path.Combine(modDir, "ENVs", "Dungeons", "Twisted", "CriV2"));
             }
 
             // Konishi Liquors
             if (_configuration.KonishiENV == Config.ENVTypeA.P4)
             {
-                _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs", "Dungeons", "Konishi"));
+                _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs", "Dungeons", "Konishi", "PAK"));
+                criFsApi.AddProbingPath(Path.Combine(modDir, "ENVs", "Dungeons", "Konishi", "CriV2"));
             }
 
             // ==================
@@ -233,24 +247,28 @@ namespace p4g64.fogrestoration
             if (_configuration.DojimaENV == Config.ENVTypeA.P4)
             {
                 _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs", "Inaba", "DojimaResidence", "PAK"));
+                criFsApi.AddProbingPath(Path.Combine(modDir, "ENVs", "Inaba", "DojimaResidence", "CriV2"));
             }
 
             // Samegawa Floodplain
             if (_configuration.SamegawaENV == Config.ENVTypeA.P4)
             {
                 _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs", "Inaba", "Floodplain", "PAK"));
+                criFsApi.AddProbingPath(Path.Combine(modDir, "ENVs", "Inaba", "Floodplain", "CriV2"));
             }
 
             // Junes
             if (_configuration.JunesENV == Config.ENVTypeA.P4)
             {
                 _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs", "Inaba", "Junes", "PAK"));
+                criFsApi.AddProbingPath(Path.Combine(modDir, "ENVs", "Inaba", "Junes", "CriV2"));
             }
 
             // Misc
             if (_configuration.MiscENV == Config.ENVTypeA.P4)
             {
                 _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs", "Inaba", "Misc", "PAK"));
+                criFsApi.AddProbingPath(Path.Combine(modDir, "ENVs", "Inaba", "Misc", "CriV2"));
             }
 
             // Shopping District
@@ -271,6 +289,7 @@ namespace p4g64.fogrestoration
             if (_configuration.YasogamiENV == Config.ENVTypeA.P4)
             {
                 _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs", "Inaba", "Yasogami", "PAK"));
+                criFsApi.AddProbingPath(Path.Combine(modDir, "ENVs", "Inaba", "Yasogami", "CriV2"));
             }
 
             // Okina City

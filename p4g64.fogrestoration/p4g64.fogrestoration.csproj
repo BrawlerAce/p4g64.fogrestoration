@@ -40,7 +40,7 @@
     <None Update="Preview.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <Content Include="ENVs\**">
+    <!--<Content Include="ENVs\**">
         <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="Field\**">
@@ -51,7 +51,7 @@
     </Content>
     <Content Include="Textures\**">
         <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
+    </Content>-->
   </ItemGroup>
 
   <ItemGroup>
