@@ -4,6 +4,6 @@ A visual overhaul mod that restores the Persona 4 visuals to Persona 4 Golden. C
 
 Download the mod on GameBanana for [Persona 4 Golden (PC)](https://gamebanana.com/wips/86080)!
 
-If you want to see and compare the changes, visit [this website!](https://p4fogmod.yukaritakeba.com/) *Disclaimer: You can view this on mobile, just expect the site to be weird when you zoom out too far.*
+If you want to see and compare the changes, visit [this website!](https://p4fogmod.yukaritakeba.com/) *Now mobile friendly!*
 
 **For the best experience, I recommend setting your in-game contrast setting to 2!**
