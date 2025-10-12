@@ -6,4 +6,4 @@ Download the mod on GameBanana for [Persona 4 Golden (PC)](https://gamebanana.co
 
 If you want to see and compare the changes, visit [this website!](https://p4fogmod.yukaritakeba.com/) *Now mobile friendly!*
 
-**For the best experience, I recommend setting your in-game contrast setting to 2!**
+**For the best experience, I recommend setting your in-game contrast setting to 2!** (it is 3 by default on PC!)
