@@ -1165,7 +1165,12 @@ namespace p4g64.fogrestoration
                 _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs/Inaba/WinterCloudy/Dojima/001/PAK"));
                 // criFsApi.AddProbingPath(Path.Combine(modDir, "ENVs/Inaba/WinterCloudy/Dojima/001/CriV2"));
             }
-            if (_configuration.DojimaENV_NightClear_001 == Config.ENVTypeA.P4)
+            if ((_configuration.DojimaENV_NightClear_001 == Config.ENVTypeA.P4) && (_configuration.NightSky_Dojima == true))
+            {
+                _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs/Inaba/NightClearSkybox/Dojima/001/PAK"));
+                // criFsApi.AddProbingPath(Path.Combine(modDir, "ENVs/Inaba/NightClearSkybox/Dojima/001/CriV2"));
+            }
+            if ((_configuration.DojimaENV_NightClear_001 == Config.ENVTypeA.P4) && (_configuration.NightSky_Dojima == false))
             {
                 _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs/Inaba/NightClear/Dojima/001/PAK"));
                 // criFsApi.AddProbingPath(Path.Combine(modDir, "ENVs/Inaba/NightClear/Dojima/001/CriV2"));
@@ -1408,7 +1413,12 @@ namespace p4g64.fogrestoration
                 _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs/Inaba/WinterCloudy/ShoppingDistrict/001/PAK"));
                 // criFsApi.AddProbingPath(Path.Combine(modDir, "ENVs/Inaba/WinterCloudy/ShoppingDistrict/001/CriV2"));
             }
-            if (_configuration.ShoppingDistrictENV_NightClear_001 == Config.ENVTypeA.P4)
+            if ((_configuration.ShoppingDistrictENV_NightClear_001 == Config.ENVTypeA.P4) && (_configuration.NightSky_ShoppingDistrictNorth == true))
+            {
+                _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs/Inaba/NightClearSkybox/ShoppingDistrict/001/PAK"));
+                // criFsApi.AddProbingPath(Path.Combine(modDir, "ENVs/Inaba/NightClearSkybox/ShoppingDistrict/001/CriV2"));
+            }
+            if ((_configuration.ShoppingDistrictENV_NightClear_001 == Config.ENVTypeA.P4) && (_configuration.NightSky_ShoppingDistrictNorth == false))
             {
                 _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs/Inaba/NightClear/ShoppingDistrict/001/PAK"));
                 // criFsApi.AddProbingPath(Path.Combine(modDir, "ENVs/Inaba/NightClear/ShoppingDistrict/001/CriV2"));
@@ -1489,7 +1499,12 @@ namespace p4g64.fogrestoration
                 _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs/Inaba/WinterCloudy/ShoppingDistrict/002/PAK"));
                 // criFsApi.AddProbingPath(Path.Combine(modDir, "ENVs/Inaba/WinterCloudy/ShoppingDistrict/002/CriV2"));
             }
-            if (_configuration.ShoppingDistrictENV_NightClear_002 == Config.ENVTypeA.P4)
+            if ((_configuration.ShoppingDistrictENV_NightClear_002 == Config.ENVTypeA.P4) && (_configuration.NightSky_ShoppingDistrictSouth == true))
+            {
+                _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs/Inaba/NightClearSkybox/ShoppingDistrict/002/PAK"));
+                // criFsApi.AddProbingPath(Path.Combine(modDir, "ENVs/Inaba/NightClearSkybox/ShoppingDistrict/002/CriV2"));
+            }
+            if ((_configuration.ShoppingDistrictENV_NightClear_002 == Config.ENVTypeA.P4) && (_configuration.NightSky_ShoppingDistrictSouth == false))
             {
                 _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs/Inaba/NightClear/ShoppingDistrict/002/PAK"));
                 // criFsApi.AddProbingPath(Path.Combine(modDir, "ENVs/Inaba/NightClear/ShoppingDistrict/002/CriV2"));
@@ -1632,7 +1647,12 @@ namespace p4g64.fogrestoration
                 _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs/Inaba/WinterCloudy/ShoppingDistrict/009/PAK"));
                 // criFsApi.AddProbingPath(Path.Combine(modDir, "ENVs/Inaba/WinterCloudy/ShoppingDistrict/009/CriV2"));
             }
-            if (_configuration.ShoppingDistrictENV_NightClear_009 == Config.ENVTypeA.P4)
+            if ((_configuration.ShoppingDistrictENV_NightClear_009 == Config.ENVTypeA.P4) && (_configuration.NightSky_Shrine == true))
+            {
+                _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs/Inaba/NightClearSkybox/ShoppingDistrict/009/PAK"));
+                // criFsApi.AddProbingPath(Path.Combine(modDir, "ENVs/Inaba/NightClearSkybox/ShoppingDistrict/009/CriV2"));
+            }
+            if ((_configuration.ShoppingDistrictENV_NightClear_009 == Config.ENVTypeA.P4) && (_configuration.NightSky_Shrine == false))
             {
                 _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs/Inaba/NightClear/ShoppingDistrict/009/PAK"));
                 // criFsApi.AddProbingPath(Path.Combine(modDir, "ENVs/Inaba/NightClear/ShoppingDistrict/009/CriV2"));
@@ -1827,7 +1847,12 @@ namespace p4g64.fogrestoration
                 _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs/Inaba/WinterCloudy/Samegawa/001/PAK"));
                 // criFsApi.AddProbingPath(Path.Combine(modDir, "ENVs/Inaba/WinterCloudy/Samegawa/001/CriV2"));
             }
-            if (_configuration.SamegawaENV_NightClear_001 == Config.ENVTypeA.P4)
+            if ((_configuration.SamegawaENV_NightClear_001 == Config.ENVTypeA.P4) && (_configuration.NightSky_Samegawa == true))
+            {
+                _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs/Inaba/NightClearSkybox/Samegawa/001/PAK"));
+                // criFsApi.AddProbingPath(Path.Combine(modDir, "ENVs/Inaba/NightClearSkybox/Samegawa/001/CriV2"));
+            }
+            if ((_configuration.SamegawaENV_NightClear_001 == Config.ENVTypeA.P4) && (_configuration.NightSky_Samegawa == false))
             {
                 _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs/Inaba/NightClear/Samegawa/001/PAK"));
                 // criFsApi.AddProbingPath(Path.Combine(modDir, "ENVs/Inaba/NightClear/Samegawa/001/CriV2"));
@@ -2031,7 +2056,12 @@ namespace p4g64.fogrestoration
                 _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs/Inaba/WinterCloudy/Hospital/002/PAK"));
                 // criFsApi.AddProbingPath(Path.Combine(modDir, "ENVs/Inaba/WinterCloudy/Hospital/002/CriV2"));
             }
-            if (_configuration.HospitalENV_NightClear_002 == Config.ENVTypeA.P4)
+            if ((_configuration.HospitalENV_NightClear_002 == Config.ENVTypeA.P4) && (_configuration.NightSky_Hospital == true))
+            {
+                _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs/Inaba/NightClearSkybox/Hospital/002/PAK"));
+                // criFsApi.AddProbingPath(Path.Combine(modDir, "ENVs/Inaba/NightClearSkybox/Hospital/002/CriV2"));
+            }
+            if ((_configuration.HospitalENV_NightClear_002 == Config.ENVTypeA.P4) && (_configuration.NightSky_Hospital == false))
             {
                 _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs/Inaba/NightClear/Hospital/002/PAK"));
                 // criFsApi.AddProbingPath(Path.Combine(modDir, "ENVs/Inaba/NightClear/Hospital/002/CriV2"));
@@ -2287,7 +2317,12 @@ namespace p4g64.fogrestoration
                 _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs/Inaba/WinterCloudy/Misc/SchoolZone/PAK"));
                 // criFsApi.AddProbingPath(Path.Combine(modDir, "ENVs/Inaba/WinterCloudy/Misc/SchoolZone/CriV2"));
             }
-            if (_configuration.MiscENV_NightClear_SchoolZone == Config.ENVTypeA.P4)
+            if ((_configuration.MiscENV_NightClear_SchoolZone == Config.ENVTypeA.P4) && (_configuration.NightSky_SchoolZone == true))
+            {
+                _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs/Inaba/NightClearSkybox/Misc/SchoolZone/PAK"));
+                // criFsApi.AddProbingPath(Path.Combine(modDir, "ENVs/Inaba/NightClearSkybox/Misc/SchoolZone/CriV2"));
+            }
+            if ((_configuration.MiscENV_NightClear_SchoolZone == Config.ENVTypeA.P4) && (_configuration.NightSky_SchoolZone == false))
             {
                 _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs/Inaba/NightClear/Misc/SchoolZone/PAK"));
                 // criFsApi.AddProbingPath(Path.Combine(modDir, "ENVs/Inaba/NightClear/Misc/SchoolZone/CriV2"));
@@ -2436,6 +2471,14 @@ namespace p4g64.fogrestoration
                 criFsApi.AddProbingPath(Path.Combine(modDir, "Event", "E219_001"));
                 criFsApi.AddProbingPath(Path.Combine(modDir, "Event", "E311_001"));
             }
+
+
+
+            // ==================
+            // ==================
+            // Night Skyboxes
+            // ==================
+            // ==================
         }     
 
         #region Standard Overrides

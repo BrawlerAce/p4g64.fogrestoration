@@ -3348,6 +3348,57 @@ namespace p4g64.fogrestoration.Configuration
         [Description("Use P4 event files to change visuals for event specific\nENVs.\n\nThese events have different fog, being more yellowish-green.")]
         [DefaultValue(true)]
         public bool Event_FoggyStreet { get; set; } = true;
+
+        // Night Skyboxes
+
+        [Category("Night Skyboxes")]
+        [Display(Order = 710)]
+        [DisplayName("Dojima Residence, Outside")]
+        [Description("Toggle P4 style skyboxes for clear night fields.\n\nTrue: uses P4 style skyboxes, with clouds visible in the sky.\nFalse: uses P4G's default skyboxes for a starry night.")]
+        [DefaultValue(true)]
+        public bool NightSky_Dojima { get; set; } = true;
+
+        [Category("Night Skyboxes")]
+        [Display(Order = 711)]
+        [DisplayName("Shopping District, North")]
+        [Description("Toggle P4 style skyboxes for clear night fields.\n\nTrue: uses P4 style skyboxes, with clouds visible in the sky.\nFalse: uses P4G's default skyboxes for a starry night.")]
+        [DefaultValue(true)]
+        public bool NightSky_ShoppingDistrictNorth { get; set; } = true;
+
+        [Category("Night Skyboxes")]
+        [Display(Order = 712)]
+        [DisplayName("Shopping District, South")]
+        [Description("Toggle P4 style skyboxes for clear night fields.\n\nTrue: uses P4 style skyboxes, with clouds visible in the sky.\nFalse: uses P4G's default skyboxes for a starry night.")]
+        [DefaultValue(true)]
+        public bool NightSky_ShoppingDistrictSouth { get; set; } = true;
+
+        [Category("Night Skyboxes")]
+        [Display(Order = 713)]
+        [DisplayName("Shrine")]
+        [Description("Toggle P4 style skyboxes for clear night fields.\n\nTrue: uses P4 style skyboxes, with clouds visible in the sky.\nFalse: uses P4G's default skyboxes for a starry night.")]
+        [DefaultValue(true)]
+        public bool NightSky_Shrine { get; set; } = true;
+
+        [Category("Night Skyboxes")]
+        [Display(Order = 714)]
+        [DisplayName("Samegawa Floodplain")]
+        [Description("Toggle P4 style skyboxes for clear night fields.\n\nTrue: uses P4 style skyboxes, with clouds visible in the sky.\nFalse: uses P4G's default skyboxes for a starry night.")]
+        [DefaultValue(true)]
+        public bool NightSky_Samegawa { get; set; } = true;
+
+        [Category("Night Skyboxes")]
+        [Display(Order = 715)]
+        [DisplayName("Hospital")]
+        [Description("Toggle P4 style skyboxes for clear night fields.\n\nTrue: uses P4 style skyboxes, with clouds visible in the sky.\nFalse: uses P4G's default skyboxes for a starry night.")]
+        [DefaultValue(true)]
+        public bool NightSky_Hospital { get; set; } = true;
+
+        [Category("Night Skyboxes")]
+        [Display(Order = 716)]
+        [DisplayName("School Zone")]
+        [Description("Toggle P4 style skyboxes for clear night fields.\n\nTrue: uses P4 style skyboxes, with clouds visible in the sky.\nFalse: uses P4G's default skyboxes for a starry night.")]
+        [DefaultValue(true)]
+        public bool NightSky_SchoolZone { get; set; } = true;
     }
 }
 
