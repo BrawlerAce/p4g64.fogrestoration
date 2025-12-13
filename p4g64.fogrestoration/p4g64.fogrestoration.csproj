@@ -58,13 +58,13 @@
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="CriFs.V2.Hook.Interfaces" Version="1.1.0" />
     <PackageReference Include="Reloaded.Memory.SigScan.ReloadedII.Interfaces" Version="1.2.0" />
     <PackageReference Include="Reloaded.Mod.Interfaces" Version="2.4.0" ExcludeAssets="runtime" />
     <PackageReference Include="Reloaded.SharedLib.Hooks" Version="1.9.0" />
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Interfaces\CriFs.V2.Hook.ReloadedII\Interfaces\CriFs.V2.Hook.Interfaces\CriFs.V2.Hook.Interfaces.csproj" />
     <ProjectReference Include="..\Interfaces\FileEmulationFramework\Emulator\Interfaces\PAK.Stream.Emulator.Interfaces\PAK.Stream.Emulator.Interfaces.csproj" />
   </ItemGroup>
 
