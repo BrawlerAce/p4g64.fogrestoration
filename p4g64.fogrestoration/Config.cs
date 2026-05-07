@@ -2354,6 +2354,13 @@ namespace p4g64.fogrestoration.Configuration
             [DefaultValue(ENVTypeA.P4)]
             public ENVTypeA MiscENV_AmagiHotSprings { get; set; } = ENVTypeA.P4;
 
+            [Category("ENV Selection - Miscellaneous - Scooter Rides")]
+            [Display(Order = 309)]
+            [DisplayName("Visuals")]
+            [Description("Select what visuals to use for these areas.")]
+            [DefaultValue(ENVTypeA.P4)]
+            public ENVTypeA MiscENV_ScooterRides { get; set; } = ENVTypeA.P4;
+
         // ENV Selection - TV World
 
         [Category("ENV Selection - TV World")]
@@ -2918,6 +2925,13 @@ namespace p4g64.fogrestoration.Configuration
             [Description("Select what visuals to use for this area.")]
             [DefaultValue(ENVTypeA.P4)]
             public ENVTypeA HollowENV_BossBattle2 { get; set; } = ENVTypeA.P4;
+        
+            [Category("ENV Selection - Dungeons - Hollow Forest")]
+            [Display(Order = 477)]
+            [DisplayName("Dungeon (Skybox Textures)")]
+            [Description("This affects all fields in the Hollow Forest dungeon. It is highly\n\nrecommended to leave this enabled if using any modded dungeon visuals.")]
+            [DefaultValue(ENVTypeA.P4)]
+            public ENVTypeA HollowENV_Skybox { get; set; } = ENVTypeA.P4;
 
 
         // Field Texture Selection

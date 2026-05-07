@@ -543,6 +543,11 @@ namespace p4g64.fogrestoration
                 _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs/Dungeons/Hollow/BossBattle2/PAK"));
                 criFsApi.AddProbingPath(Path.Combine(modDir, "ENVs/Dungeons/Hollow/BossBattle2/CriV2"));
             }
+            if (_configuration.HollowENV_Skybox == Config.ENVTypeA.P4)
+            {
+                _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs/Dungeons/Hollow/Skybox/PAK"));
+                criFsApi.AddProbingPath(Path.Combine(modDir, "ENVs/Dungeons/Hollow/Skybox/CriV2"));
+            }
 
             // ==================
             // ==================
@@ -1696,7 +1701,7 @@ namespace p4g64.fogrestoration
             if (_configuration.JunesENV_SunnyDay_001 == Config.ENVTypeA.P4)
             {
                 _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs/Inaba/SunnyDay/Junes/001/PAK"));
-                // criFsApi.AddProbingPath(Path.Combine(modDir, "ENVs/Inaba/SunnyDay/Junes/001/CriV2"));
+                criFsApi.AddProbingPath(Path.Combine(modDir, "ENVs/Inaba/SunnyDay/Junes/001/CriV2"));
             }
             if (_configuration.JunesENV_SunnyDusk_001 == Config.ENVTypeA.P4)
             {
@@ -2406,6 +2411,11 @@ namespace p4g64.fogrestoration
             if (_configuration.Texture_Misc_Train == true)
             {
                 criFsApi.AddProbingPath(Path.Combine(modDir, "ENVs/Inaba/Textures/Misc/Train/CriV2"));
+            }
+            if (_configuration.MiscENV_ScooterRides == Config.ENVTypeA.P4)
+            {
+                _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs/Inaba/All/Misc/ScooterRides/PAK"));
+                // criFsApi.AddProbingPath(Path.Combine(modDir, "ENVs/Inaba/All/Misc/ScooterRides/CriV2"));
             }
 
 
