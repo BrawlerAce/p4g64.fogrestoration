@@ -100,18 +100,11 @@ namespace p4g64.fogrestoration.Configuration
             public ENVTypeA TownMapENV_Fog { get; set; } = ENVTypeA.P4;
 
             [Category("ENV Selection - Town Map")]
-            [Display(Order = 7)]
-            [DisplayName("Winter - Snowy")]
-            [Description("Select what visuals to use for this area with this weather.")]
-            [DefaultValue(ENVTypeA.P4)]
-            public ENVTypeA TownMapENV_WinterSnow { get; set; } = ENVTypeA.P4;
-
-            [Category("ENV Selection - Town Map")]
             [Display(Order = 8)]
-            [DisplayName("Winter - Cloudy")]
+            [DisplayName("Winter")]
             [Description("Select what visuals to use for this area with this weather.")]
             [DefaultValue(ENVTypeA.P4)]
-            public ENVTypeA TownMapENV_WinterCloudy { get; set; } = ENVTypeA.P4;
+            public ENVTypeA TownMapENV_Winter { get; set; } = ENVTypeA.P4;
 
         // ENV Selection - Yasogami High
 
@@ -160,18 +153,11 @@ namespace p4g64.fogrestoration.Configuration
             public ENVTypeA YasogamiENV_Fog_001 { get; set; } = ENVTypeA.P4;
 
             [Category("ENV Selection - Yasogami High, Classroom/Practice Building")]
-            [Display(Order = 15)]
-            [DisplayName("Winter - Snowy")]
-            [Description("Select what visuals to use for this area with this weather.")]
-            [DefaultValue(ENVTypeA.P4)]
-            public ENVTypeA YasogamiENV_WinterSnow_001 { get; set; } = ENVTypeA.P4;
-
-            [Category("ENV Selection - Yasogami High, Classroom/Practice Building")]
             [Display(Order = 16)]
-            [DisplayName("Winter - Cloudy")]
+            [DisplayName("Winter")]
             [Description("Select what visuals to use for this area with this weather.")]
             [DefaultValue(ENVTypeA.P4)]
-            public ENVTypeA YasogamiENV_WinterCloudy_001 { get; set; } = ENVTypeA.P4;
+            public ENVTypeA YasogamiENV_Winter_001 { get; set; } = ENVTypeA.P4;
 
             //// Classroom 2-2
 
@@ -218,18 +204,11 @@ namespace p4g64.fogrestoration.Configuration
             public ENVTypeA YasogamiENV_Fog_006 { get; set; } = ENVTypeA.P4;
 
             [Category("ENV Selection - Yasogami High, Classroom 2-2")]
-            [Display(Order = 23)]
-            [DisplayName("Winter - Snowy")]
-            [Description("Select what visuals to use for this area with this weather.")]
-            [DefaultValue(ENVTypeA.P4)]
-            public ENVTypeA YasogamiENV_WinterSnow_006 { get; set; } = ENVTypeA.P4;
-
-            [Category("ENV Selection - Yasogami High, Classroom 2-2")]
             [Display(Order = 24)]
-            [DisplayName("Winter - Cloudy")]
+            [DisplayName("Winter")]
             [Description("Select what visuals to use for this area with this weather.")]
             [DefaultValue(ENVTypeA.P4)]
-            public ENVTypeA YasogamiENV_WinterCloudy_006 { get; set; } = ENVTypeA.P4;
+            public ENVTypeA YasogamiENV_Winter_006 { get; set; } = ENVTypeA.P4;
 
             //// Music Room
 
@@ -276,18 +255,11 @@ namespace p4g64.fogrestoration.Configuration
             public ENVTypeA YasogamiENV_Fog_007 { get; set; } = ENVTypeA.P4;
 
             [Category("ENV Selection - Yasogami High, Music Room")]
-            [Display(Order = 31)]
-            [DisplayName("Winter - Snowy")]
-            [Description("Select what visuals to use for this area with this weather.")]
-            [DefaultValue(ENVTypeA.P4)]
-            public ENVTypeA YasogamiENV_WinterSnow_007 { get; set; } = ENVTypeA.P4;
-
-            [Category("ENV Selection - Yasogami High, Music Room")]
             [Display(Order = 32)]
-            [DisplayName("Winter - Cloudy")]
+            [DisplayName("Winter")]
             [Description("Select what visuals to use for this area with this weather.")]
             [DefaultValue(ENVTypeA.P4)]
-            public ENVTypeA YasogamiENV_WinterCloudy_007 { get; set; } = ENVTypeA.P4;
+            public ENVTypeA YasogamiENV_Winter_007 { get; set; } = ENVTypeA.P4;
 
             //// Drama Room
 
@@ -334,18 +306,11 @@ namespace p4g64.fogrestoration.Configuration
             public ENVTypeA YasogamiENV_Fog_008 { get; set; } = ENVTypeA.P4;
 
             [Category("ENV Selection - Yasogami High, Drama Room")]
-            [Display(Order = 39)]
-            [DisplayName("Winter - Snowy")]
-            [Description("Select what visuals to use for this area with this weather.")]
-            [DefaultValue(ENVTypeA.P4)]
-            public ENVTypeA YasogamiENV_WinterSnow_008 { get; set; } = ENVTypeA.P4;
-
-            [Category("ENV Selection - Yasogami High, Drama Room")]
             [Display(Order = 40)]
-            [DisplayName("Winter - Cloudy")]
+            [DisplayName("Winter")]
             [Description("Select what visuals to use for this area with this weather.")]
             [DefaultValue(ENVTypeA.P4)]
-            public ENVTypeA YasogamiENV_WinterCloudy_008 { get; set; } = ENVTypeA.P4;
+            public ENVTypeA YasogamiENV_Winter_008 { get; set; } = ENVTypeA.P4;
 
             //// P.E. Field
 
@@ -392,18 +357,11 @@ namespace p4g64.fogrestoration.Configuration
             public ENVTypeA YasogamiENV_Fog_009 { get; set; } = ENVTypeA.P4;
 
             [Category("ENV Selection - Yasogami High, P.E. Field")]
-            [Display(Order = 47)]
-            [DisplayName("Winter - Snowy")]
-            [Description("Select what visuals to use for this area with this weather.")]
-            [DefaultValue(ENVTypeA.P4)]
-            public ENVTypeA YasogamiENV_WinterSnow_009 { get; set; } = ENVTypeA.P4;
-
-            [Category("ENV Selection - Yasogami High, P.E. Field")]
             [Display(Order = 48)]
-            [DisplayName("Winter - Cloudy")]
+            [DisplayName("Winter")]
             [Description("Select what visuals to use for this area with this weather.")]
             [DefaultValue(ENVTypeA.P4)]
-            public ENVTypeA YasogamiENV_WinterCloudy_009 { get; set; } = ENVTypeA.P4;
+            public ENVTypeA YasogamiENV_Winter_009 { get; set; } = ENVTypeA.P4;
 
             //// Basketball Court
 
@@ -450,18 +408,11 @@ namespace p4g64.fogrestoration.Configuration
             public ENVTypeA YasogamiENV_Fog_010 { get; set; } = ENVTypeA.P4;
 
             [Category("ENV Selection - Yasogami High, Basketball Court")]
-            [Display(Order = 55)]
-            [DisplayName("Winter - Snowy")]
-            [Description("Select what visuals to use for this area with this weather.")]
-            [DefaultValue(ENVTypeA.P4)]
-            public ENVTypeA YasogamiENV_WinterSnow_010 { get; set; } = ENVTypeA.P4;
-
-            [Category("ENV Selection - Yasogami High, Basketball Court")]
             [Display(Order = 56)]
-            [DisplayName("Winter - Cloudy")]
+            [DisplayName("Winter")]
             [Description("Select what visuals to use for this area with this weather.")]
             [DefaultValue(ENVTypeA.P4)]
-            public ENVTypeA YasogamiENV_WinterCloudy_010 { get; set; } = ENVTypeA.P4;
+            public ENVTypeA YasogamiENV_Winter_010 { get; set; } = ENVTypeA.P4;
 
             //// Faculty Office
 
@@ -508,18 +459,11 @@ namespace p4g64.fogrestoration.Configuration
             public ENVTypeA YasogamiENV_Fog_011 { get; set; } = ENVTypeA.P4;
 
             [Category("ENV Selection - Yasogami High, Faculty Office")]
-            [Display(Order = 63)]
-            [DisplayName("Winter - Snowy")]
-            [Description("Select what visuals to use for this area with this weather.")]
-            [DefaultValue(ENVTypeA.P4)]
-            public ENVTypeA YasogamiENV_WinterSnow_011 { get; set; } = ENVTypeA.P4;
-
-            [Category("ENV Selection - Yasogami High, Faculty Office")]
             [Display(Order = 64)]
-            [DisplayName("Winter - Cloudy")]
+            [DisplayName("Winter")]
             [Description("Select what visuals to use for this area with this weather.")]
             [DefaultValue(ENVTypeA.P4)]
-            public ENVTypeA YasogamiENV_WinterCloudy_011 { get; set; } = ENVTypeA.P4;
+            public ENVTypeA YasogamiENV_Winter_011 { get; set; } = ENVTypeA.P4;
 
             //// Nurse's Office
 
@@ -566,18 +510,11 @@ namespace p4g64.fogrestoration.Configuration
             public ENVTypeA YasogamiENV_Fog_012 { get; set; } = ENVTypeA.P4;
 
             [Category("ENV Selection - Yasogami High, Nurse's Office")]
-            [Display(Order = 71)]
-            [DisplayName("Winter - Snowy")]
-            [Description("Select what visuals to use for this area with this weather.")]
-            [DefaultValue(ENVTypeA.P4)]
-            public ENVTypeA YasogamiENV_WinterSnow_012 { get; set; } = ENVTypeA.P4;
-
-            [Category("ENV Selection - Yasogami High, Nurse's Office")]
             [Display(Order = 72)]
-            [DisplayName("Winter - Cloudy")]
+            [DisplayName("Winter")]
             [Description("Select what visuals to use for this area with this weather.")]
             [DefaultValue(ENVTypeA.P4)]
-            public ENVTypeA YasogamiENV_WinterCloudy_012 { get; set; } = ENVTypeA.P4;
+            public ENVTypeA YasogamiENV_Winter_012 { get; set; } = ENVTypeA.P4;
 
             //// Library
 
@@ -624,18 +561,11 @@ namespace p4g64.fogrestoration.Configuration
             public ENVTypeA YasogamiENV_Fog_013 { get; set; } = ENVTypeA.P4;
 
             [Category("ENV Selection - Yasogami High, Library")]
-            [Display(Order = 79)]
-            [DisplayName("Winter - Snowy")]
-            [Description("Select what visuals to use for this area with this weather.")]
-            [DefaultValue(ENVTypeA.P4)]
-            public ENVTypeA YasogamiENV_WinterSnow_013 { get; set; } = ENVTypeA.P4;
-
-            [Category("ENV Selection - Yasogami High, Library")]
             [Display(Order = 80)]
-            [DisplayName("Winter - Cloudy")]
+            [DisplayName("Winter")]
             [Description("Select what visuals to use for this area with this weather.")]
             [DefaultValue(ENVTypeA.P4)]
-            public ENVTypeA YasogamiENV_WinterCloudy_013 { get; set; } = ENVTypeA.P4;
+            public ENVTypeA YasogamiENV_Winter_013 { get; set; } = ENVTypeA.P4;
 
             //// Rooftop
 
@@ -682,18 +612,11 @@ namespace p4g64.fogrestoration.Configuration
             public ENVTypeA YasogamiENV_Fog_014 { get; set; } = ENVTypeA.P4;
 
             [Category("ENV Selection - Yasogami High, Rooftop")]
-            [Display(Order = 87)]
-            [DisplayName("Winter - Snowy")]
-            [Description("Select what visuals to use for this area with this weather.")]
-            [DefaultValue(ENVTypeA.P4)]
-            public ENVTypeA YasogamiENV_WinterSnow_014 { get; set; } = ENVTypeA.P4;
-
-            [Category("ENV Selection - Yasogami High, Rooftop")]
             [Display(Order = 88)]
-            [DisplayName("Winter - Cloudy")]
+            [DisplayName("Winter")]
             [Description("Select what visuals to use for this area with this weather.")]
             [DefaultValue(ENVTypeA.P4)]
-            public ENVTypeA YasogamiENV_WinterCloudy_014 { get; set; } = ENVTypeA.P4;
+            public ENVTypeA YasogamiENV_Winter_014 { get; set; } = ENVTypeA.P4;
 
             //// School Entrance
 
@@ -740,18 +663,11 @@ namespace p4g64.fogrestoration.Configuration
             public ENVTypeA YasogamiENV_Fog_015 { get; set; } = ENVTypeA.P4;
 
             [Category("ENV Selection - Yasogami High, School Entrance")]
-            [Display(Order = 95)]
-            [DisplayName("Winter - Snowy")]
-            [Description("Select what visuals to use for this area with this weather.")]
-            [DefaultValue(ENVTypeA.P4)]
-            public ENVTypeA YasogamiENV_WinterSnow_015 { get; set; } = ENVTypeA.P4;
-
-            [Category("ENV Selection - Yasogami High, School Entrance")]
             [Display(Order = 96)]
-            [DisplayName("Winter - Cloudy")]
+            [DisplayName("Winter")]
             [Description("Select what visuals to use for this area with this weather.")]
             [DefaultValue(ENVTypeA.P4)]
-            public ENVTypeA YasogamiENV_WinterCloudy_015 { get; set; } = ENVTypeA.P4;
+            public ENVTypeA YasogamiENV_Winter_015 { get; set; } = ENVTypeA.P4;
 
             //// Group Date Cafe
             
@@ -818,18 +734,11 @@ namespace p4g64.fogrestoration.Configuration
             public ENVTypeA DojimaENV_Fog_001 { get; set; } = ENVTypeA.P4;
 
             [Category("ENV Selection - Dojima Residence, Outside")]
-            [Display(Order = 105)]
-            [DisplayName("Winter - Snowy")]
-            [Description("Select what visuals to use for this area with this weather.")]
-            [DefaultValue(ENVTypeA.P4)]
-            public ENVTypeA DojimaENV_WinterSnow_001 { get; set; } = ENVTypeA.P4;
-
-            [Category("ENV Selection - Dojima Residence, Outside")]
             [Display(Order = 106)]
-            [DisplayName("Winter - Cloudy")]
+            [DisplayName("Winter")]
             [Description("Select what visuals to use for this area with this weather.")]
             [DefaultValue(ENVTypeA.P4)]
-            public ENVTypeA DojimaENV_WinterCloudy_001 { get; set; } = ENVTypeA.P4;
+            public ENVTypeA DojimaENV_Winter_001 { get; set; } = ENVTypeA.P4;
 
             [Category("ENV Selection - Dojima Residence, Outside")]
             [Display(Order = 107)]
@@ -867,18 +776,11 @@ namespace p4g64.fogrestoration.Configuration
             public ENVTypeA DojimaENV_NightFog_001 { get; set; } = ENVTypeA.P4;
 
             [Category("ENV Selection - Dojima Residence, Outside")]
-            [Display(Order = 112)]
-            [DisplayName("Night (Winter - Snowy)")]
-            [Description("Select what visuals to use for this area with this weather.")]
-            [DefaultValue(ENVTypeA.P4)]
-            public ENVTypeA DojimaENV_NightWinterSnow_001 { get; set; } = ENVTypeA.P4;
-
-            [Category("ENV Selection - Dojima Residence, Outside")]
             [Display(Order = 113)]
-            [DisplayName("Night (Winter - Cloudy)")]
+            [DisplayName("Night (Winter)")]
             [Description("Select what visuals to use for this area with this weather.")]
             [DefaultValue(ENVTypeA.P4)]
-            public ENVTypeA DojimaENV_NightWinterCloudy_001 { get; set; } = ENVTypeA.P4;
+            public ENVTypeA DojimaENV_NightWinter_001 { get; set; } = ENVTypeA.P4;
 
             //// Living Room
 
@@ -925,18 +827,11 @@ namespace p4g64.fogrestoration.Configuration
             public ENVTypeA DojimaENV_Fog_002 { get; set; } = ENVTypeA.P4;
 
             [Category("ENV Selection - Dojima Residence, Living Room")]
-            [Display(Order = 120)]
-            [DisplayName("Winter - Snowy")]
-            [Description("Select what visuals to use for this area with this weather.")]
-            [DefaultValue(ENVTypeA.P4)]
-            public ENVTypeA DojimaENV_WinterSnow_002 { get; set; } = ENVTypeA.P4;
-
-            [Category("ENV Selection - Dojima Residence, Living Room")]
             [Display(Order = 121)]
-            [DisplayName("Winter - Cloudy")]
+            [DisplayName("Winter")]
             [Description("Select what visuals to use for this area with this weather.")]
             [DefaultValue(ENVTypeA.P4)]
-            public ENVTypeA DojimaENV_WinterCloudy_002 { get; set; } = ENVTypeA.P4;
+            public ENVTypeA DojimaENV_Winter_002 { get; set; } = ENVTypeA.P4;
 
             [Category("ENV Selection - Dojima Residence, Living Room")]
             [Display(Order = 122)]
@@ -974,18 +869,11 @@ namespace p4g64.fogrestoration.Configuration
             public ENVTypeA DojimaENV_NightFog_002 { get; set; } = ENVTypeA.P4;
 
             [Category("ENV Selection - Dojima Residence, Living Room")]
-            [Display(Order = 127)]
-            [DisplayName("Night (Winter - Snowy)")]
-            [Description("Select what visuals to use for this area with this weather.")]
-            [DefaultValue(ENVTypeA.P4)]
-            public ENVTypeA DojimaENV_NightWinterSnow_002 { get; set; } = ENVTypeA.P4;
-
-            [Category("ENV Selection - Dojima Residence, Living Room")]
             [Display(Order = 128)]
-            [DisplayName("Night (Winter - Cloudy)")]
+            [DisplayName("Night (Winter)")]
             [Description("Select what visuals to use for this area with this weather.")]
             [DefaultValue(ENVTypeA.P4)]
-            public ENVTypeA DojimaENV_NightWinterCloudy_002 { get; set; } = ENVTypeA.P4;
+            public ENVTypeA DojimaENV_NightWinter_002 { get; set; } = ENVTypeA.P4;
 
             //// Your Room
 
@@ -1032,18 +920,11 @@ namespace p4g64.fogrestoration.Configuration
             public ENVTypeA DojimaENV_Fog_003 { get; set; } = ENVTypeA.P4;
 
             [Category("ENV Selection - Dojima Residence, Your Room")]
-            [Display(Order = 135)]
-            [DisplayName("Winter - Snowy")]
-            [Description("Select what visuals to use for this area with this weather.")]
-            [DefaultValue(ENVTypeA.P4)]
-            public ENVTypeA DojimaENV_WinterSnow_003 { get; set; } = ENVTypeA.P4;
-
-            [Category("ENV Selection - Dojima Residence, Your Room")]
             [Display(Order = 136)]
-            [DisplayName("Winter - Cloudy")]
+            [DisplayName("Winter")]
             [Description("Select what visuals to use for this area with this weather.")]
             [DefaultValue(ENVTypeA.P4)]
-            public ENVTypeA DojimaENV_WinterCloudy_003 { get; set; } = ENVTypeA.P4;
+            public ENVTypeA DojimaENV_Winter_003 { get; set; } = ENVTypeA.P4;
 
             [Category("ENV Selection - Dojima Residence, Your Room")]
             [Display(Order = 137)]
@@ -1081,18 +962,11 @@ namespace p4g64.fogrestoration.Configuration
             public ENVTypeA DojimaENV_NightFog_003 { get; set; } = ENVTypeA.P4;
 
             [Category("ENV Selection - Dojima Residence, Your Room")]
-            [Display(Order = 142)]
-            [DisplayName("Night (Winter - Snowy)")]
-            [Description("Select what visuals to use for this area with this weather.")]
-            [DefaultValue(ENVTypeA.P4)]
-            public ENVTypeA DojimaENV_NightWinterSnow_003 { get; set; } = ENVTypeA.P4;
-
-            [Category("ENV Selection - Dojima Residence, Your Room")]
             [Display(Order = 143)]
-            [DisplayName("Night (Winter - Cloudy)")]
+            [DisplayName("Night (Winter)")]
             [Description("Select what visuals to use for this area with this weather.")]
             [DefaultValue(ENVTypeA.P4)]
-            public ENVTypeA DojimaENV_NightWinterCloudy_003 { get; set; } = ENVTypeA.P4;
+            public ENVTypeA DojimaENV_NightWinter_003 { get; set; } = ENVTypeA.P4;
 
         // ENV Selection - Shopping District
 
@@ -1141,18 +1015,11 @@ namespace p4g64.fogrestoration.Configuration
             public ENVTypeA ShoppingDistrictENV_Fog_001 { get; set; } = ENVTypeA.P4;
 
             [Category("ENV Selection - Shopping District, North")]
-            [Display(Order = 150)]
-            [DisplayName("Winter - Snowy")]
-            [Description("Select what visuals to use for this area with this weather.")]
-            [DefaultValue(ENVTypeA.P4)]
-            public ENVTypeA ShoppingDistrictENV_WinterSnow_001 { get; set; } = ENVTypeA.P4;
-
-            [Category("ENV Selection - Shopping District, North")]
             [Display(Order = 151)]
-            [DisplayName("Winter - Cloudy")]
+            [DisplayName("Winter")]
             [Description("Select what visuals to use for this area with this weather.")]
             [DefaultValue(ENVTypeA.P4)]
-            public ENVTypeA ShoppingDistrictENV_WinterCloudy_001 { get; set; } = ENVTypeA.P4;
+            public ENVTypeA ShoppingDistrictENV_Winter_001 { get; set; } = ENVTypeA.P4;
 
             [Category("ENV Selection - Shopping District, North")]
             [Display(Order = 152)]
@@ -1190,18 +1057,11 @@ namespace p4g64.fogrestoration.Configuration
             public ENVTypeA ShoppingDistrictENV_NightFog_001 { get; set; } = ENVTypeA.P4;
 
             [Category("ENV Selection - Shopping District, North")]
-            [Display(Order = 157)]
-            [DisplayName("Night (Winter - Snowy)")]
-            [Description("Select what visuals to use for this area with this weather.")]
-            [DefaultValue(ENVTypeA.P4)]
-            public ENVTypeA ShoppingDistrictENV_NightWinterSnow_001 { get; set; } = ENVTypeA.P4;
-
-            [Category("ENV Selection - Shopping District, North")]
             [Display(Order = 158)]
-            [DisplayName("Night (Winter - Cloudy)")]
+            [DisplayName("Night (Winter)")]
             [Description("Select what visuals to use for this area with this weather.")]
             [DefaultValue(ENVTypeA.P4)]
-            public ENVTypeA ShoppingDistrictENV_NightWinterCloudy_001 { get; set; } = ENVTypeA.P4;
+            public ENVTypeA ShoppingDistrictENV_NightWinter_001 { get; set; } = ENVTypeA.P4;
 
             //// South
 
@@ -1248,18 +1108,11 @@ namespace p4g64.fogrestoration.Configuration
             public ENVTypeA ShoppingDistrictENV_Fog_002 { get; set; } = ENVTypeA.P4;
 
             [Category("ENV Selection - Shopping District, South")]
-            [Display(Order = 165)]
-            [DisplayName("Winter - Snowy")]
-            [Description("Select what visuals to use for this area with this weather.")]
-            [DefaultValue(ENVTypeA.P4)]
-            public ENVTypeA ShoppingDistrictENV_WinterSnow_002 { get; set; } = ENVTypeA.P4;
-
-            [Category("ENV Selection - Shopping District, South")]
             [Display(Order = 166)]
-            [DisplayName("Winter - Cloudy")]
+            [DisplayName("Winter")]
             [Description("Select what visuals to use for this area with this weather.")]
             [DefaultValue(ENVTypeA.P4)]
-            public ENVTypeA ShoppingDistrictENV_WinterCloudy_002 { get; set; } = ENVTypeA.P4;
+            public ENVTypeA ShoppingDistrictENV_Winter_002 { get; set; } = ENVTypeA.P4;
 
             [Category("ENV Selection - Shopping District, South")]
             [Display(Order = 167)]
@@ -1297,18 +1150,11 @@ namespace p4g64.fogrestoration.Configuration
             public ENVTypeA ShoppingDistrictENV_NightFog_002 { get; set; } = ENVTypeA.P4;
 
             [Category("ENV Selection - Shopping District, South")]
-            [Display(Order = 172)]
-            [DisplayName("Night (Winter - Snowy)")]
-            [Description("Select what visuals to use for this area with this weather.")]
-            [DefaultValue(ENVTypeA.P4)]
-            public ENVTypeA ShoppingDistrictENV_NightWinterSnow_002 { get; set; } = ENVTypeA.P4;
-
-            [Category("ENV Selection - Shopping District, South")]
             [Display(Order = 173)]
-            [DisplayName("Night (Winter - Cloudy)")]
+            [DisplayName("Night (Winter)")]
             [Description("Select what visuals to use for this area with this weather.")]
             [DefaultValue(ENVTypeA.P4)]
-            public ENVTypeA ShoppingDistrictENV_NightWinterCloudy_002 { get; set; } = ENVTypeA.P4;
+            public ENVTypeA ShoppingDistrictENV_NightWinter_002 { get; set; } = ENVTypeA.P4;
 
             //// Daidara Metalworks
 
@@ -1409,18 +1255,11 @@ namespace p4g64.fogrestoration.Configuration
             public ENVTypeA ShoppingDistrictENV_Fog_009 { get; set; } = ENVTypeA.P4;
 
             [Category("ENV Selection - Shopping District, Shrine")]
-            [Display(Order = 186)]
-            [DisplayName("Winter - Snowy")]
-            [Description("Select what visuals to use for this area with this weather.")]
-            [DefaultValue(ENVTypeA.P4)]
-            public ENVTypeA ShoppingDistrictENV_WinterSnow_009 { get; set; } = ENVTypeA.P4;
-
-            [Category("ENV Selection - Shopping District, Shrine")]
             [Display(Order = 187)]
-            [DisplayName("Winter - Cloudy")]
+            [DisplayName("Winter")]
             [Description("Select what visuals to use for this area with this weather.")]
             [DefaultValue(ENVTypeA.P4)]
-            public ENVTypeA ShoppingDistrictENV_WinterCloudy_009 { get; set; } = ENVTypeA.P4;
+            public ENVTypeA ShoppingDistrictENV_Winter_009 { get; set; } = ENVTypeA.P4;
 
             [Category("ENV Selection - Shopping District, Shrine")]
             [Display(Order = 188)]
@@ -1458,18 +1297,11 @@ namespace p4g64.fogrestoration.Configuration
             public ENVTypeA ShoppingDistrictENV_NightFog_009 { get; set; } = ENVTypeA.P4;
 
             [Category("ENV Selection - Shopping District, Shrine")]
-            [Display(Order = 193)]
-            [DisplayName("Night (Winter - Snowy)")]
-            [Description("Select what visuals to use for this area with this weather.")]
-            [DefaultValue(ENVTypeA.P4)]
-            public ENVTypeA ShoppingDistrictENV_NightWinterSnow_009 { get; set; } = ENVTypeA.P4;
-
-            [Category("ENV Selection - Shopping District, Shrine")]
             [Display(Order = 194)]
-            [DisplayName("Night (Winter - Cloudy)")]
+            [DisplayName("Night (Winter)")]
             [Description("Select what visuals to use for this area with this weather.")]
             [DefaultValue(ENVTypeA.P4)]
-            public ENVTypeA ShoppingDistrictENV_NightWinterCloudy_009 { get; set; } = ENVTypeA.P4;
+            public ENVTypeA ShoppingDistrictENV_NightWinter_009 { get; set; } = ENVTypeA.P4;
 
         // ENV Selection - Junes Department Store
 
@@ -1518,18 +1350,11 @@ namespace p4g64.fogrestoration.Configuration
             public ENVTypeA JunesENV_Fog_001 { get; set; } = ENVTypeA.P4;
 
             [Category("ENV Selection - Junes Department Store, Food Court")]
-            [Display(Order = 201)]
-            [DisplayName("Winter - Snowy")]
-            [Description("Select what visuals to use for this area with this weather.")]
-            [DefaultValue(ENVTypeA.P4)]
-            public ENVTypeA JunesENV_WinterSnow_001 { get; set; } = ENVTypeA.P4;
-
-            [Category("ENV Selection - Junes Department Store, Food Court")]
             [Display(Order = 202)]
-            [DisplayName("Winter - Cloudy")]
+            [DisplayName("Winter")]
             [Description("Select what visuals to use for this area with this weather.")]
             [DefaultValue(ENVTypeA.P4)]
-            public ENVTypeA JunesENV_WinterCloudy_001 { get; set; } = ENVTypeA.P4;
+            public ENVTypeA JunesENV_Winter_001 { get; set; } = ENVTypeA.P4;
 
             //// Electronics Department
 
@@ -1594,18 +1419,11 @@ namespace p4g64.fogrestoration.Configuration
             public ENVTypeA JunesENV_Fog_004 { get; set; } = ENVTypeA.P4;
 
             [Category("ENV Selection - Junes Department Store, West Entrance")]
-            [Display(Order = 211)]
-            [DisplayName("Winter - Snowy")]
-            [Description("Select what visuals to use for this area with this weather.")]
-            [DefaultValue(ENVTypeA.P4)]
-            public ENVTypeA JunesENV_WinterSnow_004 { get; set; } = ENVTypeA.P4;
-
-            [Category("ENV Selection - Junes Department Store, West Entrance")]
             [Display(Order = 212)]
-            [DisplayName("Winter - Cloudy")]
+            [DisplayName("Winter")]
             [Description("Select what visuals to use for this area with this weather.")]
             [DefaultValue(ENVTypeA.P4)]
-            public ENVTypeA JunesENV_WinterCloudy_004 { get; set; } = ENVTypeA.P4;
+            public ENVTypeA JunesENV_Winter_004 { get; set; } = ENVTypeA.P4;
 
         // ENV Selection - Samegawa Floodplain
 
@@ -1654,18 +1472,11 @@ namespace p4g64.fogrestoration.Configuration
             public ENVTypeA SamegawaENV_Fog_001 { get; set; } = ENVTypeA.P4;
 
             [Category("ENV Selection - Samegawa Floodplain, Floodplain")]
-            [Display(Order = 219)]
-            [DisplayName("Winter - Snowy")]
-            [Description("Select what visuals to use for this area with this weather.")]
-            [DefaultValue(ENVTypeA.P4)]
-            public ENVTypeA SamegawaENV_WinterSnow_001 { get; set; } = ENVTypeA.P4;
-
-            [Category("ENV Selection - Samegawa Floodplain, Floodplain")]
             [Display(Order = 220)]
-            [DisplayName("Winter - Cloudy")]
+            [DisplayName("Winter")]
             [Description("Select what visuals to use for this area with this weather.")]
             [DefaultValue(ENVTypeA.P4)]
-            public ENVTypeA SamegawaENV_WinterCloudy_001 { get; set; } = ENVTypeA.P4;
+            public ENVTypeA SamegawaENV_Winter_001 { get; set; } = ENVTypeA.P4;
 
             [Category("ENV Selection - Samegawa Floodplain, Floodplain")]
             [Display(Order = 221)]
@@ -1703,18 +1514,11 @@ namespace p4g64.fogrestoration.Configuration
             public ENVTypeA SamegawaENV_NightFog_001 { get; set; } = ENVTypeA.P4;
 
             [Category("ENV Selection - Samegawa Floodplain, Floodplain")]
-            [Display(Order = 226)]
-            [DisplayName("Night (Winter - Snowy)")]
-            [Description("Select what visuals to use for this area with this weather.")]
-            [DefaultValue(ENVTypeA.P4)]
-            public ENVTypeA SamegawaENV_NightWinterSnow_001 { get; set; } = ENVTypeA.P4;
-
-            [Category("ENV Selection - Samegawa Floodplain, Floodplain")]
             [Display(Order = 227)]
-            [DisplayName("Night (Winter - Cloudy)")]
+            [DisplayName("Night (Winter)")]
             [Description("Select what visuals to use for this area with this weather.")]
             [DefaultValue(ENVTypeA.P4)]
-            public ENVTypeA SamegawaENV_NightWinterCloudy_001 { get; set; } = ENVTypeA.P4;
+            public ENVTypeA SamegawaENV_NightWinter_001 { get; set; } = ENVTypeA.P4;
 
             //// Riverbank
 
@@ -1761,18 +1565,11 @@ namespace p4g64.fogrestoration.Configuration
             public ENVTypeA SamegawaENV_Fog_002 { get; set; } = ENVTypeA.P4;
 
             [Category("ENV Selection - Samegawa Floodplain, Riverbank")]
-            [Display(Order = 234)]
-            [DisplayName("Winter - Snowy")]
-            [Description("Select what visuals to use for this area with this weather.")]
-            [DefaultValue(ENVTypeA.P4)]
-            public ENVTypeA SamegawaENV_WinterSnow_002 { get; set; } = ENVTypeA.P4;
-
-            [Category("ENV Selection - Samegawa Floodplain, Riverbank")]
             [Display(Order = 235)]
-            [DisplayName("Winter - Cloudy")]
+            [DisplayName("Winter")]
             [Description("Select what visuals to use for this area with this weather.")]
             [DefaultValue(ENVTypeA.P4)]
-            public ENVTypeA SamegawaENV_WinterCloudy_002 { get; set; } = ENVTypeA.P4;
+            public ENVTypeA SamegawaENV_Winter_002 { get; set; } = ENVTypeA.P4;
 
             [Category("ENV Selection - Samegawa Floodplain, Riverbank")]
             [Display(Order = 236)]
@@ -1810,18 +1607,11 @@ namespace p4g64.fogrestoration.Configuration
             public ENVTypeA SamegawaENV_NightFog_002 { get; set; } = ENVTypeA.P4;
 
             [Category("ENV Selection - Samegawa Floodplain, Riverbank")]
-            [Display(Order = 241)]
-            [DisplayName("Night (Winter - Snowy)")]
-            [Description("Select what visuals to use for this area with this weather.")]
-            [DefaultValue(ENVTypeA.P4)]
-            public ENVTypeA SamegawaENV_NightWinterSnow_002 { get; set; } = ENVTypeA.P4;
-
-            [Category("ENV Selection - Samegawa Floodplain, Riverbank")]
             [Display(Order = 242)]
-            [DisplayName("Night (Winter - Cloudy)")]
+            [DisplayName("Night (Winter)")]
             [Description("Select what visuals to use for this area with this weather.")]
             [DefaultValue(ENVTypeA.P4)]
-            public ENVTypeA SamegawaENV_NightWinterCloudy_002 { get; set; } = ENVTypeA.P4;
+            public ENVTypeA SamegawaENV_NightWinter_002 { get; set; } = ENVTypeA.P4;
 
         // ENV Selection - Okina City
 
@@ -1918,18 +1708,11 @@ namespace p4g64.fogrestoration.Configuration
             public ENVTypeA HospitalENV_Fog_002 { get; set; } = ENVTypeA.P4;
 
             [Category("ENV Selection - Inaba Municipal Hospital, Hallway")]
-            [Display(Order = 254)]
-            [DisplayName("Winter")]
-            [Description("Select what visuals to use for this area with this weather.")]
-            [DefaultValue(ENVTypeA.P4)]
-            public ENVTypeA HospitalENV_WinterSnow_002 { get; set; } = ENVTypeA.P4;
-
-            [Category("ENV Selection - Inaba Municipal Hospital, Hallway")]
             [Display(Order = 255)]
             [DisplayName("Winter")]
             [Description("Select what visuals to use for this area with this weather.")]
             [DefaultValue(ENVTypeA.P4)]
-            public ENVTypeA HospitalENV_WinterCloudy_002 { get; set; } = ENVTypeA.P4;
+            public ENVTypeA HospitalENV_Winter_002 { get; set; } = ENVTypeA.P4;
 
             [Category("ENV Selection - Inaba Municipal Hospital, Hallway")]
             [Display(Order = 256)]
@@ -1967,18 +1750,11 @@ namespace p4g64.fogrestoration.Configuration
             public ENVTypeA HospitalENV_NightFog_002 { get; set; } = ENVTypeA.P4;
 
             [Category("ENV Selection - Inaba Municipal Hospital, Hallway")]
-            [Display(Order = 261)]
-            [DisplayName("Night (Winter - Snowy)")]
-            [Description("Select what visuals to use for this area with this weather.")]
-            [DefaultValue(ENVTypeA.P4)]
-            public ENVTypeA HospitalENV_NightWinterSnow_002 { get; set; } = ENVTypeA.P4;
-
-            [Category("ENV Selection - Inaba Municipal Hospital, Hallway")]
             [Display(Order = 262)]
-            [DisplayName("Night (Winter - Cloudy)")]
+            [DisplayName("Night (Winter)")]
             [Description("Select what visuals to use for this area with this weather.")]
             [DefaultValue(ENVTypeA.P4)]
-            public ENVTypeA HospitalENV_NightWinterCloudy_002 { get; set; } = ENVTypeA.P4;
+            public ENVTypeA HospitalENV_NightWinter_002 { get; set; } = ENVTypeA.P4;
 
             //// Patient Room
 
@@ -2063,18 +1839,11 @@ namespace p4g64.fogrestoration.Configuration
             public ENVTypeA MiscENV_Fog_Hill { get; set; } = ENVTypeA.P4;
 
             [Category("ENV Selection - Miscellaneous - Hill Overlooking Inaba")]
-            [Display(Order = 273)]
-            [DisplayName("Winter (Snowy)")]
-            [Description("Select what visuals to use for this area with this weather.")]
-            [DefaultValue(ENVTypeA.P4)]
-            public ENVTypeA MiscENV_WinterSnow_Hill { get; set; } = ENVTypeA.P4;
-
-            [Category("ENV Selection - Miscellaneous - Hill Overlooking Inaba")]
             [Display(Order = 274)]
             [DisplayName("Winter (Cloudy)")]
             [Description("Select what visuals to use for this area with this weather.")]
             [DefaultValue(ENVTypeA.P4)]
-            public ENVTypeA MiscENV_WinterCloudy_Hill { get; set; } = ENVTypeA.P4;
+            public ENVTypeA MiscENV_Winter_Hill { get; set; } = ENVTypeA.P4;
 
             //// Police Station (Interrogation Room)
 
@@ -2211,18 +1980,11 @@ namespace p4g64.fogrestoration.Configuration
             public ENVTypeA MiscENV_Fog_SchoolZone { get; set; } = ENVTypeA.P4;
 
             [Category("ENV Selection - Miscellaneous - School Zone")]
-            [Display(Order = 291)]
-            [DisplayName("Winter - Snowy")]
-            [Description("Select what visuals to use for this area with this weather.")]
-            [DefaultValue(ENVTypeA.P4)]
-            public ENVTypeA MiscENV_WinterSnow_SchoolZone { get; set; } = ENVTypeA.P4;
-
-            [Category("ENV Selection - Miscellaneous - School Zone")]
             [Display(Order = 292)]
-            [DisplayName("Winter - Cloudy")]
+            [DisplayName("Winter")]
             [Description("Select what visuals to use for this area with this weather.")]
             [DefaultValue(ENVTypeA.P4)]
-            public ENVTypeA MiscENV_WinterCloudy_SchoolZone { get; set; } = ENVTypeA.P4;
+            public ENVTypeA MiscENV_Winter_SchoolZone { get; set; } = ENVTypeA.P4;
 
             [Category("ENV Selection - Miscellaneous - School Zone")]
             [Display(Order = 293)]
@@ -2260,18 +2022,11 @@ namespace p4g64.fogrestoration.Configuration
             public ENVTypeA MiscENV_NightFog_SchoolZone { get; set; } = ENVTypeA.P4;
 
             [Category("ENV Selection - Miscellaneous - School Zone")]
-            [Display(Order = 298)]
-            [DisplayName("Night (Winter - Snowy)")]
-            [Description("Select what visuals to use for this area with this weather.")]
-            [DefaultValue(ENVTypeA.P4)]
-            public ENVTypeA MiscENV_NightWinterSnow_SchoolZone { get; set; } = ENVTypeA.P4;
-
-            [Category("ENV Selection - Miscellaneous - School Zone")]
             [Display(Order = 299)]
-            [DisplayName("Night (Winter - Cloudy)")]
+            [DisplayName("Night (Winter)")]
             [Description("Select what visuals to use for this area with this weather.")]
             [DefaultValue(ENVTypeA.P4)]
-            public ENVTypeA MiscENV_NightWinterCloudy_SchoolZone { get; set; } = ENVTypeA.P4;
+            public ENVTypeA MiscENV_NightWinter_SchoolZone { get; set; } = ENVTypeA.P4;
 
             //// Train Station
 
@@ -2296,12 +2051,12 @@ namespace p4g64.fogrestoration.Configuration
             [DefaultValue(ENVTypeA.P4)]
             public ENVTypeA MiscENV_Cloudy_Train { get; set; } = ENVTypeA.P4;
 
-            //[Category("ENV Selection - Miscellaneous - Train Station")]
-            //[Display(Order = 303)]
-            //[DisplayName("Rainy")]
-            //[Description("Select what visuals to use for this area with this weather.")]
-            //[DefaultValue(ENVTypeA.P4)]
-            //public ENVTypeA MiscENV_Rain_Train { get; set; } = ENVTypeA.P4;
+            [Category("ENV Selection - Miscellaneous - Train Station")]
+            [Display(Order = 303)]
+            [DisplayName("Rainy")]
+            [Description("Select what visuals to use for this area with this weather.")]
+            [DefaultValue(ENVTypeA.P4)]
+            public ENVTypeA MiscENV_Rain_Train { get; set; } = ENVTypeA.P4;
 
             [Category("ENV Selection - Miscellaneous - Train Station")]
             [Display(Order = 304)]
@@ -2318,48 +2073,157 @@ namespace p4g64.fogrestoration.Configuration
             public ENVTypeA MiscENV_Fog_Train { get; set; } = ENVTypeA.P4;
 
             [Category("ENV Selection - Miscellaneous - Train Station")]
-            [Display(Order = 306)]
-            [DisplayName("Winter Snowy")]
-            [Description("Select what visuals to use for this area with this weather.")]
-            [DefaultValue(ENVTypeA.P4)]
-            public ENVTypeA MiscENV_WinterSnow_Train { get; set; } = ENVTypeA.P4;
-
-            [Category("ENV Selection - Miscellaneous - Train Station")]
             [Display(Order = 307)]
-            [DisplayName("Winter Cloudy")]
+            [DisplayName("Winter")]
             [Description("Select what visuals to use for this area with this weather.")]
             [DefaultValue(ENVTypeA.P4)]
-            public ENVTypeA MiscENV_WinterCloudy_Train { get; set; } = ENVTypeA.P4;
+            public ENVTypeA MiscENV_Winter_Train { get; set; } = ENVTypeA.P4;
+
+            //// Beach (P4G)
+
+            [Category("ENV Selection - Miscellaneous - Shichiri Beach (P4G)")]
+            [Display(Order = 308)]
+            [DisplayName("Sunny (Day)")]
+            [Description("Select what visuals to use for this area with this weather.")]
+            [DefaultValue(ENVTypeA.P4)]
+            public ENVTypeA MiscENV_SunnyDay_Beach { get; set; } = ENVTypeA.P4;
+
+            [Category("ENV Selection - Miscellaneous - Shichiri Beach (P4G)")]
+            [Display(Order = 309)]
+            [DisplayName("Sunny (Dusk)")]
+            [Description("Select what visuals to use for this area with this weather.")]
+            [DefaultValue(ENVTypeA.P4)]
+            public ENVTypeA MiscENV_SunnyDusk_Beach { get; set; } = ENVTypeA.P4;
+        
+            [Category("ENV Selection - Miscellaneous - Shichiri Beach (P4G)")]
+            [Display(Order = 310)]
+            [DisplayName("Cloudy")]
+            [Description("Select what visuals to use for this area with this weather.")]
+            [DefaultValue(ENVTypeA.P4)]
+            public ENVTypeA MiscENV_Cloudy_Beach { get; set; } = ENVTypeA.P4;
+        
+            [Category("ENV Selection - Miscellaneous - Shichiri Beach (P4G)")]
+            [Display(Order = 311)]
+            [DisplayName("Rainy")]
+            [Description("Select what visuals to use for this area with this weather.")]
+            [DefaultValue(ENVTypeA.P4)]
+            public ENVTypeA MiscENV_Rain_Beach { get; set; } = ENVTypeA.P4;
+        
+            [Category("ENV Selection - Miscellaneous - Shichiri Beach (P4G)")]
+            [Display(Order = 312)]
+            [DisplayName("Stormy")]
+            [Description("Select what visuals to use for this area with this weather.")]
+            [DefaultValue(ENVTypeA.P4)]
+            public ENVTypeA MiscENV_Storm_Beach { get; set; } = ENVTypeA.P4;
+        
+            [Category("ENV Selection - Miscellaneous - Shichiri Beach (P4G)")]
+            [Display(Order = 313)]
+            [DisplayName("Foggy")]
+            [Description("Select what visuals to use for this area with this weather.")]
+            [DefaultValue(ENVTypeA.P4)]
+            public ENVTypeA MiscENV_Fog_Beach { get; set; } = ENVTypeA.P4;
+        
+            [Category("ENV Selection - Miscellaneous - Shichiri Beach (P4G)")]
+            [Display(Order = 315)]
+            [DisplayName("Winter")]
+            [Description("Select what visuals to use for this area with this weather.")]
+            [DefaultValue(ENVTypeA.P4)]
+            public ENVTypeA MiscENV_Winter_Beach { get; set; } = ENVTypeA.P4;
 
             // Amagi Inn
 
             [Category("ENV Selection - Miscellaneous - Amagi Inn, Room")]
-            [Display(Order = 308)]
+            [Display(Order = 316)]
             [DisplayName("Visuals")]
             [Description("Select what visuals to use for this area.")]
             [DefaultValue(ENVTypeA.P4)]
             public ENVTypeA MiscENV_AmagiRoom { get; set; } = ENVTypeA.P4;
 
             [Category("ENV Selection - Miscellaneous - Amagi Inn, Entrance")]
-            [Display(Order = 308)]
+            [Display(Order = 317)]
             [DisplayName("Visuals")]
             [Description("Select what visuals to use for this area.")]
             [DefaultValue(ENVTypeA.P4)]
             public ENVTypeA MiscENV_AmagiEntrance { get; set; } = ENVTypeA.P4;
 
-            [Category("ENV Selection - Miscellaneous - Amagi Inn, Hot Springs")]
-            [Display(Order = 308)]
-            [DisplayName("Visuals")]
-            [Description("Select what visuals to use for this area.")]
-            [DefaultValue(ENVTypeA.P4)]
-            public ENVTypeA MiscENV_AmagiHotSprings { get; set; } = ENVTypeA.P4;
-
             [Category("ENV Selection - Miscellaneous - Scooter Rides")]
-            [Display(Order = 309)]
+            [Display(Order = 318)]
             [DisplayName("Visuals")]
             [Description("Select what visuals to use for these areas.")]
             [DefaultValue(ENVTypeA.P4)]
             public ENVTypeA MiscENV_ScooterRides { get; set; } = ENVTypeA.P4;
+
+            [Category("ENV Selection - Miscellaneous - Amagi Inn, Hot Springs")]
+            [Display(Order = 319)]
+            [DisplayName("Night (story)")]
+            [Description("Select what visuals to use for this area.")]
+            [DefaultValue(ENVTypeA.P4)]
+            public ENVTypeA MiscENV_Night_HotSprings { get; set; } = ENVTypeA.P4;
+
+            [Category("ENV Selection - Miscellaneous - Amagi Inn, Hot Springs")]
+            [Display(Order = 320)]
+            [DisplayName("Sunny (Day)")]
+            [Description("Select what visuals to use for this area with this weather.")]
+            [DefaultValue(ENVTypeA.P4)]
+            public ENVTypeA MiscENV_SunnyDay_HotSprings { get; set; } = ENVTypeA.P4;
+        
+            [Category("ENV Selection - Miscellaneous - Amagi Inn, Hot Springs")]
+            [Display(Order = 321)]
+            [DisplayName("Sunny (Dusk)")]
+            [Description("Select what visuals to use for this area with this weather.")]
+            [DefaultValue(ENVTypeA.P4)]
+            public ENVTypeA MiscENV_SunnyDusk_HotSprings { get; set; } = ENVTypeA.P4;
+        
+            [Category("ENV Selection - Miscellaneous - Amagi Inn, Hot Springs")]
+            [Display(Order = 322)]
+            [DisplayName("Cloudy")]
+            [Description("Select what visuals to use for this area with this weather.")]
+            [DefaultValue(ENVTypeA.P4)]
+            public ENVTypeA MiscENV_Cloudy_HotSprings { get; set; } = ENVTypeA.P4;
+        
+            [Category("ENV Selection - Miscellaneous - Amagi Inn, Hot Springs")]
+            [Display(Order = 325)]
+            [DisplayName("Foggy")]
+            [Description("Select what visuals to use for this area with this weather.")]
+            [DefaultValue(ENVTypeA.P4)]
+            public ENVTypeA MiscENV_Fog_HotSprings { get; set; } = ENVTypeA.P4;
+        
+            [Category("ENV Selection - Miscellaneous - Amagi Inn, Hot Springs")]
+            [Display(Order = 327)]
+            [DisplayName("Winter")]
+            [Description("Select what visuals to use for this area with this weather.")]
+            [DefaultValue(ENVTypeA.P4)]
+            public ENVTypeA MiscENV_Winter_HotSprings { get; set; } = ENVTypeA.P4;
+
+            // Ski Trip
+
+            [Category("ENV Selection - Miscellaneous - Mt. Yasogami")]
+            [Display(Order = 328)]
+            [DisplayName("Visuals")]
+            [Description("Select what visuals to use for this area.")]
+            [DefaultValue(ENVTypeA.P4)]
+            public ENVTypeA MiscENV_MtYasogami { get; set; } = ENVTypeA.P4;
+
+            [Category("ENV Selection - Miscellaneous - Ski Resort, Outside")]
+            [Display(Order = 329)]
+            [DisplayName("Visuals")]
+            [Description("Select what visuals to use for this area.")]
+            [DefaultValue(ENVTypeA.P4)]
+            public ENVTypeA MiscENV_SkiResort { get; set; } = ENVTypeA.P4;
+
+            [Category("ENV Selection - Miscellaneous - Mountain Cabin")]
+            [Display(Order = 330)]
+            [DisplayName("Visuals")]
+            [Description("Select what visuals to use for this area.")]
+            [DefaultValue(ENVTypeA.P4)]
+            public ENVTypeA MiscENV_MountainCabin { get; set; } = ENVTypeA.P4;
+
+            [Category("ENV Selection - Miscellaneous - Ski Resort, Cottage")]
+            [Display(Order = 331)]
+            [DisplayName("Visuals")]
+            [Description("Select what visuals to use for these areas.")]
+            [DefaultValue(ENVTypeA.P4)]
+            public ENVTypeA MiscENV_SkiCottage { get; set; } = ENVTypeA.P4;
 
         // ENV Selection - TV World
 

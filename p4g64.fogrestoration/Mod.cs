@@ -131,14 +131,14 @@ namespace p4g64.fogrestoration
             if (_configuration.EntranceENV == Config.ENVTypeA.P4)
             {
                 _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs", "TVWorld", "Entrance", "PAK"));
-                // criFsApi.AddProbingPath(Path.Combine(modDir, "ENVs", "TVWorld", "Entrance", "CriV2"));
+                criFsApi.AddProbingPath(Path.Combine(modDir, "ENVs", "TVWorld", "Entrance", "CriV2"));
             }
 
             // Velvet Room
             if (_configuration.VelvetENV == Config.ENVTypeA.P4)
             {
                 _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs", "TVWorld", "Velvet", "PAK"));
-                // criFsApi.AddProbingPath(Path.Combine(modDir, "ENVs", "TVWorld", "Velvet", "CriV2"));
+                criFsApi.AddProbingPath(Path.Combine(modDir, "ENVs", "TVWorld", "Velvet", "CriV2"));
             }
 
             // ==================
@@ -586,15 +586,10 @@ namespace p4g64.fogrestoration
                 _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs/Inaba/Fog/TownMap/PAK"));
                 // criFsApi.AddProbingPath(Path.Combine(modDir, "ENVs/Inaba/Fog/TownMap/CriV2"));
             }
-            if (_configuration.TownMapENV_WinterSnow == Config.ENVTypeA.P4)
+            if (_configuration.TownMapENV_Winter == Config.ENVTypeA.P4)
             {
-                _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs/Inaba/WinterSnow/TownMap/PAK"));
-                // criFsApi.AddProbingPath(Path.Combine(modDir, "ENVs/Inaba/WinterSnow/TownMap/CriV2"));
-            }
-            if (_configuration.TownMapENV_WinterCloudy == Config.ENVTypeA.P4)
-            {
-                _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs/Inaba/WinterCloudy/TownMap/PAK"));
-                // criFsApi.AddProbingPath(Path.Combine(modDir, "ENVs/Inaba/WinterCloudy/TownMap/CriV2"));
+                _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs/Inaba/Winter/TownMap/PAK"));
+                // criFsApi.AddProbingPath(Path.Combine(modDir, "ENVs/Inaba/Winter/TownMap/CriV2"));
             }
             if (_configuration.Texture_TownMap == true)
             {
@@ -632,15 +627,10 @@ namespace p4g64.fogrestoration
                 _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs/Inaba/Fog/Yasogami/001/PAK"));
                 // criFsApi.AddProbingPath(Path.Combine(modDir, "ENVs/Inaba/Fog/Yasogami/001/CriV2"));
             }
-            if (_configuration.YasogamiENV_WinterSnow_001 == Config.ENVTypeA.P4)
+            if (_configuration.YasogamiENV_Winter_001 == Config.ENVTypeA.P4)
             {
-                _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs/Inaba/WinterSnow/Yasogami/001/PAK"));
-                // criFsApi.AddProbingPath(Path.Combine(modDir, "ENVs/Inaba/WinterSnow/Yasogami/001/CriV2"));
-            }
-            if (_configuration.YasogamiENV_WinterCloudy_001 == Config.ENVTypeA.P4)
-            {
-                _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs/Inaba/WinterCloudy/Yasogami/001/PAK"));
-                // criFsApi.AddProbingPath(Path.Combine(modDir, "ENVs/Inaba/WinterCloudy/Yasogami/001/CriV2"));
+                _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs/Inaba/Winter/Yasogami/001/PAK"));
+                // criFsApi.AddProbingPath(Path.Combine(modDir, "ENVs/Inaba/Winter/Yasogami/001/CriV2"));
             }
             if (_configuration.Texture_Yasogami_001 == true)
             {
@@ -656,7 +646,7 @@ namespace p4g64.fogrestoration
             if (_configuration.YasogamiENV_SunnyDusk_006 == Config.ENVTypeA.P4)
             {
                 _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs/Inaba/SunnyDusk/Yasogami/006/PAK"));
-                // criFsApi.AddProbingPath(Path.Combine(modDir, "ENVs/Inaba/SunnyDusk/Yasogami/006/CriV2"));
+                criFsApi.AddProbingPath(Path.Combine(modDir, "ENVs/Inaba/SunnyDusk/Yasogami/006/CriV2"));
             }
             if (_configuration.YasogamiENV_Cloudy_006 == Config.ENVTypeA.P4)
             {
@@ -671,22 +661,17 @@ namespace p4g64.fogrestoration
             if (_configuration.YasogamiENV_Storm_006 == Config.ENVTypeA.P4)
             {
                 _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs/Inaba/Storm/Yasogami/006/PAK"));
-                // criFsApi.AddProbingPath(Path.Combine(modDir, "ENVs/Inaba/Storm/Yasogami/006/CriV2"));
+                criFsApi.AddProbingPath(Path.Combine(modDir, "ENVs/Inaba/Storm/Yasogami/006/CriV2"));
             }
             if (_configuration.YasogamiENV_Fog_006 == Config.ENVTypeA.P4)
             {
                 _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs/Inaba/Fog/Yasogami/006/PAK"));
                 // criFsApi.AddProbingPath(Path.Combine(modDir, "ENVs/Inaba/Fog/Yasogami/006/CriV2"));
             }
-            if (_configuration.YasogamiENV_WinterSnow_006 == Config.ENVTypeA.P4)
+            if (_configuration.YasogamiENV_Winter_006 == Config.ENVTypeA.P4)
             {
-                _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs/Inaba/WinterSnow/Yasogami/006/PAK"));
-                // criFsApi.AddProbingPath(Path.Combine(modDir, "ENVs/Inaba/WinterSnow/Yasogami/006/CriV2"));
-            }
-            if (_configuration.YasogamiENV_WinterCloudy_006 == Config.ENVTypeA.P4)
-            {
-                _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs/Inaba/WinterCloudy/Yasogami/006/PAK"));
-                // criFsApi.AddProbingPath(Path.Combine(modDir, "ENVs/Inaba/WinterCloudy/Yasogami/006/CriV2"));
+                _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs/Inaba/Winter/Yasogami/006/PAK"));
+                // criFsApi.AddProbingPath(Path.Combine(modDir, "ENVs/Inaba/Winter/Yasogami/006/CriV2"));
             }
             if (_configuration.Texture_Yasogami_006 == true)
             {
@@ -724,15 +709,10 @@ namespace p4g64.fogrestoration
                 _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs/Inaba/Fog/Yasogami/007/PAK"));
                 // criFsApi.AddProbingPath(Path.Combine(modDir, "ENVs/Inaba/Fog/Yasogami/007/CriV2"));
             }
-            if (_configuration.YasogamiENV_WinterSnow_007 == Config.ENVTypeA.P4)
+            if (_configuration.YasogamiENV_Winter_007 == Config.ENVTypeA.P4)
             {
-                _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs/Inaba/WinterSnow/Yasogami/007/PAK"));
-                // criFsApi.AddProbingPath(Path.Combine(modDir, "ENVs/Inaba/WinterSnow/Yasogami/007/CriV2"));
-            }
-            if (_configuration.YasogamiENV_WinterCloudy_007 == Config.ENVTypeA.P4)
-            {
-                _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs/Inaba/WinterCloudy/Yasogami/007/PAK"));
-                // criFsApi.AddProbingPath(Path.Combine(modDir, "ENVs/Inaba/WinterCloudy/Yasogami/007/CriV2"));
+                _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs/Inaba/Winter/Yasogami/007/PAK"));
+                // criFsApi.AddProbingPath(Path.Combine(modDir, "ENVs/Inaba/Winter/Yasogami/007/CriV2"));
             }
             if (_configuration.Texture_Yasogami_007 == true)
             {
@@ -770,15 +750,10 @@ namespace p4g64.fogrestoration
                 _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs/Inaba/Fog/Yasogami/008/PAK"));
                 // criFsApi.AddProbingPath(Path.Combine(modDir, "ENVs/Inaba/Fog/Yasogami/008/CriV2"));
             }
-            if (_configuration.YasogamiENV_WinterSnow_008 == Config.ENVTypeA.P4)
+            if (_configuration.YasogamiENV_Winter_008 == Config.ENVTypeA.P4)
             {
-                _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs/Inaba/WinterSnow/Yasogami/008/PAK"));
-                // criFsApi.AddProbingPath(Path.Combine(modDir, "ENVs/Inaba/WinterSnow/Yasogami/008/CriV2"));
-            }
-            if (_configuration.YasogamiENV_WinterCloudy_008 == Config.ENVTypeA.P4)
-            {
-                _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs/Inaba/WinterCloudy/Yasogami/008/PAK"));
-                // criFsApi.AddProbingPath(Path.Combine(modDir, "ENVs/Inaba/WinterCloudy/Yasogami/008/CriV2"));
+                _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs/Inaba/Winter/Yasogami/008/PAK"));
+                // criFsApi.AddProbingPath(Path.Combine(modDir, "ENVs/Inaba/Winter/Yasogami/008/CriV2"));
             }
             if (_configuration.Texture_Yasogami_008 == true)
             {
@@ -816,15 +791,10 @@ namespace p4g64.fogrestoration
                 _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs/Inaba/Fog/Yasogami/009/PAK"));
                 // criFsApi.AddProbingPath(Path.Combine(modDir, "ENVs/Inaba/Fog/Yasogami/009/CriV2"));
             }
-            if (_configuration.YasogamiENV_WinterSnow_009 == Config.ENVTypeA.P4)
+            if (_configuration.YasogamiENV_Winter_009 == Config.ENVTypeA.P4)
             {
-                _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs/Inaba/WinterSnow/Yasogami/009/PAK"));
-                // criFsApi.AddProbingPath(Path.Combine(modDir, "ENVs/Inaba/WinterSnow/Yasogami/009/CriV2"));
-            }
-            if (_configuration.YasogamiENV_WinterCloudy_009 == Config.ENVTypeA.P4)
-            {
-                _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs/Inaba/WinterCloudy/Yasogami/009/PAK"));
-                // criFsApi.AddProbingPath(Path.Combine(modDir, "ENVs/Inaba/WinterCloudy/Yasogami/009/CriV2"));
+                _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs/Inaba/Winter/Yasogami/009/PAK"));
+                // criFsApi.AddProbingPath(Path.Combine(modDir, "ENVs/Inaba/Winter/Yasogami/009/CriV2"));
             }
             if (_configuration.Texture_Yasogami_009 == true)
             {
@@ -862,15 +832,10 @@ namespace p4g64.fogrestoration
                 _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs/Inaba/Fog/Yasogami/010/PAK"));
                 // criFsApi.AddProbingPath(Path.Combine(modDir, "ENVs/Inaba/Fog/Yasogami/010/CriV2"));
             }
-            if (_configuration.YasogamiENV_WinterSnow_010 == Config.ENVTypeA.P4)
+            if (_configuration.YasogamiENV_Winter_010 == Config.ENVTypeA.P4)
             {
-                _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs/Inaba/WinterSnow/Yasogami/010/PAK"));
-                // criFsApi.AddProbingPath(Path.Combine(modDir, "ENVs/Inaba/WinterSnow/Yasogami/010/CriV2"));
-            }
-            if (_configuration.YasogamiENV_WinterCloudy_010 == Config.ENVTypeA.P4)
-            {
-                _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs/Inaba/WinterCloudy/Yasogami/010/PAK"));
-                // criFsApi.AddProbingPath(Path.Combine(modDir, "ENVs/Inaba/WinterCloudy/Yasogami/010/CriV2"));
+                _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs/Inaba/Winter/Yasogami/010/PAK"));
+                // criFsApi.AddProbingPath(Path.Combine(modDir, "ENVs/Inaba/Winter/Yasogami/010/CriV2"));
             }
             if (_configuration.Texture_Yasogami_010 == true)
             {
@@ -908,15 +873,10 @@ namespace p4g64.fogrestoration
                 _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs/Inaba/Fog/Yasogami/011/PAK"));
                 // criFsApi.AddProbingPath(Path.Combine(modDir, "ENVs/Inaba/Fog/Yasogami/011/CriV2"));
             }
-            if (_configuration.YasogamiENV_WinterSnow_011 == Config.ENVTypeA.P4)
+            if (_configuration.YasogamiENV_Winter_011 == Config.ENVTypeA.P4)
             {
-                _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs/Inaba/WinterSnow/Yasogami/011/PAK"));
-                // criFsApi.AddProbingPath(Path.Combine(modDir, "ENVs/Inaba/WinterSnow/Yasogami/011/CriV2"));
-            }
-            if (_configuration.YasogamiENV_WinterCloudy_011 == Config.ENVTypeA.P4)
-            {
-                _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs/Inaba/WinterCloudy/Yasogami/011/PAK"));
-                // criFsApi.AddProbingPath(Path.Combine(modDir, "ENVs/Inaba/WinterCloudy/Yasogami/011/CriV2"));
+                _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs/Inaba/Winter/Yasogami/011/PAK"));
+                // criFsApi.AddProbingPath(Path.Combine(modDir, "ENVs/Inaba/Winter/Yasogami/011/CriV2"));
             }
             if (_configuration.Texture_Yasogami_011 == true)
             {
@@ -954,15 +914,10 @@ namespace p4g64.fogrestoration
                 _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs/Inaba/Fog/Yasogami/012/PAK"));
                 // criFsApi.AddProbingPath(Path.Combine(modDir, "ENVs/Inaba/Fog/Yasogami/012/CriV2"));
             }
-            if (_configuration.YasogamiENV_WinterSnow_012 == Config.ENVTypeA.P4)
+            if (_configuration.YasogamiENV_Winter_012 == Config.ENVTypeA.P4)
             {
-                _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs/Inaba/WinterSnow/Yasogami/012/PAK"));
-                // criFsApi.AddProbingPath(Path.Combine(modDir, "ENVs/Inaba/WinterSnow/Yasogami/012/CriV2"));
-            }
-            if (_configuration.YasogamiENV_WinterCloudy_012 == Config.ENVTypeA.P4)
-            {
-                _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs/Inaba/WinterCloudy/Yasogami/012/PAK"));
-                // criFsApi.AddProbingPath(Path.Combine(modDir, "ENVs/Inaba/WinterCloudy/Yasogami/012/CriV2"));
+                _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs/Inaba/Winter/Yasogami/012/PAK"));
+                // criFsApi.AddProbingPath(Path.Combine(modDir, "ENVs/Inaba/Winter/Yasogami/012/CriV2"));
             }
             if (_configuration.Texture_Yasogami_012 == true)
             {
@@ -1000,15 +955,10 @@ namespace p4g64.fogrestoration
                 _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs/Inaba/Fog/Yasogami/013/PAK"));
                 // criFsApi.AddProbingPath(Path.Combine(modDir, "ENVs/Inaba/Fog/Yasogami/013/CriV2"));
             }
-            if (_configuration.YasogamiENV_WinterSnow_013 == Config.ENVTypeA.P4)
+            if (_configuration.YasogamiENV_Winter_013 == Config.ENVTypeA.P4)
             {
-                _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs/Inaba/WinterSnow/Yasogami/013/PAK"));
-                // criFsApi.AddProbingPath(Path.Combine(modDir, "ENVs/Inaba/WinterSnow/Yasogami/013/CriV2"));
-            }
-            if (_configuration.YasogamiENV_WinterCloudy_013 == Config.ENVTypeA.P4)
-            {
-                _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs/Inaba/WinterCloudy/Yasogami/013/PAK"));
-                // criFsApi.AddProbingPath(Path.Combine(modDir, "ENVs/Inaba/WinterCloudy/Yasogami/013/CriV2"));
+                _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs/Inaba/Winter/Yasogami/013/PAK"));
+                // criFsApi.AddProbingPath(Path.Combine(modDir, "ENVs/Inaba/Winter/Yasogami/013/CriV2"));
             }
             if (_configuration.Texture_Yasogami_013 == true)
             {
@@ -1046,15 +996,10 @@ namespace p4g64.fogrestoration
                 _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs/Inaba/Fog/Yasogami/014/PAK"));
                 // criFsApi.AddProbingPath(Path.Combine(modDir, "ENVs/Inaba/Fog/Yasogami/014/CriV2"));
             }
-            if (_configuration.YasogamiENV_WinterSnow_014 == Config.ENVTypeA.P4)
+            if (_configuration.YasogamiENV_Winter_014 == Config.ENVTypeA.P4)
             {
-                _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs/Inaba/WinterSnow/Yasogami/014/PAK"));
-                // criFsApi.AddProbingPath(Path.Combine(modDir, "ENVs/Inaba/WinterSnow/Yasogami/014/CriV2"));
-            }
-            if (_configuration.YasogamiENV_WinterCloudy_014 == Config.ENVTypeA.P4)
-            {
-                _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs/Inaba/WinterCloudy/Yasogami/014/PAK"));
-                // criFsApi.AddProbingPath(Path.Combine(modDir, "ENVs/Inaba/WinterCloudy/Yasogami/014/CriV2"));
+                _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs/Inaba/Winter/Yasogami/014/PAK"));
+                // criFsApi.AddProbingPath(Path.Combine(modDir, "ENVs/Inaba/Winter/Yasogami/014/CriV2"));
             }
             if (_configuration.Texture_Yasogami_014 == true)
             {
@@ -1092,15 +1037,10 @@ namespace p4g64.fogrestoration
                 _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs/Inaba/Fog/Yasogami/015/PAK"));
                 // criFsApi.AddProbingPath(Path.Combine(modDir, "ENVs/Inaba/Fog/Yasogami/015/CriV2"));
             }
-            if (_configuration.YasogamiENV_WinterSnow_015 == Config.ENVTypeA.P4)
+            if (_configuration.YasogamiENV_Winter_015 == Config.ENVTypeA.P4)
             {
-                _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs/Inaba/WinterSnow/Yasogami/015/PAK"));
-                // criFsApi.AddProbingPath(Path.Combine(modDir, "ENVs/Inaba/WinterSnow/Yasogami/015/CriV2"));
-            }
-            if (_configuration.YasogamiENV_WinterCloudy_015 == Config.ENVTypeA.P4)
-            {
-                _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs/Inaba/WinterCloudy/Yasogami/015/PAK"));
-                // criFsApi.AddProbingPath(Path.Combine(modDir, "ENVs/Inaba/WinterCloudy/Yasogami/015/CriV2"));
+                _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs/Inaba/Winter/Yasogami/015/PAK"));
+                // criFsApi.AddProbingPath(Path.Combine(modDir, "ENVs/Inaba/Winter/Yasogami/015/CriV2"));
             }
             if (_configuration.Texture_Yasogami_015 == true)
             {
@@ -1160,15 +1100,10 @@ namespace p4g64.fogrestoration
                 _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs/Inaba/Fog/Dojima/001/PAK"));
                 // criFsApi.AddProbingPath(Path.Combine(modDir, "ENVs/Inaba/Fog/Dojima/001/CriV2"));
             }
-            if (_configuration.DojimaENV_WinterSnow_001 == Config.ENVTypeA.P4)
+            if (_configuration.DojimaENV_Winter_001 == Config.ENVTypeA.P4)
             {
-                _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs/Inaba/WinterSnow/Dojima/001/PAK"));
-                // criFsApi.AddProbingPath(Path.Combine(modDir, "ENVs/Inaba/WinterSnow/Dojima/001/CriV2"));
-            }
-            if (_configuration.DojimaENV_WinterCloudy_001 == Config.ENVTypeA.P4)
-            {
-                _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs/Inaba/WinterCloudy/Dojima/001/PAK"));
-                // criFsApi.AddProbingPath(Path.Combine(modDir, "ENVs/Inaba/WinterCloudy/Dojima/001/CriV2"));
+                _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs/Inaba/Winter/Dojima/001/PAK"));
+                // criFsApi.AddProbingPath(Path.Combine(modDir, "ENVs/Inaba/Winter/Dojima/001/CriV2"));
             }
             if ((_configuration.DojimaENV_NightClear_001 == Config.ENVTypeA.P4) && (_configuration.NightSky_Dojima == true))
             {
@@ -1200,15 +1135,10 @@ namespace p4g64.fogrestoration
                 _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs/Inaba/NightFog/Dojima/001/PAK"));
                 // criFsApi.AddProbingPath(Path.Combine(modDir, "ENVs/Inaba/NightFog/Dojima/001/CriV2"));
             }
-            if (_configuration.DojimaENV_NightWinterSnow_001 == Config.ENVTypeA.P4)
+            if (_configuration.DojimaENV_NightWinter_001 == Config.ENVTypeA.P4)
             {
-                _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs/Inaba/NightWinterSnow/Dojima/001/PAK"));
-                // criFsApi.AddProbingPath(Path.Combine(modDir, "ENVs/Inaba/NightWinterSnow/Dojima/001/CriV2"));
-            }
-            if (_configuration.DojimaENV_NightWinterCloudy_001 == Config.ENVTypeA.P4)
-            {
-                _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs/Inaba/NightWinterCloudy/Dojima/001/PAK"));
-                // criFsApi.AddProbingPath(Path.Combine(modDir, "ENVs/Inaba/NightWinterCloudy/Dojima/001/CriV2"));
+                _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs/Inaba/NightWinter/Dojima/001/PAK"));
+                // criFsApi.AddProbingPath(Path.Combine(modDir, "ENVs/Inaba/NightWinter/Dojima/001/CriV2"));
             }
             if (_configuration.Texture_Dojima_001 == true)
             {
@@ -1229,7 +1159,7 @@ namespace p4g64.fogrestoration
             if (_configuration.DojimaENV_Cloudy_002 == Config.ENVTypeA.P4)
             {
                 _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs/Inaba/Cloudy/Dojima/002/PAK"));
-                // criFsApi.AddProbingPath(Path.Combine(modDir, "ENVs/Inaba/Cloudy/Dojima/002/CriV2"));
+                criFsApi.AddProbingPath(Path.Combine(modDir, "ENVs/Inaba/Cloudy/Dojima/002/CriV2"));
             }
             if (_configuration.DojimaENV_Rain_002 == Config.ENVTypeA.P4)
             {
@@ -1246,15 +1176,10 @@ namespace p4g64.fogrestoration
                 _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs/Inaba/Fog/Dojima/002/PAK"));
                 // criFsApi.AddProbingPath(Path.Combine(modDir, "ENVs/Inaba/Fog/Dojima/002/CriV2"));
             }
-            if (_configuration.DojimaENV_WinterSnow_002 == Config.ENVTypeA.P4)
+            if (_configuration.DojimaENV_Winter_002 == Config.ENVTypeA.P4)
             {
-                _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs/Inaba/WinterSnow/Dojima/002/PAK"));
-                // criFsApi.AddProbingPath(Path.Combine(modDir, "ENVs/Inaba/WinterSnow/Dojima/002/CriV2"));
-            }
-            if (_configuration.DojimaENV_WinterCloudy_002 == Config.ENVTypeA.P4)
-            {
-                _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs/Inaba/WinterCloudy/Dojima/002/PAK"));
-                // criFsApi.AddProbingPath(Path.Combine(modDir, "ENVs/Inaba/WinterCloudy/Dojima/002/CriV2"));
+                _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs/Inaba/Winter/Dojima/002/PAK"));
+                // criFsApi.AddProbingPath(Path.Combine(modDir, "ENVs/Inaba/Winter/Dojima/002/CriV2"));
             }
             if (_configuration.DojimaENV_NightClear_002 == Config.ENVTypeA.P4)
             {
@@ -1269,7 +1194,7 @@ namespace p4g64.fogrestoration
             if (_configuration.DojimaENV_NightRain_002 == Config.ENVTypeA.P4)
             {
                 _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs/Inaba/NightRain/Dojima/002/PAK"));
-                // criFsApi.AddProbingPath(Path.Combine(modDir, "ENVs/Inaba/NightRain/Dojima/002/CriV2"));
+                criFsApi.AddProbingPath(Path.Combine(modDir, "ENVs/Inaba/NightRain/Dojima/002/CriV2"));
             }
             if (_configuration.DojimaENV_NightStorm_002 == Config.ENVTypeA.P4)
             {
@@ -1281,15 +1206,10 @@ namespace p4g64.fogrestoration
                 _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs/Inaba/NightFog/Dojima/002/PAK"));
                 // criFsApi.AddProbingPath(Path.Combine(modDir, "ENVs/Inaba/NightFog/Dojima/002/CriV2"));
             }
-            if (_configuration.DojimaENV_NightWinterSnow_002 == Config.ENVTypeA.P4)
+            if (_configuration.DojimaENV_NightWinter_002 == Config.ENVTypeA.P4)
             {
-                _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs/Inaba/NightWinterSnow/Dojima/002/PAK"));
-                // criFsApi.AddProbingPath(Path.Combine(modDir, "ENVs/Inaba/NightWinterSnow/Dojima/002/CriV2"));
-            }
-            if (_configuration.DojimaENV_NightWinterCloudy_002 == Config.ENVTypeA.P4)
-            {
-                _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs/Inaba/NightWinterCloudy/Dojima/002/PAK"));
-                // criFsApi.AddProbingPath(Path.Combine(modDir, "ENVs/Inaba/NightWinterCloudy/Dojima/002/CriV2"));
+                _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs/Inaba/NightWinter/Dojima/002/PAK"));
+                // criFsApi.AddProbingPath(Path.Combine(modDir, "ENVs/Inaba/NightWinter/Dojima/002/CriV2"));
             }
             if (_configuration.Texture_Dojima_002 == true)
             {
@@ -1327,15 +1247,10 @@ namespace p4g64.fogrestoration
                 _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs/Inaba/Fog/Dojima/003/PAK"));
                 // criFsApi.AddProbingPath(Path.Combine(modDir, "ENVs/Inaba/Fog/Dojima/003/CriV2"));
             }
-            if (_configuration.DojimaENV_WinterSnow_003 == Config.ENVTypeA.P4)
+            if (_configuration.DojimaENV_Winter_003 == Config.ENVTypeA.P4)
             {
-                _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs/Inaba/WinterSnow/Dojima/003/PAK"));
-                // criFsApi.AddProbingPath(Path.Combine(modDir, "ENVs/Inaba/WinterSnow/Dojima/003/CriV2"));
-            }
-            if (_configuration.DojimaENV_WinterCloudy_003 == Config.ENVTypeA.P4)
-            {
-                _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs/Inaba/WinterCloudy/Dojima/003/PAK"));
-                // criFsApi.AddProbingPath(Path.Combine(modDir, "ENVs/Inaba/WinterCloudy/Dojima/003/CriV2"));
+                _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs/Inaba/Winter/Dojima/003/PAK"));
+                // criFsApi.AddProbingPath(Path.Combine(modDir, "ENVs/Inaba/Winter/Dojima/003/CriV2"));
             }
             if (_configuration.DojimaENV_NightClear_003 == Config.ENVTypeA.P4)
             {
@@ -1350,7 +1265,7 @@ namespace p4g64.fogrestoration
             if (_configuration.DojimaENV_NightRain_003 == Config.ENVTypeA.P4)
             {
                 _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs/Inaba/NightRain/Dojima/003/PAK"));
-                // criFsApi.AddProbingPath(Path.Combine(modDir, "ENVs/Inaba/NightRain/Dojima/003/CriV2"));
+                criFsApi.AddProbingPath(Path.Combine(modDir, "ENVs/Inaba/NightRain/Dojima/003/CriV2"));
             }
             if (_configuration.DojimaENV_NightStorm_003 == Config.ENVTypeA.P4)
             {
@@ -1362,15 +1277,10 @@ namespace p4g64.fogrestoration
                 _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs/Inaba/NightFog/Dojima/003/PAK"));
                 // criFsApi.AddProbingPath(Path.Combine(modDir, "ENVs/Inaba/NightFog/Dojima/003/CriV2"));
             }
-            if (_configuration.DojimaENV_NightWinterSnow_003 == Config.ENVTypeA.P4)
+            if (_configuration.DojimaENV_NightWinter_003 == Config.ENVTypeA.P4)
             {
-                _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs/Inaba/NightWinterSnow/Dojima/003/PAK"));
-                // criFsApi.AddProbingPath(Path.Combine(modDir, "ENVs/Inaba/NightWinterSnow/Dojima/003/CriV2"));
-            }
-            if (_configuration.DojimaENV_NightWinterCloudy_003 == Config.ENVTypeA.P4)
-            {
-                _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs/Inaba/NightWinterCloudy/Dojima/003/PAK"));
-                // criFsApi.AddProbingPath(Path.Combine(modDir, "ENVs/Inaba/NightWinterCloudy/Dojima/003/CriV2"));
+                _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs/Inaba/NightWinter/Dojima/003/PAK"));
+                // criFsApi.AddProbingPath(Path.Combine(modDir, "ENVs/Inaba/NightWinter/Dojima/003/CriV2"));
             }
             if (_configuration.Texture_Dojima_003 == true)
             {
@@ -1408,15 +1318,10 @@ namespace p4g64.fogrestoration
                 _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs/Inaba/Fog/ShoppingDistrict/001/PAK"));
                 // criFsApi.AddProbingPath(Path.Combine(modDir, "ENVs/Inaba/Fog/ShoppingDistrict/001/CriV2"));
             }
-            if (_configuration.ShoppingDistrictENV_WinterSnow_001 == Config.ENVTypeA.P4)
+            if (_configuration.ShoppingDistrictENV_Winter_001 == Config.ENVTypeA.P4)
             {
-                _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs/Inaba/WinterSnow/ShoppingDistrict/001/PAK"));
-                // criFsApi.AddProbingPath(Path.Combine(modDir, "ENVs/Inaba/WinterSnow/ShoppingDistrict/001/CriV2"));
-            }
-            if (_configuration.ShoppingDistrictENV_WinterCloudy_001 == Config.ENVTypeA.P4)
-            {
-                _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs/Inaba/WinterCloudy/ShoppingDistrict/001/PAK"));
-                // criFsApi.AddProbingPath(Path.Combine(modDir, "ENVs/Inaba/WinterCloudy/ShoppingDistrict/001/CriV2"));
+                _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs/Inaba/Winter/ShoppingDistrict/001/PAK"));
+                // criFsApi.AddProbingPath(Path.Combine(modDir, "ENVs/Inaba/Winter/ShoppingDistrict/001/CriV2"));
             }
             if ((_configuration.ShoppingDistrictENV_NightClear_001 == Config.ENVTypeA.P4) && (_configuration.NightSky_ShoppingDistrictNorth == true))
             {
@@ -1448,15 +1353,10 @@ namespace p4g64.fogrestoration
                 _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs/Inaba/NightFog/ShoppingDistrict/001/PAK"));
                 // criFsApi.AddProbingPath(Path.Combine(modDir, "ENVs/Inaba/NightFog/ShoppingDistrict/001/CriV2"));
             }
-            if (_configuration.ShoppingDistrictENV_NightWinterSnow_001 == Config.ENVTypeA.P4)
+            if (_configuration.ShoppingDistrictENV_NightWinter_001 == Config.ENVTypeA.P4)
             {
-                _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs/Inaba/NightWinterSnow/ShoppingDistrict/001/PAK"));
-                // criFsApi.AddProbingPath(Path.Combine(modDir, "ENVs/Inaba/NightWinterSnow/ShoppingDistrict/001/CriV2"));
-            }
-            if (_configuration.ShoppingDistrictENV_NightWinterCloudy_001 == Config.ENVTypeA.P4)
-            {
-                _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs/Inaba/NightWinterCloudy/ShoppingDistrict/001/PAK"));
-                // criFsApi.AddProbingPath(Path.Combine(modDir, "ENVs/Inaba/NightWinterCloudy/ShoppingDistrict/001/CriV2"));
+                _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs/Inaba/NightWinter/ShoppingDistrict/001/PAK"));
+                // criFsApi.AddProbingPath(Path.Combine(modDir, "ENVs/Inaba/NightWinter/ShoppingDistrict/001/CriV2"));
             }
             if (_configuration.Texture_ShoppingDistrict_001 == true)
             {
@@ -1477,7 +1377,7 @@ namespace p4g64.fogrestoration
             if (_configuration.ShoppingDistrictENV_Cloudy_002 == Config.ENVTypeA.P4)
             {
                 _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs/Inaba/Cloudy/ShoppingDistrict/002/PAK"));
-                // criFsApi.AddProbingPath(Path.Combine(modDir, "ENVs/Inaba/Cloudy/ShoppingDistrict/002/CriV2"));
+                criFsApi.AddProbingPath(Path.Combine(modDir, "ENVs/Inaba/Cloudy/ShoppingDistrict/002/CriV2"));
             }
             if (_configuration.ShoppingDistrictENV_Rain_002 == Config.ENVTypeA.P4)
             {
@@ -1494,15 +1394,10 @@ namespace p4g64.fogrestoration
                 _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs/Inaba/Fog/ShoppingDistrict/002/PAK"));
                 // criFsApi.AddProbingPath(Path.Combine(modDir, "ENVs/Inaba/Fog/ShoppingDistrict/002/CriV2"));
             }
-            if (_configuration.ShoppingDistrictENV_WinterSnow_002 == Config.ENVTypeA.P4)
+            if (_configuration.ShoppingDistrictENV_Winter_002 == Config.ENVTypeA.P4)
             {
-                _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs/Inaba/WinterSnow/ShoppingDistrict/002/PAK"));
-                // criFsApi.AddProbingPath(Path.Combine(modDir, "ENVs/Inaba/WinterSnow/ShoppingDistrict/002/CriV2"));
-            }
-            if (_configuration.ShoppingDistrictENV_WinterCloudy_002 == Config.ENVTypeA.P4)
-            {
-                _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs/Inaba/WinterCloudy/ShoppingDistrict/002/PAK"));
-                // criFsApi.AddProbingPath(Path.Combine(modDir, "ENVs/Inaba/WinterCloudy/ShoppingDistrict/002/CriV2"));
+                _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs/Inaba/Winter/ShoppingDistrict/002/PAK"));
+                // criFsApi.AddProbingPath(Path.Combine(modDir, "ENVs/Inaba/Winter/ShoppingDistrict/002/CriV2"));
             }
             if ((_configuration.ShoppingDistrictENV_NightClear_002 == Config.ENVTypeA.P4) && (_configuration.NightSky_ShoppingDistrictSouth == true))
             {
@@ -1534,15 +1429,10 @@ namespace p4g64.fogrestoration
                 _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs/Inaba/NightFog/ShoppingDistrict/002/PAK"));
                 // criFsApi.AddProbingPath(Path.Combine(modDir, "ENVs/Inaba/NightFog/ShoppingDistrict/002/CriV2"));
             }
-            if (_configuration.ShoppingDistrictENV_NightWinterSnow_002 == Config.ENVTypeA.P4)
+            if (_configuration.ShoppingDistrictENV_NightWinter_002 == Config.ENVTypeA.P4)
             {
-                _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs/Inaba/NightWinterSnow/ShoppingDistrict/002/PAK"));
-                // criFsApi.AddProbingPath(Path.Combine(modDir, "ENVs/Inaba/NightWinterSnow/ShoppingDistrict/002/CriV2"));
-            }
-            if (_configuration.ShoppingDistrictENV_NightWinterCloudy_002 == Config.ENVTypeA.P4)
-            {
-                _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs/Inaba/NightWinterCloudy/ShoppingDistrict/002/PAK"));
-                // criFsApi.AddProbingPath(Path.Combine(modDir, "ENVs/Inaba/NightWinterCloudy/ShoppingDistrict/002/CriV2"));
+                _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs/Inaba/NightWinter/ShoppingDistrict/002/PAK"));
+                // criFsApi.AddProbingPath(Path.Combine(modDir, "ENVs/Inaba/NightWinter/ShoppingDistrict/002/CriV2"));
             }
             if (_configuration.Texture_ShoppingDistrict_002 == true)
             {
@@ -1593,7 +1483,7 @@ namespace p4g64.fogrestoration
             if (_configuration.ShoppingDistrictENV_007 == Config.ENVTypeA.P4)
             {
                 _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs/Inaba/All/ShoppingDistrict/007/PAK"));
-                // criFsApi.AddProbingPath(Path.Combine(modDir, "ENVs/Inaba/All/ShoppingDistrict/007/CriV2"));
+                criFsApi.AddProbingPath(Path.Combine(modDir, "ENVs/Inaba/All/ShoppingDistrict/007/CriV2"));
             }
             if (_configuration.Texture_ShoppingDistrict_007 == true)
             {
@@ -1642,15 +1532,10 @@ namespace p4g64.fogrestoration
                 _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs/Inaba/Fog/ShoppingDistrict/009/PAK"));
                 // criFsApi.AddProbingPath(Path.Combine(modDir, "ENVs/Inaba/Fog/ShoppingDistrict/009/CriV2"));
             }
-            if (_configuration.ShoppingDistrictENV_WinterSnow_009 == Config.ENVTypeA.P4)
+            if (_configuration.ShoppingDistrictENV_Winter_009 == Config.ENVTypeA.P4)
             {
-                _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs/Inaba/WinterSnow/ShoppingDistrict/009/PAK"));
-                // criFsApi.AddProbingPath(Path.Combine(modDir, "ENVs/Inaba/WinterSnow/ShoppingDistrict/009/CriV2"));
-            }
-            if (_configuration.ShoppingDistrictENV_WinterCloudy_009 == Config.ENVTypeA.P4)
-            {
-                _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs/Inaba/WinterCloudy/ShoppingDistrict/009/PAK"));
-                // criFsApi.AddProbingPath(Path.Combine(modDir, "ENVs/Inaba/WinterCloudy/ShoppingDistrict/009/CriV2"));
+                _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs/Inaba/Winter/ShoppingDistrict/009/PAK"));
+                // criFsApi.AddProbingPath(Path.Combine(modDir, "ENVs/Inaba/Winter/ShoppingDistrict/009/CriV2"));
             }
             if ((_configuration.ShoppingDistrictENV_NightClear_009 == Config.ENVTypeA.P4) && (_configuration.NightSky_Shrine == true))
             {
@@ -1682,15 +1567,10 @@ namespace p4g64.fogrestoration
                 _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs/Inaba/NightFog/ShoppingDistrict/009/PAK"));
                 // criFsApi.AddProbingPath(Path.Combine(modDir, "ENVs/Inaba/NightFog/ShoppingDistrict/009/CriV2"));
             }
-            if (_configuration.ShoppingDistrictENV_NightWinterSnow_009 == Config.ENVTypeA.P4)
+            if (_configuration.ShoppingDistrictENV_NightWinter_009 == Config.ENVTypeA.P4)
             {
-                _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs/Inaba/NightWinterSnow/ShoppingDistrict/009/PAK"));
-                // criFsApi.AddProbingPath(Path.Combine(modDir, "ENVs/Inaba/NightWinterSnow/ShoppingDistrict/009/CriV2"));
-            }
-            if (_configuration.ShoppingDistrictENV_NightWinterCloudy_009 == Config.ENVTypeA.P4)
-            {
-                _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs/Inaba/NightWinterCloudy/ShoppingDistrict/009/PAK"));
-                // criFsApi.AddProbingPath(Path.Combine(modDir, "ENVs/Inaba/NightWinterCloudy/ShoppingDistrict/009/CriV2"));
+                _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs/Inaba/NightWinter/ShoppingDistrict/009/PAK"));
+                // criFsApi.AddProbingPath(Path.Combine(modDir, "ENVs/Inaba/NightWinter/ShoppingDistrict/009/CriV2"));
             }
             if (_configuration.Texture_ShoppingDistrict_009 == true)
             {
@@ -1728,15 +1608,10 @@ namespace p4g64.fogrestoration
                 _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs/Inaba/Fog/Junes/001/PAK"));
                 // criFsApi.AddProbingPath(Path.Combine(modDir, "ENVs/Inaba/Fog/Junes/001/CriV2"));
             }
-            if (_configuration.JunesENV_WinterSnow_001 == Config.ENVTypeA.P4)
+            if (_configuration.JunesENV_Winter_001 == Config.ENVTypeA.P4)
             {
-                _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs/Inaba/WinterSnow/Junes/001/PAK"));
-                // criFsApi.AddProbingPath(Path.Combine(modDir, "ENVs/Inaba/WinterSnow/Junes/001/CriV2"));
-            }
-            if (_configuration.JunesENV_WinterCloudy_001 == Config.ENVTypeA.P4)
-            {
-                _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs/Inaba/WinterCloudy/Junes/001/PAK"));
-                // criFsApi.AddProbingPath(Path.Combine(modDir, "ENVs/Inaba/WinterCloudy/Junes/001/CriV2"));
+                _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs/Inaba/Winter/Junes/001/PAK"));
+                // criFsApi.AddProbingPath(Path.Combine(modDir, "ENVs/Inaba/Winter/Junes/001/CriV2"));
             }
             if (_configuration.Texture_Junes_001 == true)
             {
@@ -1796,15 +1671,10 @@ namespace p4g64.fogrestoration
                 _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs/Inaba/Fog/Junes/004/PAK"));
                 // criFsApi.AddProbingPath(Path.Combine(modDir, "ENVs/Inaba/Fog/Junes/004/CriV2"));
             }
-            if (_configuration.JunesENV_WinterSnow_004 == Config.ENVTypeA.P4)
+            if (_configuration.JunesENV_Winter_004 == Config.ENVTypeA.P4)
             {
-                _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs/Inaba/WinterSnow/Junes/004/PAK"));
-                // criFsApi.AddProbingPath(Path.Combine(modDir, "ENVs/Inaba/WinterSnow/Junes/004/CriV2"));
-            }
-            if (_configuration.JunesENV_WinterCloudy_004 == Config.ENVTypeA.P4)
-            {
-                _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs/Inaba/WinterCloudy/Junes/004/PAK"));
-                // criFsApi.AddProbingPath(Path.Combine(modDir, "ENVs/Inaba/WinterCloudy/Junes/004/CriV2"));
+                _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs/Inaba/Winter/Junes/004/PAK"));
+                // criFsApi.AddProbingPath(Path.Combine(modDir, "ENVs/Inaba/Winter/Junes/004/CriV2"));
             }
             if (_configuration.Texture_Junes_004 == true)
             {
@@ -1842,15 +1712,10 @@ namespace p4g64.fogrestoration
                 _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs/Inaba/Fog/Samegawa/001/PAK"));
                 // criFsApi.AddProbingPath(Path.Combine(modDir, "ENVs/Inaba/Fog/Samegawa/001/CriV2"));
             }
-            if (_configuration.SamegawaENV_WinterSnow_001 == Config.ENVTypeA.P4)
+            if (_configuration.SamegawaENV_Winter_001 == Config.ENVTypeA.P4)
             {
-                _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs/Inaba/WinterSnow/Samegawa/001/PAK"));
-                // criFsApi.AddProbingPath(Path.Combine(modDir, "ENVs/Inaba/WinterSnow/Samegawa/001/CriV2"));
-            }
-            if (_configuration.SamegawaENV_WinterCloudy_001 == Config.ENVTypeA.P4)
-            {
-                _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs/Inaba/WinterCloudy/Samegawa/001/PAK"));
-                // criFsApi.AddProbingPath(Path.Combine(modDir, "ENVs/Inaba/WinterCloudy/Samegawa/001/CriV2"));
+                _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs/Inaba/Winter/Samegawa/001/PAK"));
+                // criFsApi.AddProbingPath(Path.Combine(modDir, "ENVs/Inaba/Winter/Samegawa/001/CriV2"));
             }
             if ((_configuration.SamegawaENV_NightClear_001 == Config.ENVTypeA.P4) && (_configuration.NightSky_Samegawa == true))
             {
@@ -1882,15 +1747,10 @@ namespace p4g64.fogrestoration
                 _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs/Inaba/NightFog/Samegawa/001/PAK"));
                 // criFsApi.AddProbingPath(Path.Combine(modDir, "ENVs/Inaba/NightFog/Samegawa/001/CriV2"));
             }
-            if (_configuration.SamegawaENV_NightWinterSnow_001 == Config.ENVTypeA.P4)
+            if (_configuration.SamegawaENV_NightWinter_001 == Config.ENVTypeA.P4)
             {
-                _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs/Inaba/NightWinterSnow/Samegawa/001/PAK"));
-                // criFsApi.AddProbingPath(Path.Combine(modDir, "ENVs/Inaba/NightWinterSnow/Samegawa/001/CriV2"));
-            }
-            if (_configuration.SamegawaENV_NightWinterCloudy_001 == Config.ENVTypeA.P4)
-            {
-                _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs/Inaba/NightWinterCloudy/Samegawa/001/PAK"));
-                // criFsApi.AddProbingPath(Path.Combine(modDir, "ENVs/Inaba/NightWinterCloudy/Samegawa/001/CriV2"));
+                _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs/Inaba/NightWinter/Samegawa/001/PAK"));
+                // criFsApi.AddProbingPath(Path.Combine(modDir, "ENVs/Inaba/NightWinter/Samegawa/001/CriV2"));
             }
             if (_configuration.Texture_Samegawa_001 == true)
             {
@@ -1928,15 +1788,10 @@ namespace p4g64.fogrestoration
                 _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs/Inaba/Fog/Samegawa/002/PAK"));
                 // criFsApi.AddProbingPath(Path.Combine(modDir, "ENVs/Inaba/Fog/Samegawa/002/CriV2"));
             }
-            if (_configuration.SamegawaENV_WinterSnow_002 == Config.ENVTypeA.P4)
+            if (_configuration.SamegawaENV_Winter_002 == Config.ENVTypeA.P4)
             {
-                _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs/Inaba/WinterSnow/Samegawa/002/PAK"));
-                // criFsApi.AddProbingPath(Path.Combine(modDir, "ENVs/Inaba/WinterSnow/Samegawa/002/CriV2"));
-            }
-            if (_configuration.SamegawaENV_WinterCloudy_002 == Config.ENVTypeA.P4)
-            {
-                _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs/Inaba/WinterCloudy/Samegawa/002/PAK"));
-                // criFsApi.AddProbingPath(Path.Combine(modDir, "ENVs/Inaba/WinterCloudy/Samegawa/002/CriV2"));
+                _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs/Inaba/Winter/Samegawa/002/PAK"));
+                // criFsApi.AddProbingPath(Path.Combine(modDir, "ENVs/Inaba/Winter/Samegawa/002/CriV2"));
             }
             if (_configuration.SamegawaENV_NightClear_002 == Config.ENVTypeA.P4)
             {
@@ -1963,15 +1818,10 @@ namespace p4g64.fogrestoration
                 _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs/Inaba/NightFog/Samegawa/002/PAK"));
                 // criFsApi.AddProbingPath(Path.Combine(modDir, "ENVs/Inaba/NightFog/Samegawa/002/CriV2"));
             }
-            if (_configuration.SamegawaENV_NightWinterSnow_002 == Config.ENVTypeA.P4)
+            if (_configuration.SamegawaENV_NightWinter_002 == Config.ENVTypeA.P4)
             {
-                _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs/Inaba/NightWinterSnow/Samegawa/002/PAK"));
-                // criFsApi.AddProbingPath(Path.Combine(modDir, "ENVs/Inaba/NightWinterSnow/Samegawa/002/CriV2"));
-            }
-            if (_configuration.SamegawaENV_NightWinterCloudy_002 == Config.ENVTypeA.P4)
-            {
-                _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs/Inaba/NightWinterCloudy/Samegawa/002/PAK"));
-                // criFsApi.AddProbingPath(Path.Combine(modDir, "ENVs/Inaba/NightWinterCloudy/Samegawa/002/CriV2"));
+                _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs/Inaba/NightWinter/Samegawa/002/PAK"));
+                // criFsApi.AddProbingPath(Path.Combine(modDir, "ENVs/Inaba/NightWinter/Samegawa/002/CriV2"));
             }
             if (_configuration.Texture_Samegawa_002 == true)
             {
@@ -2001,8 +1851,8 @@ namespace p4g64.fogrestoration
             }
             if (_configuration.OkinaENV_Winter_001 == Config.ENVTypeA.P4)
             {
-                _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs/Inaba/WinterSnow/Okina/001/PAK"));
-                // criFsApi.AddProbingPath(Path.Combine(modDir, "ENVs/Inaba/WinterSnow/Okina/001/CriV2"));
+                _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs/Inaba/Winter/Okina/001/PAK"));
+                // criFsApi.AddProbingPath(Path.Combine(modDir, "ENVs/Inaba/Winter/Okina/001/CriV2"));
             }
             if (_configuration.Texture_Okina_001 == true)
             {
@@ -2051,15 +1901,10 @@ namespace p4g64.fogrestoration
                 _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs/Inaba/Fog/Hospital/002/PAK"));
                 // criFsApi.AddProbingPath(Path.Combine(modDir, "ENVs/Inaba/Fog/Hospital/002/CriV2"));
             }
-            if (_configuration.HospitalENV_WinterSnow_002 == Config.ENVTypeA.P4)
+            if (_configuration.HospitalENV_Winter_002 == Config.ENVTypeA.P4)
             {
-                _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs/Inaba/WinterSnow/Hospital/002/PAK"));
-                // criFsApi.AddProbingPath(Path.Combine(modDir, "ENVs/Inaba/WinterSnow/Hospital/002/CriV2"));
-            }
-            if (_configuration.HospitalENV_WinterCloudy_002 == Config.ENVTypeA.P4)
-            {
-                _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs/Inaba/WinterCloudy/Hospital/002/PAK"));
-                // criFsApi.AddProbingPath(Path.Combine(modDir, "ENVs/Inaba/WinterCloudy/Hospital/002/CriV2"));
+                _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs/Inaba/Winter/Hospital/002/PAK"));
+                // criFsApi.AddProbingPath(Path.Combine(modDir, "ENVs/Inaba/Winter/Hospital/002/CriV2"));
             }
             if ((_configuration.HospitalENV_NightClear_002 == Config.ENVTypeA.P4) && (_configuration.NightSky_Hospital == true))
             {
@@ -2091,15 +1936,10 @@ namespace p4g64.fogrestoration
                 _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs/Inaba/NightFog/Hospital/002/PAK"));
                 // criFsApi.AddProbingPath(Path.Combine(modDir, "ENVs/Inaba/NightFog/Hospital/002/CriV2"));
             }
-            if (_configuration.HospitalENV_NightWinterSnow_002 == Config.ENVTypeA.P4)
+            if (_configuration.HospitalENV_NightWinter_002 == Config.ENVTypeA.P4)
             {
-                _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs/Inaba/NightWinterSnow/Hospital/002/PAK"));
-                // criFsApi.AddProbingPath(Path.Combine(modDir, "ENVs/Inaba/NightWinterSnow/Hospital/002/CriV2"));
-            }
-            if (_configuration.HospitalENV_NightWinterCloudy_002 == Config.ENVTypeA.P4)
-            {
-                _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs/Inaba/NightWinterCloudy/Hospital/002/PAK"));
-                // criFsApi.AddProbingPath(Path.Combine(modDir, "ENVs/Inaba/NightWinterCloudy/Hospital/002/CriV2"));
+                _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs/Inaba/NightWinter/Hospital/002/PAK"));
+                // criFsApi.AddProbingPath(Path.Combine(modDir, "ENVs/Inaba/NightWinter/Hospital/002/CriV2"));
             }
             if (_configuration.Texture_Hospital_002 == true)
             {
@@ -2170,15 +2010,10 @@ namespace p4g64.fogrestoration
                 _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs/Inaba/Fog/Misc/Hill/PAK"));
                 // criFsApi.AddProbingPath(Path.Combine(modDir, "ENVs/Inaba/Fog/Misc/Hill/CriV2"));
             }
-            if (_configuration.MiscENV_WinterSnow_Hill == Config.ENVTypeA.P4)
+            if (_configuration.MiscENV_Winter_Hill == Config.ENVTypeA.P4)
             {
-                _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs/Inaba/WinterSnow/Misc/Hill/PAK"));
-                // criFsApi.AddProbingPath(Path.Combine(modDir, "ENVs/Inaba/WinterSnow/Misc/Hill/CriV2"));
-            }
-            if (_configuration.MiscENV_WinterCloudy_Hill == Config.ENVTypeA.P4)
-            {
-                _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs/Inaba/WinterCloudy/Misc/Hill/PAK"));
-                // criFsApi.AddProbingPath(Path.Combine(modDir, "ENVs/Inaba/WinterCloudy/Misc/Hill/CriV2"));
+                _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs/Inaba/Winter/Misc/Hill/PAK"));
+                // criFsApi.AddProbingPath(Path.Combine(modDir, "ENVs/Inaba/Winter/Misc/Hill/CriV2"));
             }
             if (_configuration.Texture_Misc_Hill == true)
             {
@@ -2312,15 +2147,10 @@ namespace p4g64.fogrestoration
                 _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs/Inaba/Fog/Misc/SchoolZone/PAK"));
                 // criFsApi.AddProbingPath(Path.Combine(modDir, "ENVs/Inaba/Fog/Misc/SchoolZone/CriV2"));
             }
-            if (_configuration.MiscENV_WinterSnow_SchoolZone == Config.ENVTypeA.P4)
+            if (_configuration.MiscENV_Winter_SchoolZone == Config.ENVTypeA.P4)
             {
-                _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs/Inaba/WinterSnow/Misc/SchoolZone/PAK"));
-                // criFsApi.AddProbingPath(Path.Combine(modDir, "ENVs/Inaba/WinterSnow/Misc/SchoolZone/CriV2"));
-            }
-            if (_configuration.MiscENV_WinterCloudy_SchoolZone == Config.ENVTypeA.P4)
-            {
-                _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs/Inaba/WinterCloudy/Misc/SchoolZone/PAK"));
-                // criFsApi.AddProbingPath(Path.Combine(modDir, "ENVs/Inaba/WinterCloudy/Misc/SchoolZone/CriV2"));
+                _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs/Inaba/Winter/Misc/SchoolZone/PAK"));
+                // criFsApi.AddProbingPath(Path.Combine(modDir, "ENVs/Inaba/Winter/Misc/SchoolZone/CriV2"));
             }
             if ((_configuration.MiscENV_NightClear_SchoolZone == Config.ENVTypeA.P4) && (_configuration.NightSky_SchoolZone == true))
             {
@@ -2352,15 +2182,10 @@ namespace p4g64.fogrestoration
                 _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs/Inaba/NightFog/Misc/SchoolZone/PAK"));
                 // criFsApi.AddProbingPath(Path.Combine(modDir, "ENVs/Inaba/NightFog/Misc/SchoolZone/CriV2"));
             }
-            if (_configuration.MiscENV_NightWinterSnow_SchoolZone == Config.ENVTypeA.P4)
+            if (_configuration.MiscENV_NightWinter_SchoolZone == Config.ENVTypeA.P4)
             {
-                _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs/Inaba/NightWinterSnow/Misc/SchoolZone/PAK"));
-                // criFsApi.AddProbingPath(Path.Combine(modDir, "ENVs/Inaba/NightWinterSnow/Misc/SchoolZone/CriV2"));
-            }
-            if (_configuration.MiscENV_NightWinterCloudy_SchoolZone == Config.ENVTypeA.P4)
-            {
-                _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs/Inaba/NightWinterCloudy/Misc/SchoolZone/PAK"));
-                // criFsApi.AddProbingPath(Path.Combine(modDir, "ENVs/Inaba/NightWinterCloudy/Misc/SchoolZone/CriV2"));
+                _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs/Inaba/NightWinter/Misc/SchoolZone/PAK"));
+                // criFsApi.AddProbingPath(Path.Combine(modDir, "ENVs/Inaba/NightWinter/Misc/SchoolZone/CriV2"));
             }
             if (_configuration.Texture_Misc_SchoolZone == true)
             {
@@ -2383,11 +2208,11 @@ namespace p4g64.fogrestoration
                 _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs/Inaba/Cloudy/Misc/Train/PAK"));
                 // criFsApi.AddProbingPath(Path.Combine(modDir, "ENVs/Inaba/Cloudy/Misc/Train/CriV2"));
             }
-            //if (_configuration.MiscENV_Rain_Train == Config.ENVTypeA.P4)
-            //{
-            //    _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs/Inaba/Rain/Misc/Train/PAK"));
-            //    // criFsApi.AddProbingPath(Path.Combine(modDir, "ENVs/Inaba/Rain/Misc/Train/CriV2"));
-            //}
+            if (_configuration.MiscENV_Rain_Train == Config.ENVTypeA.P4)
+            {
+                _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs/Inaba/Rain/Misc/Train/PAK"));
+                // criFsApi.AddProbingPath(Path.Combine(modDir, "ENVs/Inaba/Rain/Misc/Train/CriV2"));
+            }
             if (_configuration.MiscENV_Storm_Train == Config.ENVTypeA.P4)
             {
                 _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs/Inaba/Storm/Misc/Train/PAK"));
@@ -2398,24 +2223,58 @@ namespace p4g64.fogrestoration
                 _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs/Inaba/Fog/Misc/Train/PAK"));
                 // criFsApi.AddProbingPath(Path.Combine(modDir, "ENVs/Inaba/Fog/Misc/Train/CriV2"));
             }
-            if (_configuration.MiscENV_WinterSnow_Train == Config.ENVTypeA.P4)
+            if (_configuration.MiscENV_Winter_Train == Config.ENVTypeA.P4)
             {
-                _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs/Inaba/WinterSnow/Misc/Train/PAK"));
-                // criFsApi.AddProbingPath(Path.Combine(modDir, "ENVs/Inaba/WinterSnow/Misc/Train/CriV2"));
-            }
-            if (_configuration.MiscENV_WinterCloudy_Train == Config.ENVTypeA.P4)
-            {
-                _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs/Inaba/WinterCloudy/Misc/Train/PAK"));
-                // criFsApi.AddProbingPath(Path.Combine(modDir, "ENVs/Inaba/WinterCloudy/Misc/Train/CriV2"));
+                _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs/Inaba/Winter/Misc/Train/PAK"));
+                // criFsApi.AddProbingPath(Path.Combine(modDir, "ENVs/Inaba/Winter/Misc/Train/CriV2"));
             }
             if (_configuration.Texture_Misc_Train == true)
             {
                 criFsApi.AddProbingPath(Path.Combine(modDir, "ENVs/Inaba/Textures/Misc/Train/CriV2"));
             }
+
+
             if (_configuration.MiscENV_ScooterRides == Config.ENVTypeA.P4)
             {
                 _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs/Inaba/All/Misc/ScooterRides/PAK"));
                 // criFsApi.AddProbingPath(Path.Combine(modDir, "ENVs/Inaba/All/Misc/ScooterRides/CriV2"));
+            }
+
+
+            if (_configuration.MiscENV_SunnyDay_Beach == Config.ENVTypeA.P4)
+            {
+                _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs/Inaba/SunnyDay/Misc/Beach/PAK"));
+                // criFsApi.AddProbingPath(Path.Combine(modDir, "ENVs/Inaba/SunnyDay/Misc/Beach/CriV2"));
+            }
+            if (_configuration.MiscENV_SunnyDusk_Beach == Config.ENVTypeA.P4)
+            {
+                _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs/Inaba/SunnyDusk/Misc/Beach/PAK"));
+                // criFsApi.AddProbingPath(Path.Combine(modDir, "ENVs/Inaba/SunnyDusk/Misc/Beach/CriV2"));
+            }
+            if (_configuration.MiscENV_Cloudy_Beach == Config.ENVTypeA.P4)
+            {
+                _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs/Inaba/Cloudy/Misc/Beach/PAK"));
+                // criFsApi.AddProbingPath(Path.Combine(modDir, "ENVs/Inaba/Cloudy/Misc/Beach/CriV2"));
+            }
+            if (_configuration.MiscENV_Rain_Beach == Config.ENVTypeA.P4)
+            {
+                _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs/Inaba/Rain/Misc/Beach/PAK"));
+                // criFsApi.AddProbingPath(Path.Combine(modDir, "ENVs/Inaba/Rain/Misc/Beach/CriV2"));
+            }
+            if (_configuration.MiscENV_Storm_Beach == Config.ENVTypeA.P4)
+            {
+                _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs/Inaba/Storm/Misc/Beach/PAK"));
+                // criFsApi.AddProbingPath(Path.Combine(modDir, "ENVs/Inaba/Storm/Misc/Beach/CriV2"));
+            }
+            if (_configuration.MiscENV_Fog_Beach == Config.ENVTypeA.P4)
+            {
+                _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs/Inaba/Fog/Misc/Beach/PAK"));
+                // criFsApi.AddProbingPath(Path.Combine(modDir, "ENVs/Inaba/Fog/Misc/Beach/CriV2"));
+            }
+            if (_configuration.MiscENV_Winter_Beach == Config.ENVTypeA.P4)
+            {
+                _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs/Inaba/Winter/Misc/Beach/PAK"));
+                // criFsApi.AddProbingPath(Path.Combine(modDir, "ENVs/Inaba/Winter/Misc/Beach/CriV2"));
             }
 
 
@@ -2427,9 +2286,29 @@ namespace p4g64.fogrestoration
             {
                 _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs/Inaba/All/Misc/AmagiEntrance/PAK"));
             }
-            if (_configuration.MiscENV_AmagiHotSprings == Config.ENVTypeA.P4)
+            if (_configuration.MiscENV_Night_HotSprings == Config.ENVTypeA.P4)
             {
-                _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs/Inaba/All/Misc/AmagiHotSprings/PAK"));
+                _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs/Inaba/All/Misc/HotSprings/PAK"));
+            }
+            if (_configuration.MiscENV_SunnyDay_HotSprings == Config.ENVTypeA.P4)
+            {
+                _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs/Inaba/SunnyDay/Misc/HotSprings/PAK"));
+            }
+            if (_configuration.MiscENV_SunnyDusk_HotSprings == Config.ENVTypeA.P4)
+            {
+                _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs/Inaba/SunnyDusk/Misc/HotSprings/PAK"));
+            }
+            if (_configuration.MiscENV_Cloudy_HotSprings == Config.ENVTypeA.P4)
+            {
+                _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs/Inaba/Cloudy/Misc/HotSprings/PAK"));
+            }
+            if (_configuration.MiscENV_Fog_HotSprings == Config.ENVTypeA.P4)
+            {
+                _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs/Inaba/Fog/Misc/HotSprings/PAK"));
+            }
+            if (_configuration.MiscENV_Winter_HotSprings == Config.ENVTypeA.P4)
+            {
+                _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs/Inaba/Winter/Misc/HotSprings/PAK"));
             }
             if (_configuration.Texture_Misc_AmagiRoom == true)
             {
@@ -2441,7 +2320,27 @@ namespace p4g64.fogrestoration
             }
             if (_configuration.Texture_Misc_AmagiHotSprings == true)
             {
-                criFsApi.AddProbingPath(Path.Combine(modDir, "ENVs/Inaba/Textures/Misc/AmagiHotSprings/CriV2"));
+                criFsApi.AddProbingPath(Path.Combine(modDir, "ENVs/Inaba/Textures/Misc/HotSprings/CriV2"));
+            }
+
+
+            if (_configuration.MiscENV_MtYasogami == Config.ENVTypeA.P4)
+            {
+                criFsApi.AddProbingPath(Path.Combine(modDir, "ENVs/Inaba/Textures/Misc/MtYasogami/CriV2"));
+                _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs/Inaba/All/Misc/MtYasogami/PAK"));
+            }
+            if (_configuration.MiscENV_SkiResort == Config.ENVTypeA.P4)
+            {
+                _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs/Inaba/All/Misc/SkiResort/PAK"));
+                criFsApi.AddProbingPath(Path.Combine(modDir, "ENVs/Inaba/All/Misc/SkiResort/CriV2"));
+            }
+            if (_configuration.MiscENV_MountainCabin == Config.ENVTypeA.P4)
+            {
+                _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs/Inaba/All/Misc/MountainCabin/PAK"));
+            }
+            if (_configuration.MiscENV_SkiCottage == Config.ENVTypeA.P4)
+            {
+                _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs/Inaba/All/Misc/SkiCottage/PAK"));
             }
 
 
