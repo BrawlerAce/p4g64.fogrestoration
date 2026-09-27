@@ -1,0 +1,106 @@
+void playhouse_07F_door_hook()
+{
+	int var9;
+    int var74;
+    int var70;
+    int var69;
+    int var75;
+    int var71;
+    int var72;
+    int var73;
+    var74 = FLD_FUNCTION_0025();
+    var70 = FLD_FUNCTION_0027();
+    var69 = FLD_FUNCTION_0014();
+    
+    if ((var69 == 10307) && (BIT_CHK(3751) == 0))
+    {
+        PLAY_SOUNDEFFECT(241);
+        WAIT(10);
+        OPEN_MSG_WIN();
+        MSG(PLAYHOUSE_DOOR_STOP);
+        CLOSE_MSG_WIN();
+        sVar6 = 1;
+        return;
+    }
+    else if ((var69 == 10271) && (BIT_CHK(3751) == 0))
+    {
+        OPEN_MSG_WIN();
+        MSG(PLAYHOUSE_ENC_DOOR_1);
+        change_speaker();
+        PLAY_SOUNDEFFECT(241);
+        WAIT(10);
+        MSG(PLAYHOUSE_ENC_DOOR_2);
+        change_speaker();
+        var75 = NAVI_BU_OPEN(280, -40, 8, 33);
+        MSG(PLAYHOUSE_ENC_DOOR_3);
+        NAVI_BU_CLOSE(var75);
+        change_speaker();
+        MSG(OPEN_DOOR_PH_OK);
+        SEL_CHK_PAD(14, 1);
+        var71 = SEL(YESNO_SEL);
+        CLOSE_MSG_WIN();
+        
+        if (var71 == 1)
+        {
+            sVar6 = 1;
+            return;
+        }
+
+        FADE(FadeType.Smooth, 10);
+        FADE_SYNC();
+        PLAY_SOUNDEFFECT(711);
+        FLD_FUNCTION_0010(var70, 0);
+        FLD_FUNCTION_0015();
+        var72 = FLD_FUNCTION_0011(5, 5301);
+        var73 = FLD_FUNCTION_0012(var72, 0);
+        FLD_FUNCTION_000A(var73, 1.00f);
+        FLD_FUNCTION_000C(var73, 5);
+        FLD_FUNCTION_0007(var73, 1);
+        sVar7 = 1;
+        sVar8 = 2;
+        var9 = 3;
+        sVar10 = 4;
+        set_pc_pos();
+        OPEN_MSG_WIN();
+        MSG(PLAYHOUSE_ENC_1);
+        CLOSE_MSG_WIN();
+        PLAY_SOUNDEFFECT(122);
+        FADE(FadeType.Smooth, 5);
+        SET_FADE_COLOUR(255, 255, 255);
+        FADE_SYNC();
+        FLD_FUNCTION_0007(var73, 0);
+        var72 = FLD_FUNCTION_0011(2, 312);
+        var73 = FLD_FUNCTION_0012(var72, 0);
+        FLD_FUNCTION_000A(var73, 1.70f);
+        FLD_FUNCTION_000C(var73, 0);
+        FLD_FUNCTION_0007(var73, 1);
+        FLD_FUNCTION_002F(100, 30, 150);
+        FLD_FUNCTION_002E(100, 30, 150);
+        FLD_FUNCTION_0030(1421.30f);
+        FLD_FUNCTION_0031(3600);
+        FADE_BACK(5);
+        FADE_SYNC();
+        OPEN_MSG_WIN();
+        var75 = NAVI_BU_OPEN(280, -40, 8, 33);
+        MSG(PLAYHOUSE_ENC_2);
+        NAVI_BU_CLOSE(var75);
+        CLOSE_MSG_WIN();
+        BIT_ON(3751);
+        WAIT(15);
+        
+        if (CALL_BATTLE(813, 1) == 1)
+        {
+            sVar6 = 1;
+            return;
+        }
+
+        OPEN_MSG_WIN();
+        var75 = NAVI_BU_OPEN(280, -40, 8, 33);
+        MSG(PLAYHOUSE_ENC_WIN);
+        NAVI_BU_CLOSE(var75);
+        CLOSE_MSG_WIN();
+        sVar6 = 1;
+        return;
+    }
+
+}
