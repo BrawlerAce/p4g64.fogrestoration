@@ -2120,7 +2120,7 @@ namespace p4g64.fogrestoration
             if (_configuration.MiscENV_SunnyDay_SchoolZone == Config.ENVTypeA.P4)
             {
                 _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs/Inaba/SunnyDay/Misc/SchoolZone/PAK"));
-                // criFsApi.AddProbingPath(Path.Combine(modDir, "ENVs/Inaba/SunnyDay/Misc/SchoolZone/CriV2"));
+                criFsApi.AddProbingPath(Path.Combine(modDir, "ENVs/Inaba/SunnyDay/Misc/SchoolZone/CriV2"));
             }
             if (_configuration.MiscENV_SunnyDusk_SchoolZone == Config.ENVTypeA.P4)
             {
@@ -2378,6 +2378,7 @@ namespace p4g64.fogrestoration
             {
                 criFsApi.AddProbingPath(Path.Combine(modDir, "Event", "E182_002"));
                 criFsApi.AddProbingPath(Path.Combine(modDir, "Event", "E219_001"));
+                criFsApi.AddProbingPath(Path.Combine(modDir, "Event", "E220_001"));
                 criFsApi.AddProbingPath(Path.Combine(modDir, "Event", "E311_001"));
             }
 
