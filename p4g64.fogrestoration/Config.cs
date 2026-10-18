@@ -2821,12 +2821,12 @@ namespace p4g64.fogrestoration.Configuration
         [DefaultValue(true)]
         public bool Texture_Yasogami_006 { get; set; } = true;
 
-        [Category("Texture Toggle - Yasogami High")]
-        [Display(Order = 603)]
-        [DisplayName("Music Room")]
-        [Description("Use P4 styled texture replacements in applicable areas.\n\nNote: Some textures in this mod are from P4 PS2, some are source textures,\nand others are edited P4G textures to look more like P4.")]
-        [DefaultValue(true)]
-        public bool Texture_Yasogami_007 { get; set; } = true;
+        //[Category("Texture Toggle - Yasogami High")]
+        //[Display(Order = 603)]
+        //[DisplayName("Music Room")]
+        //[Description("Use P4 styled texture replacements in applicable areas.\n\nNote: Some textures in this mod are from P4 PS2, some are source textures,\nand others are edited P4G textures to look more like P4.")]
+        //[DefaultValue(true)]
+        //public bool Texture_Yasogami_007 { get; set; } = true;
 
         [Category("Texture Toggle - Yasogami High")]
         [Display(Order = 604)]
@@ -2835,19 +2835,19 @@ namespace p4g64.fogrestoration.Configuration
         [DefaultValue(true)]
         public bool Texture_Yasogami_008 { get; set; } = true;
 
-        [Category("Texture Toggle - Yasogami High")]
-        [Display(Order = 605)]
-        [DisplayName("P.E. Field")]
-        [Description("Use P4 styled texture replacements in applicable areas.\n\nNote: Some textures in this mod are from P4 PS2, some are source textures,\nand others are edited P4G textures to look more like P4.")]
-        [DefaultValue(true)]
-        public bool Texture_Yasogami_009 { get; set; } = true;
+        //[Category("Texture Toggle - Yasogami High")]
+        //[Display(Order = 605)]
+        //[DisplayName("P.E. Field")]
+        //[Description("Use P4 styled texture replacements in applicable areas.\n\nNote: Some textures in this mod are from P4 PS2, some are source textures,\nand others are edited P4G textures to look more like P4.")]
+        //[DefaultValue(true)]
+        //public bool Texture_Yasogami_009 { get; set; } = true;
 
-        [Category("Texture Toggle - Yasogami High")]
-        [Display(Order = 606)]
-        [DisplayName("Basketball Court")]
-        [Description("Use P4 styled texture replacements in applicable areas.\n\nNote: Some textures in this mod are from P4 PS2, some are source textures,\nand others are edited P4G textures to look more like P4.")]
-        [DefaultValue(true)]
-        public bool Texture_Yasogami_010 { get; set; } = true;
+        //[Category("Texture Toggle - Yasogami High")]
+        //[Display(Order = 606)]
+        //[DisplayName("Basketball Court")]
+        //[Description("Use P4 styled texture replacements in applicable areas.\n\nNote: Some textures in this mod are from P4 PS2, some are source textures,\nand others are edited P4G textures to look more like P4.")]
+        //[DefaultValue(true)]
+        //public bool Texture_Yasogami_010 { get; set; } = true;
 
         [Category("Texture Toggle - Yasogami High")]
         [Display(Order = 607)]
@@ -2906,19 +2906,19 @@ namespace p4g64.fogrestoration.Configuration
         [DefaultValue(true)]
         public bool Texture_Dojima_001 { get; set; } = true;
 
-        [Category("Texture Toggle - Dojima Residence")]
-        [Display(Order = 615)]
-        [DisplayName("Living Room")]
-        [Description("Use P4 styled texture replacements in applicable areas.\n\nNote: Some textures in this mod are from P4 PS2, some are source textures,\nand others are edited P4G textures to look more like P4.")]
-        [DefaultValue(true)]
-        public bool Texture_Dojima_002 { get; set; } = true;
+        //[Category("Texture Toggle - Dojima Residence")]
+        //[Display(Order = 615)]
+        //[DisplayName("Living Room")]
+        //[Description("Use P4 styled texture replacements in applicable areas.\n\nNote: Some textures in this mod are from P4 PS2, some are source textures,\nand others are edited P4G textures to look more like P4.")]
+        //[DefaultValue(true)]
+        //public bool Texture_Dojima_002 { get; set; } = true;
 
-        [Category("Texture Toggle - Dojima Residence")]
-        [Display(Order = 616)]
-        [DisplayName("Your Room")]
-        [Description("Use P4 styled texture replacements in applicable areas.\n\nNote: Some textures in this mod are from P4 PS2, some are source textures,\nand others are edited P4G textures to look more like P4.")]
-        [DefaultValue(true)]
-        public bool Texture_Dojima_003 { get; set; } = true;
+        //[Category("Texture Toggle - Dojima Residence")]
+        //[Display(Order = 616)]
+        //[DisplayName("Your Room")]
+        //[Description("Use P4 styled texture replacements in applicable areas.\n\nNote: Some textures in this mod are from P4 PS2, some are source textures,\nand others are edited P4G textures to look more like P4.")]
+        //[DefaultValue(true)]
+        //public bool Texture_Dojima_003 { get; set; } = true;
 
         [Category("Texture Toggle - Shopping District")]
         [Display(Order = 617)]
@@ -2934,12 +2934,12 @@ namespace p4g64.fogrestoration.Configuration
         [DefaultValue(true)]
         public bool Texture_ShoppingDistrict_002 { get; set; } = true;
 
-        [Category("Texture Toggle - Shopping District")]
-        [Display(Order = 619)]
-        [DisplayName("Daidara Metalworks")]
-        [Description("Use P4 styled texture replacements in applicable areas.\n\nNote: Some textures in this mod are from P4 PS2, some are source textures,\nand others are edited P4G textures to look more like P4.")]
-        [DefaultValue(true)]
-        public bool Texture_ShoppingDistrict_004 { get; set; } = true;
+        //[Category("Texture Toggle - Shopping District")]
+        //[Display(Order = 619)]
+        //[DisplayName("Daidara Metalworks")]
+        //[Description("Use P4 styled texture replacements in applicable areas.\n\nNote: Some textures in this mod are from P4 PS2, some are source textures,\nand others are edited P4G textures to look more like P4.")]
+        //[DefaultValue(true)]
+        //public bool Texture_ShoppingDistrict_004 { get; set; } = true;
 
         [Category("Texture Toggle - Shopping District")]
         [Display(Order = 620)]
@@ -2948,26 +2948,26 @@ namespace p4g64.fogrestoration.Configuration
         [DefaultValue(true)]
         public bool Texture_ShoppingDistrict_005 { get; set; } = true;
 
-        [Category("Texture Toggle - Shopping District")]
-        [Display(Order = 621)]
-        [DisplayName("Shiroku Store")]
-        [Description("Use P4 styled texture replacements in applicable areas.\n\nNote: Some textures in this mod are from P4 PS2, some are source textures,\nand others are edited P4G textures to look more like P4.")]
-        [DefaultValue(true)]
-        public bool Texture_ShoppingDistrict_006 { get; set; } = true;
+        //[Category("Texture Toggle - Shopping District")]
+        //[Display(Order = 621)]
+        //[DisplayName("Shiroku Store")]
+        //[Description("Use P4 styled texture replacements in applicable areas.\n\nNote: Some textures in this mod are from P4 PS2, some are source textures,\nand others are edited P4G textures to look more like P4.")]
+        //[DefaultValue(true)]
+        //public bool Texture_ShoppingDistrict_006 { get; set; } = true;
 
-        [Category("Texture Toggle - Shopping District")]
-        [Display(Order = 622)]
-        [DisplayName("Tatsumi Textiles")]
-        [Description("Use P4 styled texture replacements in applicable areas.\n\nNote: Some textures in this mod are from P4 PS2, some are source textures,\nand others are edited P4G textures to look more like P4.")]
-        [DefaultValue(true)]
-        public bool Texture_ShoppingDistrict_007 { get; set; } = true;
+        //[Category("Texture Toggle - Shopping District")]
+        //[Display(Order = 622)]
+        //[DisplayName("Tatsumi Textiles")]
+        //[Description("Use P4 styled texture replacements in applicable areas.\n\nNote: Some textures in this mod are from P4 PS2, some are source textures,\nand others are edited P4G textures to look more like P4.")]
+        //[DefaultValue(true)]
+        //public bool Texture_ShoppingDistrict_007 { get; set; } = true;
 
-        [Category("Texture Toggle - Shopping District")]
-        [Display(Order = 623)]
-        [DisplayName("Marukyu Tofu")]
-        [Description("Use P4 styled texture replacements in applicable areas.\n\nNote: Some textures in this mod are from P4 PS2, some are source textures,\nand others are edited P4G textures to look more like P4.")]
-        [DefaultValue(true)]
-        public bool Texture_ShoppingDistrict_008 { get; set; } = true;
+        //[Category("Texture Toggle - Shopping District")]
+        //[Display(Order = 623)]
+        //[DisplayName("Marukyu Tofu")]
+        //[Description("Use P4 styled texture replacements in applicable areas.\n\nNote: Some textures in this mod are from P4 PS2, some are source textures,\nand others are edited P4G textures to look more like P4.")]
+        //[DefaultValue(true)]
+        //public bool Texture_ShoppingDistrict_008 { get; set; } = true;
 
         [Category("Texture Toggle - Shopping District")]
         [Display(Order = 624)]
@@ -2983,19 +2983,19 @@ namespace p4g64.fogrestoration.Configuration
         [DefaultValue(true)]
         public bool Texture_Junes_001 { get; set; } = true;
 
-        [Category("Texture Toggle - Junes Department Store")]
-        [Display(Order = 626)]
-        [DisplayName("Electronics Department")]
-        [Description("Use P4 styled texture replacements in applicable areas.\n\nNote: Some textures in this mod are from P4 PS2, some are source textures,\nand others are edited P4G textures to look more like P4.")]
-        [DefaultValue(true)]
-        public bool Texture_Junes_002 { get; set; } = true;
+        //[Category("Texture Toggle - Junes Department Store")]
+        //[Display(Order = 626)]
+        //[DisplayName("Electronics Department")]
+        //[Description("Use P4 styled texture replacements in applicable areas.\n\nNote: Some textures in this mod are from P4 PS2, some are source textures,\nand others are edited P4G textures to look more like P4.")]
+        //[DefaultValue(true)]
+        //public bool Texture_Junes_002 { get; set; } = true;
 
-        [Category("Texture Toggle - Junes Department Store")]
-        [Display(Order = 627)]
-        [DisplayName("Produce Department")]
-        [Description("Use P4 styled texture replacements in applicable areas.\n\nNote: Some textures in this mod are from P4 PS2, some are source textures,\nand others are edited P4G textures to look more like P4.")]
-        [DefaultValue(true)]
-        public bool Texture_Junes_003 { get; set; } = true;
+        //[Category("Texture Toggle - Junes Department Store")]
+        //[Display(Order = 627)]
+        //[DisplayName("Produce Department")]
+        //[Description("Use P4 styled texture replacements in applicable areas.\n\nNote: Some textures in this mod are from P4 PS2, some are source textures,\nand others are edited P4G textures to look more like P4.")]
+        //[DefaultValue(true)]
+        //public bool Texture_Junes_003 { get; set; } = true;
 
         [Category("Texture Toggle - Junes Department Store")]
         [Display(Order = 628)]
@@ -3018,12 +3018,12 @@ namespace p4g64.fogrestoration.Configuration
         [DefaultValue(true)]
         public bool Texture_Samegawa_002 { get; set; } = true;
 
-        [Category("Texture Toggle - Okina City")]
-        [Display(Order = 631)]
-        [DisplayName("Outside")]
-        [Description("Use P4 styled texture replacements in applicable areas.\n\nNote: Some textures in this mod are from P4 PS2, some are source textures,\nand others are edited P4G textures to look more like P4.")]
-        [DefaultValue(true)]
-        public bool Texture_Okina_001 { get; set; } = true;
+        //[Category("Texture Toggle - Okina City")]
+        //[Display(Order = 631)]
+        //[DisplayName("Outside")]
+        //[Description("Use P4 styled texture replacements in applicable areas.\n\nNote: Some textures in this mod are from P4 PS2, some are source textures,\nand others are edited P4G textures to look more like P4.")]
+        //[DefaultValue(true)]
+        //public bool Texture_Okina_001 { get; set; } = true;
 
         [Category("Texture Toggle - Okina City")]
         [Display(Order = 632)]
@@ -3032,19 +3032,19 @@ namespace p4g64.fogrestoration.Configuration
         [DefaultValue(true)]
         public bool Texture_Okina_002 { get; set; } = true;
 
-        [Category("Texture Toggle - Inaba Municipal Hospital")]
-        [Display(Order = 633)]
-        [DisplayName("Hallway")]
-        [Description("Use P4 styled texture replacements in applicable areas.\n\nNote: Some textures in this mod are from P4 PS2, some are source textures,\nand others are edited P4G textures to look more like P4.")]
-        [DefaultValue(true)]
-        public bool Texture_Hospital_002 { get; set; } = true;
+        //[Category("Texture Toggle - Inaba Municipal Hospital")]
+        //[Display(Order = 633)]
+        //[DisplayName("Hallway")]
+        //[Description("Use P4 styled texture replacements in applicable areas.\n\nNote: Some textures in this mod are from P4 PS2, some are source textures,\nand others are edited P4G textures to look more like P4.")]
+        //[DefaultValue(true)]
+        //public bool Texture_Hospital_002 { get; set; } = true;
 
-        [Category("Texture Toggle - Inaba Municipal Hospital")]
-        [Display(Order = 634)]
-        [DisplayName("Patient Room")]
-        [Description("Use P4 styled texture replacements in applicable areas.\n\nNote: Some textures in this mod are from P4 PS2, some are source textures,\nand others are edited P4G textures to look more like P4.")]
-        [DefaultValue(true)]
-        public bool Texture_Hospital_003 { get; set; } = true;
+        //[Category("Texture Toggle - Inaba Municipal Hospital")]
+        //[Display(Order = 634)]
+        //[DisplayName("Patient Room")]
+        //[Description("Use P4 styled texture replacements in applicable areas.\n\nNote: Some textures in this mod are from P4 PS2, some are source textures,\nand others are edited P4G textures to look more like P4.")]
+        //[DefaultValue(true)]
+        //public bool Texture_Hospital_003 { get; set; } = true;
 
         [Category("Texture Toggle - Inaba Municipal Hospital")]
         [Display(Order = 635)]
@@ -3053,19 +3053,19 @@ namespace p4g64.fogrestoration.Configuration
         [DefaultValue(true)]
         public bool Texture_Hospital_004 { get; set; } = true;
 
-        [Category("Texture Toggle - Miscellaneous")]
-        [Display(Order = 636)]
-        [DisplayName("Shu's Room")]
-        [Description("Use P4 styled texture replacements in applicable areas.\n\nNote: Some textures in this mod are from P4 PS2, some are source textures,\nand others are edited P4G textures to look more like P4.")]
-        [DefaultValue(true)]
-        public bool Texture_Misc_Shu { get; set; } = true;
+        //[Category("Texture Toggle - Miscellaneous")]
+        //[Display(Order = 636)]
+        //[DisplayName("Shu's Room")]
+        //[Description("Use P4 styled texture replacements in applicable areas.\n\nNote: Some textures in this mod are from P4 PS2, some are source textures,\nand others are edited P4G textures to look more like P4.")]
+        //[DefaultValue(true)]
+        //public bool Texture_Misc_Shu { get; set; } = true;
 
-        [Category("Texture Toggle - Miscellaneous")]
-        [Display(Order = 637)]
-        [DisplayName("Namatame's Room")]
-        [Description("Use P4 styled texture replacements in applicable areas.\n\nNote: Some textures in this mod are from P4 PS2, some are source textures,\nand others are edited P4G textures to look more like P4.")]
-        [DefaultValue(true)]
-        public bool Texture_Misc_Namatame { get; set; } = true;
+        //[Category("Texture Toggle - Miscellaneous")]
+        //[Display(Order = 637)]
+        //[DisplayName("Namatame's Room")]
+        //[Description("Use P4 styled texture replacements in applicable areas.\n\nNote: Some textures in this mod are from P4 PS2, some are source textures,\nand others are edited P4G textures to look more like P4.")]
+        //[DefaultValue(true)]
+        //public bool Texture_Misc_Namatame { get; set; } = true;
 
         [Category("Texture Toggle - Miscellaneous")]
         [Display(Order = 638)]
@@ -3074,19 +3074,19 @@ namespace p4g64.fogrestoration.Configuration
         [DefaultValue(true)]
         public bool Texture_Misc_Hill { get; set; } = true;
 
-        [Category("Texture Toggle - Miscellaneous")]
-        [Display(Order = 639)]
-        [DisplayName("Police Station, Interrogation Room")]
-        [Description("Use P4 styled texture replacements in applicable areas.\n\nNote: Some textures in this mod are from P4 PS2, some are source textures,\nand others are edited P4G textures to look more like P4.")]
-        [DefaultValue(true)]
-        public bool Texture_Misc_PoliceInterrogation { get; set; } = true;
+        //[Category("Texture Toggle - Miscellaneous")]
+        //[Display(Order = 639)]
+        //[DisplayName("Police Station, Interrogation Room")]
+        //[Description("Use P4 styled texture replacements in applicable areas.\n\nNote: Some textures in this mod are from P4 PS2, some are source textures,\nand others are edited P4G textures to look more like P4.")]
+        //[DefaultValue(true)]
+        //public bool Texture_Misc_PoliceInterrogation { get; set; } = true;
 
-        [Category("Texture Toggle - Miscellaneous")]
-        [Display(Order = 640)]
-        [DisplayName("Police Station, Hallway")]
-        [Description("Use P4 styled texture replacements in applicable areas.\n\nNote: Some textures in this mod are from P4 PS2, some are source textures,\nand others are edited P4G textures to look more like P4.")]
-        [DefaultValue(true)]
-        public bool Texture_Misc_PoliceHallway { get; set; } = true;
+        //[Category("Texture Toggle - Miscellaneous")]
+        //[Display(Order = 640)]
+        //[DisplayName("Police Station, Hallway")]
+        //[Description("Use P4 styled texture replacements in applicable areas.\n\nNote: Some textures in this mod are from P4 PS2, some are source textures,\nand others are edited P4G textures to look more like P4.")]
+        //[DefaultValue(true)]
+        //public bool Texture_Misc_PoliceHallway { get; set; } = true;
 
         [Category("Texture Toggle - Miscellaneous")]
         [Display(Order = 641)]
@@ -3109,19 +3109,19 @@ namespace p4g64.fogrestoration.Configuration
         [DefaultValue(true)]
         public bool Texture_Misc_CampingWaterfall { get; set; } = true;
 
-        [Category("Texture Toggle - Miscellaneous")]
-        [Display(Order = 644)]
-        [DisplayName("Gekkoukan High, Entrance")]
-        [Description("Use P4 styled texture replacements in applicable areas.\n\nNote: Some textures in this mod are from P4 PS2, some are source textures,\nand others are edited P4G textures to look more like P4.")]
-        [DefaultValue(true)]
-        public bool Texture_Misc_GekkouEntrance { get; set; } = true;
+        //[Category("Texture Toggle - Miscellaneous")]
+        //[Display(Order = 644)]
+        //[DisplayName("Gekkoukan High, Entrance")]
+        //[Description("Use P4 styled texture replacements in applicable areas.\n\nNote: Some textures in this mod are from P4 PS2, some are source textures,\nand others are edited P4G textures to look more like P4.")]
+        //[DefaultValue(true)]
+        //public bool Texture_Misc_GekkouEntrance { get; set; } = true;
 
-        [Category("Texture Toggle - Miscellaneous")]
-        [Display(Order = 645)]
-        [DisplayName("Gekkoukan High, Classroom")]
-        [Description("Use P4 styled texture replacements in applicable areas.\n\nNote: Some textures in this mod are from P4 PS2, some are source textures,\nand others are edited P4G textures to look more like P4.")]
-        [DefaultValue(true)]
-        public bool Texture_Misc_GekkouClassroom { get; set; } = true;
+        //[Category("Texture Toggle - Miscellaneous")]
+        //[Display(Order = 645)]
+        //[DisplayName("Gekkoukan High, Classroom")]
+        //[Description("Use P4 styled texture replacements in applicable areas.\n\nNote: Some textures in this mod are from P4 PS2, some are source textures,\nand others are edited P4G textures to look more like P4.")]
+        //[DefaultValue(true)]
+        //public bool Texture_Misc_GekkouClassroom { get; set; } = true;
 
         [Category("Texture Toggle - Miscellaneous")]
         [Display(Order = 646)]
@@ -3130,26 +3130,26 @@ namespace p4g64.fogrestoration.Configuration
         [DefaultValue(true)]
         public bool Texture_Misc_LoveHotel { get; set; } = true;
 
-        [Category("Texture Toggle - Miscellaneous")]
-        [Display(Order = 647)]
-        [DisplayName("Club Escapade")]
-        [Description("Use P4 styled texture replacements in applicable areas.\n\nNote: Some textures in this mod are from P4 PS2, some are source textures,\nand others are edited P4G textures to look more like P4.")]
-        [DefaultValue(true)]
-        public bool Texture_Misc_ClubEscapade { get; set; } = true;
+        //[Category("Texture Toggle - Miscellaneous")]
+        //[Display(Order = 647)]
+        //[DisplayName("Club Escapade")]
+        //[Description("Use P4 styled texture replacements in applicable areas.\n\nNote: Some textures in this mod are from P4 PS2, some are source textures,\nand others are edited P4G textures to look more like P4.")]
+        //[DefaultValue(true)]
+        //public bool Texture_Misc_ClubEscapade { get; set; } = true;
 
-        [Category("Texture Toggle - Miscellaneous")]
-        [Display(Order = 648)]
-        [DisplayName("Iwatodai Station, Beef Bowl Shop")]
-        [Description("Use P4 styled texture replacements in applicable areas.\n\nNote: Some textures in this mod are from P4 PS2, some are source textures,\nand others are edited P4G textures to look more like P4.")]
-        [DefaultValue(true)]
-        public bool Texture_Misc_Iwatodai { get; set; } = true;
+        //[Category("Texture Toggle - Miscellaneous")]
+        //[Display(Order = 648)]
+        //[DisplayName("Iwatodai Station, Beef Bowl Shop")]
+        //[Description("Use P4 styled texture replacements in applicable areas.\n\nNote: Some textures in this mod are from P4 PS2, some are source textures,\nand others are edited P4G textures to look more like P4.")]
+        //[DefaultValue(true)]
+        //public bool Texture_Misc_Iwatodai { get; set; } = true;
 
-        [Category("Texture Toggle - Miscellaneous")]
-        [Display(Order = 649)]
-        [DisplayName("School Zone")]
-        [Description("Use P4 styled texture replacements in applicable areas.\n\nNote: Some textures in this mod are from P4 PS2, some are source textures,\nand others are edited P4G textures to look more like P4.")]
-        [DefaultValue(true)]
-        public bool Texture_Misc_SchoolZone { get; set; } = true;
+        //[Category("Texture Toggle - Miscellaneous")]
+        //[Display(Order = 649)]
+        //[DisplayName("School Zone")]
+        //[Description("Use P4 styled texture replacements in applicable areas.\n\nNote: Some textures in this mod are from P4 PS2, some are source textures,\nand others are edited P4G textures to look more like P4.")]
+        //[DefaultValue(true)]
+        //public bool Texture_Misc_SchoolZone { get; set; } = true;
 
         [Category("Texture Toggle - Miscellaneous")]
         [Display(Order = 650)]
@@ -3158,26 +3158,26 @@ namespace p4g64.fogrestoration.Configuration
         [DefaultValue(true)]
         public bool Texture_Misc_Train { get; set; } = true;
 
-        [Category("Texture Toggle - Miscellaneous")]
-        [Display(Order = 651)]
-        [DisplayName("Amagi Inn - Room")]
-        [Description("Use P4 styled texture replacements in applicable areas.\n\nNote: Some textures in this mod are from P4 PS2, some are source textures,\nand others are edited P4G textures to look more like P4.")]
-        [DefaultValue(true)]
-        public bool Texture_Misc_AmagiRoom { get; set; } = true;
+        //[Category("Texture Toggle - Miscellaneous")]
+        //[Display(Order = 651)]
+        //[DisplayName("Amagi Inn - Room")]
+        //[Description("Use P4 styled texture replacements in applicable areas.\n\nNote: Some textures in this mod are from P4 PS2, some are source textures,\nand others are edited P4G textures to look more like P4.")]
+        //[DefaultValue(true)]
+        //public bool Texture_Misc_AmagiRoom { get; set; } = true;
 
-        [Category("Texture Toggle - Miscellaneous")]
-        [Display(Order = 652)]
-        [DisplayName("Amagi Inn - Entrance")]
-        [Description("Use P4 styled texture replacements in applicable areas.\n\nNote: Some textures in this mod are from P4 PS2, some are source textures,\nand others are edited P4G textures to look more like P4.")]
-        [DefaultValue(true)]
-        public bool Texture_Misc_AmagiEntrance { get; set; } = true;
+        //[Category("Texture Toggle - Miscellaneous")]
+        //[Display(Order = 652)]
+        //[DisplayName("Amagi Inn - Entrance")]
+        //[Description("Use P4 styled texture replacements in applicable areas.\n\nNote: Some textures in this mod are from P4 PS2, some are source textures,\nand others are edited P4G textures to look more like P4.")]
+        //[DefaultValue(true)]
+        //public bool Texture_Misc_AmagiEntrance { get; set; } = true;
 
-        [Category("Texture Toggle - Miscellaneous")]
-        [Display(Order = 653)]
-        [DisplayName("Amagi Inn - Hot Springs")]
-        [Description("Use P4 styled texture replacements in applicable areas.\n\nNote: Some textures in this mod are from P4 PS2, some are source textures,\nand others are edited P4G textures to look more like P4.")]
-        [DefaultValue(true)]
-        public bool Texture_Misc_AmagiHotSprings { get; set; } = true;
+        //[Category("Texture Toggle - Miscellaneous")]
+        //[Display(Order = 653)]
+        //[DisplayName("Amagi Inn - Hot Springs")]
+        //[Description("Use P4 styled texture replacements in applicable areas.\n\nNote: Some textures in this mod are from P4 PS2, some are source textures,\nand others are edited P4G textures to look more like P4.")]
+        //[DefaultValue(true)]
+        //public bool Texture_Misc_AmagiHotSprings { get; set; } = true;
 
         // Misc Texture Selection
 
