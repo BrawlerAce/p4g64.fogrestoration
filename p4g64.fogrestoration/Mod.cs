@@ -2015,6 +2015,12 @@ namespace p4g64.fogrestoration
                 _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs/Inaba/Winter/Misc/Hill/PAK"));
                 // criFsApi.AddProbingPath(Path.Combine(modDir, "ENVs/Inaba/Winter/Misc/Hill/CriV2"));
             }
+            if (_configuration.MiscENV_NightClear_Hill == Config.ENVTypeA.P4)
+            {
+                _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs/Inaba/NightClear/Misc/Hill/PAK"));
+                _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs/Inaba/NightClearSkybox/Misc/Hill/PAK"));
+                // criFsApi.AddProbingPath(Path.Combine(modDir, "ENVs/Inaba/Winter/Misc/Hill/CriV2"));
+            }
             if (_configuration.Texture_Misc_Hill == true)
             {
                 criFsApi.AddProbingPath(Path.Combine(modDir, "ENVs/Inaba/Textures/Misc/Hill/CriV2"));

@@ -1845,10 +1845,17 @@ namespace p4g64.fogrestoration.Configuration
             [DefaultValue(ENVTypeA.P4)]
             public ENVTypeA MiscENV_Winter_Hill { get; set; } = ENVTypeA.P4;
 
+            [Category("ENV Selection - Miscellaneous - Hill Overlooking Inaba")]
+            [Display(Order = 275)]
+            [DisplayName("Night (Clear)")]
+            [Description("Select what visuals to use for this area with this weather.")]
+            [DefaultValue(ENVTypeA.P4)]
+            public ENVTypeA MiscENV_NightClear_Hill { get; set; } = ENVTypeA.P4;
+
             //// Police Station (Interrogation Room)
 
             [Category("ENV Selection - Miscellaneous - Police Station, Interrogation Room")]
-            [Display(Order = 275)]
+            [Display(Order = 276)]
             [DisplayName("Visuals")]
             [Description("Select what visuals to use for this area.")]
             [DefaultValue(ENVTypeA.P4)]
@@ -1857,7 +1864,7 @@ namespace p4g64.fogrestoration.Configuration
             //// Police Station (Hallway)
 
             [Category("ENV Selection - Miscellaneous - Police Station, Hallway")]
-            [Display(Order = 276)]
+            [Display(Order = 277)]
             [DisplayName("Visuals")]
             [Description("Select what visuals to use for this area.")]
             [DefaultValue(ENVTypeA.P4)]
@@ -1866,7 +1873,7 @@ namespace p4g64.fogrestoration.Configuration
             //// Camping Trip (Outside)
 
             [Category("ENV Selection - Miscellaneous - Camping Trip, Outside")]
-            [Display(Order = 277)]
+            [Display(Order = 278)]
             [DisplayName("Visuals")]
             [Description("Select what visuals to use for this area.")]
             [DefaultValue(ENVTypeA.P4)]
@@ -1875,7 +1882,7 @@ namespace p4g64.fogrestoration.Configuration
             //// Camping Trip (Tent)
 
             [Category("ENV Selection - Miscellaneous - Camping Trip, Tent")]
-            [Display(Order = 278)]
+            [Display(Order = 279)]
             [DisplayName("Visuals")]
             [Description("Select what visuals to use for this area.")]
             [DefaultValue(ENVTypeA.P4)]
@@ -1884,7 +1891,7 @@ namespace p4g64.fogrestoration.Configuration
             //// Camping Trip (Waterfall)
 
             [Category("ENV Selection - Miscellaneous - Camping Trip, Waterfall")]
-            [Display(Order = 279)]
+            [Display(Order = 280)]
             [DisplayName("Visuals")]
             [Description("Select what visuals to use for this area.")]
             [DefaultValue(ENVTypeA.P4)]
@@ -1893,7 +1900,7 @@ namespace p4g64.fogrestoration.Configuration
             //// Gekkoukan High (Entrance)
 
             [Category("ENV Selection - Miscellaneous - Gekkoukan High, Entrance")]
-            [Display(Order = 280)]
+            [Display(Order = 281)]
             [DisplayName("Visuals")]
             [Description("Select what visuals to use for this area.")]
             [DefaultValue(ENVTypeA.P4)]
@@ -1902,7 +1909,7 @@ namespace p4g64.fogrestoration.Configuration
             //// Gekkoukan High (Classroom)
 
             [Category("ENV Selection - Miscellaneous - Gekkoukan High, Classroom")]
-            [Display(Order = 281)]
+            [Display(Order = 282)]
             [DisplayName("Visuals")]
             [Description("Select what visuals to use for this area.")]
             [DefaultValue(ENVTypeA.P4)]
@@ -1911,7 +1918,7 @@ namespace p4g64.fogrestoration.Configuration
             //// Love Hotel
 
             [Category("ENV Selection - Miscellaneous - Love Hotel")]
-            [Display(Order = 282)]
+            [Display(Order = 283)]
             [DisplayName("Visuals")]
             [Description("Select what visuals to use for this area.")]
             [DefaultValue(ENVTypeA.P4)]
@@ -1920,7 +1927,7 @@ namespace p4g64.fogrestoration.Configuration
             //// Club Escapade
 
             [Category("ENV Selection - Miscellaneous - Club Escapade")]
-            [Display(Order = 283)]
+            [Display(Order = 284)]
             [DisplayName("Visuals")]
             [Description("Select what visuals to use for this area.")]
             [DefaultValue(ENVTypeA.P4)]
@@ -1929,7 +1936,7 @@ namespace p4g64.fogrestoration.Configuration
             //// Iwatodai (Beef Bowl Shop)
 
             [Category("ENV Selection - Miscellaneous - Iwatodai Station, Beef Bowl Shop")]
-            [Display(Order = 284)]
+            [Display(Order = 285)]
             [DisplayName("Visuals")]
             [Description("Select what visuals to use for this area.")]
             [DefaultValue(ENVTypeA.P4)]
@@ -1938,42 +1945,42 @@ namespace p4g64.fogrestoration.Configuration
             //// School Zone
 
             [Category("ENV Selection - Miscellaneous - School Zone")]
-            [Display(Order = 285)]
+            [Display(Order = 286)]
             [DisplayName("Sunny (Day)")]
             [Description("Select what visuals to use for this area with this weather.")]
             [DefaultValue(ENVTypeA.P4)]
             public ENVTypeA MiscENV_SunnyDay_SchoolZone { get; set; } = ENVTypeA.P4;
 
             [Category("ENV Selection - Miscellaneous - School Zone")]
-            [Display(Order = 286)]
+            [Display(Order = 287)]
             [DisplayName("Sunny (Dusk)")]
             [Description("Select what visuals to use for this area with this weather.")]
             [DefaultValue(ENVTypeA.P4)]
             public ENVTypeA MiscENV_SunnyDusk_SchoolZone { get; set; } = ENVTypeA.P4;
 
             [Category("ENV Selection - Miscellaneous - School Zone")]
-            [Display(Order = 287)]
+            [Display(Order = 288)]
             [DisplayName("Cloudy")]
             [Description("Select what visuals to use for this area with this weather.")]
             [DefaultValue(ENVTypeA.P4)]
             public ENVTypeA MiscENV_Cloudy_SchoolZone { get; set; } = ENVTypeA.P4;
 
             [Category("ENV Selection - Miscellaneous - School Zone")]
-            [Display(Order = 288)]
+            [Display(Order = 289)]
             [DisplayName("Rain")]
             [Description("Select what visuals to use for this area with this weather.")]
             [DefaultValue(ENVTypeA.P4)]
             public ENVTypeA MiscENV_Rain_SchoolZone { get; set; } = ENVTypeA.P4;
 
             [Category("ENV Selection - Miscellaneous - School Zone")]
-            [Display(Order = 289)]
+            [Display(Order = 290)]
             [DisplayName("Stormy")]
             [Description("Select what visuals to use for this area with this weather.")]
             [DefaultValue(ENVTypeA.P4)]
             public ENVTypeA MiscENV_Storm_SchoolZone { get; set; } = ENVTypeA.P4;
 
             [Category("ENV Selection - Miscellaneous - School Zone")]
-            [Display(Order = 290)]
+            [Display(Order = 291)]
             [DisplayName("Foggy")]
             [Description("Select what visuals to use for this area with this weather.")]
             [DefaultValue(ENVTypeA.P4)]
