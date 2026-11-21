@@ -1062,11 +1062,18 @@ namespace p4g64.fogrestoration
             if (_configuration.YasogamiENV_017 == Config.ENVTypeA.P4)
             {
                 _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs/Inaba/All/Yasogami/017/PAK"));
-                // criFsApi.AddProbingPath(Path.Combine(modDir, "ENVs/Inaba/All/Yasogami/017/CriV2"));
+                criFsApi.AddProbingPath(Path.Combine(modDir, "ENVs/Inaba/All/Yasogami/017/CriV2"));
             }
             if (_configuration.Texture_Yasogami_017 == true)
             {
                 criFsApi.AddProbingPath(Path.Combine(modDir, "ENVs/Inaba/Textures/Yasogami/017/CriV2"));
+            }
+
+
+            if (_configuration.YasogamiENV_210 == Config.ENVTypeA.P4)
+            {
+                _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs/Inaba/All/Yasogami/010/PAK"));
+                //criFsApi.AddProbingPath(Path.Combine(modDir, "ENVs/Inaba/All/Yasogami/010/CriV2"));
             }
 
             // Dojima Residence
@@ -2090,10 +2097,10 @@ namespace p4g64.fogrestoration
                 _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs/Inaba/All/Misc/GekkouClassroom/PAK"));
                 // criFsApi.AddProbingPath(Path.Combine(modDir, "ENVs/Inaba/All/Misc/GekkouClassroom/CriV2"));
             }
-            //if (_configuration.Texture_Misc_GekkouClassroom == true)
-            //{
-            //    criFsApi.AddProbingPath(Path.Combine(modDir, "ENVs/Inaba/Textures/Misc/GekkouClassroom/CriV2"));
-            //}
+            if (_configuration.Texture_Misc_GekkouClassroom == true)
+            {
+                criFsApi.AddProbingPath(Path.Combine(modDir, "ENVs/Inaba/Textures/Misc/GekkouClassroom/CriV2"));
+            }
             if (_configuration.MiscENV_LoveHotel == Config.ENVTypeA.P4)
             {
                 _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs/Inaba/All/Misc/LoveHotel/PAK"));

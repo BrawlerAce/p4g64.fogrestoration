@@ -681,11 +681,20 @@ namespace p4g64.fogrestoration.Configuration
             //// School Festival 2F
             
             [Category("ENV Selection - Yasogami High, School Festival 2F")]
-            [Display(Order = 98)]
+            [Display(Order = 97)]
             [DisplayName("Visuals")]
             [Description("Select what visuals to use for this area.")]
             [DefaultValue(ENVTypeA.P4)]
             public ENVTypeA YasogamiENV_017 { get; set; } = ENVTypeA.P4;
+
+            //// School Festival 2F
+            
+            [Category("ENV Selection - Yasogami High, Cross Dressing/Beauty Pageant")]
+            [Display(Order = 98)]
+            [DisplayName("Visuals")]
+            [Description("Select what visuals to use for this area.")]
+            [DefaultValue(ENVTypeA.P4)]
+            public ENVTypeA YasogamiENV_210 { get; set; } = ENVTypeA.P4;
 
         // ENV Selection - Dojima Residence
 
@@ -3123,12 +3132,12 @@ namespace p4g64.fogrestoration.Configuration
         //[DefaultValue(true)]
         //public bool Texture_Misc_GekkouEntrance { get; set; } = true;
 
-        //[Category("Texture Toggle - Miscellaneous")]
-        //[Display(Order = 645)]
-        //[DisplayName("Gekkoukan High, Classroom")]
-        //[Description("Use P4 styled texture replacements in applicable areas.\n\nNote: Some textures in this mod are from P4 PS2, some are source textures,\nand others are edited P4G textures to look more like P4.")]
-        //[DefaultValue(true)]
-        //public bool Texture_Misc_GekkouClassroom { get; set; } = true;
+        [Category("Texture Toggle - Miscellaneous")]
+        [Display(Order = 645)]
+        [DisplayName("Gekkoukan High, Classroom")]
+        [Description("Use P4 styled texture replacements in applicable areas.\n\nNote: Some textures in this mod are from P4 PS2, some are source textures,\nand others are edited P4G textures to look more like P4.")]
+        [DefaultValue(true)]
+        public bool Texture_Misc_GekkouClassroom { get; set; } = true;
 
         [Category("Texture Toggle - Miscellaneous")]
         [Display(Order = 646)]
