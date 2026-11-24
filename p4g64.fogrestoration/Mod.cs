@@ -1399,7 +1399,7 @@ namespace p4g64.fogrestoration
             if (_configuration.ShoppingDistrictENV_Fog_002 == Config.ENVTypeA.P4)
             {
                 _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs/Inaba/Fog/ShoppingDistrict/002/PAK"));
-                // criFsApi.AddProbingPath(Path.Combine(modDir, "ENVs/Inaba/Fog/ShoppingDistrict/002/CriV2"));
+                //criFsApi.AddProbingPath(Path.Combine(modDir, "ENVs/Inaba/Fog/ShoppingDistrict/002/CriV2"));
             }
             if (_configuration.ShoppingDistrictENV_Winter_002 == Config.ENVTypeA.P4)
             {
@@ -2158,7 +2158,7 @@ namespace p4g64.fogrestoration
             if (_configuration.MiscENV_Fog_SchoolZone == Config.ENVTypeA.P4)
             {
                 _PakEmulator.AddDirectory(Path.Combine(modDir, "ENVs/Inaba/Fog/Misc/SchoolZone/PAK"));
-                // criFsApi.AddProbingPath(Path.Combine(modDir, "ENVs/Inaba/Fog/Misc/SchoolZone/CriV2"));
+                criFsApi.AddProbingPath(Path.Combine(modDir, "ENVs/Inaba/Fog/Misc/SchoolZone/CriV2"));
             }
             if (_configuration.MiscENV_Winter_SchoolZone == Config.ENVTypeA.P4)
             {
